@@ -1,20 +1,42 @@
 {
-  "path": "public\\images",
+  "path": "public/images",
   "name": "images",
   "type": "folder",
   "children": [
     {
-      "path": "public\\images\\brand1",
-      "name": "brand1",
+      "path": "public/images/brand1",
+      "name": "The Centurion",
       "type": "folder",
+      "id": "brand1-main-product",
+      "brand": "Brand 1",
+      "images": [
+        "series1/image1.jpg"
+      ],
+      "variants": [
+        {
+          "name": "Gold Edition",
+          "image": "series1/image1.jpg",
+          "productId": "brand1-main-product"
+        },
+        {
+          "name": "Gladiator Edition",
+          "image": "series1/image1.jpg",
+          "productId": "brand2-main-product"
+        }
+      ],
+      "similar": [],
+      "recommended": [
+        "brand2-main-product"
+      ],
+      "isProduct": true,
       "children": [
         {
-          "path": "public\\images\\brand1\\series1",
+          "path": "public/images/brand1/series1",
           "name": "series1",
           "type": "folder",
           "children": [
             {
-              "path": "public\\images\\brand1\\series1\\image1.jpg",
+              "path": "public/images/brand1/series1/image1.jpg",
               "name": "image1.jpg",
               "type": "file"
             }
@@ -23,12 +45,21 @@
       ]
     },
     {
-      "path": "public\\images\\brand2",
-      "name": "brand2",
+      "path": "public/images/brand2",
+      "name": "The Gladiator",
       "type": "folder",
+      "id": "brand2-main-product",
+      "brand": "Brand 2",
+      "images": [
+        "image2.jpg"
+      ],
+      "variants": [],
+      "similar": [],
+      "recommended": [],
+      "isProduct": true,
       "children": [
         {
-          "path": "public\\images\\brand2\\image2.jpg",
+          "path": "public/images/brand2/image2.jpg",
           "name": "image2.jpg",
           "type": "file"
         }
