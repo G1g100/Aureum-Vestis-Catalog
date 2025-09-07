@@ -1,0 +1,24 @@
+{
+  "id": "brand1-main-product",
+  "name": "The Centurion",
+  "brand": "Brand 1",
+  "images": [
+    "series1/image1.jpg"
+  ],
+  "variants": [
+    {
+      "name": "Gold Edition",
+      "image": "series1/image1.jpg",
+      "productId": "brand1-main-product"
+    },
+    {
+      "name": "Gladiator Edition",
+      "image": "series1/image1.jpg",
+      "productId": "brand2-main-product"
+    }
+  ],
+  "similar": [],
+  "recommended": [
+    "brand2-main-product"
+  ]
+}
