@@ -1,0 +1,11 @@
+{
+  "id": "brand2-main-product",
+  "name": "The Gladiator",
+  "brand": "Brand 2",
+  "images": [
+    "image2.jpg"
+  ],
+  "variants": [],
+  "similar": [],
+  "recommended": []
+}
