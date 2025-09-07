@@ -50,6 +50,14 @@ function App() {
   return (
     <div className="App">
       <h1>Product Catalog</h1>
+      <div className="info-box">
+        <p>
+          Il nostro catalogo è in continuo aggiornamento e contiene migliaia di
+          articoli. Se non trovi quello che cerchi, non esitare a contattarci!
+          Inviaci il nome, una foto o un link del prodotto che desideri e
+          faremo il possibile per trovarlo per te.
+        </p>
+      </div>
       <div className="catalog-container">
         {manifest &&
           manifest.children.map((item) => (
