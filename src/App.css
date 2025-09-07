@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.catalog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.catalog-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.catalog-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-item.folder .item-name {
+  font-weight: bold;
+}
+
+.catalog-item.file .item-name {
+  display: none;
+}
+
+.catalog-children {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid #eee;
+}
+
+.lazy-load-image-background {
+  width: 100%;
+  height: 150px;
+  background-color: #f0f0f0;
+}
+
+.lazy-load-image-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

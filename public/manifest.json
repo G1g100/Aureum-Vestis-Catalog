@@ -1,0 +1,38 @@
+{
+  "path": "public/images",
+  "name": "images",
+  "type": "folder",
+  "children": [
+    {
+      "path": "public/images/brand1",
+      "name": "brand1",
+      "type": "folder",
+      "children": [
+        {
+          "path": "public/images/brand1/series1",
+          "name": "series1",
+          "type": "folder",
+          "children": [
+            {
+              "path": "public/images/brand1/series1/image1.jpg",
+              "name": "image1.jpg",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "public/images/brand2",
+      "name": "brand2",
+      "type": "folder",
+      "children": [
+        {
+          "path": "public/images/brand2/image2.jpg",
+          "name": "image2.jpg",
+          "type": "file"
+        }
+      ]
+    }
+  ]
+}
