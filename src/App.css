@@ -50,7 +50,6 @@ h1 {
   padding: 1rem;
   margin: 1rem;
   text-align: left;
-  max-width: 90%;
 }
 
 /* Mobile-first: 1 column grid by default */
@@ -59,6 +58,8 @@ h1 {
   grid-template-columns: 1fr;
   gap: 1.5rem;
   padding: 1rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 /* Tablet: 2 columns */
@@ -74,7 +75,7 @@ h1 {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
   .info-box {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 1rem auto;
   }
 }
@@ -127,7 +128,7 @@ h1 {
 
 .product-page {
   padding: 1rem;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   text-align: left;
 }
@@ -156,6 +157,14 @@ h1 {
   gap: 1rem;
   margin-bottom: 2rem;
 }
+
+/* On larger screens, use a 2-column layout for product images */
+@media (min-width: 768px) {
+  .product-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 
 .product-images img {
   width: 100%;
