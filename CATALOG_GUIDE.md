@@ -1,39 +1,70 @@
-# How to Manage Your Product Catalog
+# Guide to Managing Your Catalog
 
-This guide explains how to add new products and manage their details in your catalog application.
+This guide explains how to manage your product catalog. Since all product data and image links are stored in a single configuration file, this guide is the most important piece of documentation for managing your content.
 
-## Adding a New Product
+---
 
-Adding a new product is as simple as adding a new folder inside the `public/images` directory. The application will automatically detect the new folder and display it.
+## How the Catalog Works
 
-For example, to add a new brand called "Armani", you would create a new folder: `public/images/Armani`.
+The entire catalog is controlled by one file: `public/manifest.json`.
 
-To add a product called "Si Passione" under that brand, you would create another folder: `public/images/Armani/Si-Passione`.
+This file is a "database" that you edit manually. It contains a list of all your products and all the information associated with them, including the links to your externally hosted images. The application reads this file to build the catalog, the product pages, and the pagination.
 
-## Defining Product Details with `product.json`
+---
 
-To make a folder a "product" that users can click on to see a detailed page, you must place a `product.json` file inside it. This file contains all the details for that specific product.
+## Section 1: Hosting Images on Google Drive
 
-**Location:** `public/images/YourBrand/YourProduct/product.json`
+Before you can add a product to the catalog, its images must be uploaded to a hosting service. Here is a step-by-step tutorial on how to use Google Drive for this.
 
-### Structure of `product.json`
+**Step 1: Upload Your Image**
+- Go to your Google Drive (`drive.google.com`).
+- Create a folder for your product images to stay organized.
+- Upload the image file you want to use.
 
-Here is a breakdown of each field in the `product.json` file:
+**Step 2: Get the Shareable Link**
+- Right-click on the uploaded image file in Google Drive.
+- Click **"Share"**, then click **"Share"** again.
+- In the "General access" section, change it from "Restricted" to **"Anyone with the link"**. This is crucial.
+- Click **"Copy link"**.
 
-- `id` (string, required): A unique identifier for this product. **This must be unique across the entire catalog.** A good practice is to use the folder name (e.g., "si-passione").
+**Step 3: Extract the File ID**
+- The link you copied will look like this:
+  `https://drive.google.com/file/d/THIS_IS_THE_FILE_ID/view?usp=sharing`
+- You need the long string of characters between `d/` and `/view`. This is your **File ID**.
+
+**Step 4: Create the Direct Link**
+- Take the File ID you just copied.
+- Insert it into the following URL template:
+  `https://drive.google.com/uc?export=view&id=YOUR_FILE_ID`
+- For example, if your File ID is `1wMgCWAsqlw0nXcMhCldTbwSznMdXUmBT`, your final, direct image URL will be:
+  `https://drive.google.com/uc?export=view&id=1wMgCWAsqlw0nXcMhCldTbwSznMdXUmBT`
+
+**This is the URL you will use in your `manifest.json` file.** Repeat this process for every image you want to display.
+
+---
+
+## Section 2: Editing `manifest.json`
+
+Now that you have your image URLs, you can add your products to the catalog. Open the `public/manifest.json` file in a text editor.
+
+### `manifest.json` Structure
+
+The file contains a list of "children". Each "child" is a product object with the following fields:
+
+- `id` (string, required): A unique identifier for this product (e.g., "si-passione").
 - `name` (string, required): The full, display name of the product (e.g., "Sì Passione Eau de Parfum").
 - `brand` (string, required): The brand name (e.g., "Giorgio Armani").
-- `images` (array of strings, required): A list of image file names that will be shown in the product page's image gallery. These images must be in the same folder as the `product.json` file or in a subfolder.
-- `variants` (array of objects, optional): A list of different versions of this product (e.g., different colors or sizes). Each variant object has:
+- `images` (array of strings, required): A list of the **direct image URLs** you created in Section 1.
+- `variants` (array of objects, optional): A list of different versions of this product. Each variant object has:
   - `name` (string): The name of the variant (e.g., "Red Edition").
-  - `image` (string): The path to the variant's preview image, relative to the product folder.
+  - `image` (string): The direct URL to the variant's preview image.
   - `productId` (string): The unique `id` of the product page this variant should link to.
-- `similar` (array of strings, optional): A list of product `id`s for items from the **same brand** that you want to show in the "Similar Items" section.
-- `recommended` (array of strings, optional): A list of product `id`s for items from **any brand** that you want to show in the "Recommended for you" section.
+- `similar` (array of strings, optional): A list of product `id`s for similar items from the same brand.
+- `recommended` (array of strings, optional): A list of product `id`s for recommended items from any brand.
 
-### Example `product.json`
+### Example Product Entry
 
-You can copy and paste this template into your product folder and edit the values.
+Here is an example of a complete product entry. You can copy and paste this into the `children` array in `manifest.json` and modify it with your own data.
 
 ```json
 {
@@ -41,26 +72,23 @@ You can copy and paste this template into your product folder and edit the value
   "name": "Sì Passione Eau de Parfum",
   "brand": "Giorgio Armani",
   "images": [
-    "si-passione-main.jpg",
-    "si-passione-bottle.jpg",
-    "si-passione-box.jpg"
+    "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_1",
+    "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_2"
   ],
   "variants": [
     {
       "name": "Intense",
-      "image": "variants/si-passione-intense.jpg",
+      "image": "https://drive.google.com/uc?export=view&id=YOUR_VARIANT_FILE_ID",
       "productId": "si-passione-intense"
     }
   ],
   "similar": [
-    "my-way",
-    "acqua-di-gioia"
+    "my-way"
   ],
   "recommended": [
-    "dior-sauvage",
-    "chanel-no-5"
+    "dior-sauvage"
   ]
 }
 ```
 
-By following this structure, you can easily manage and expand your product catalog. The application will automatically update when you next build or deploy it.
+After editing and saving `manifest.json`, the changes will appear in your application the next time you deploy it.

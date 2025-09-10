@@ -1,69 +1,31 @@
 {
-  "path": "public/images",
-  "name": "images",
-  "type": "folder",
+  "name": "Aureum Vestis Catalog",
   "children": [
     {
-      "path": "public/images/brand1",
-      "name": "The Centurion",
-      "type": "folder",
-      "id": "brand1-main-product",
-      "brand": "Brand 1",
+      "id": "placeholder-product-1",
+      "name": "Example Product 1",
+      "brand": "Example Brand",
       "images": [
-        "series1/image1.jpg"
+        "https://via.placeholder.com/400x400.png?text=Product+1+Image+1"
       ],
-      "variants": [
-        {
-          "name": "Gold Edition",
-          "image": "series1/image1.jpg",
-          "productId": "brand1-main-product"
-        },
-        {
-          "name": "Gladiator Edition",
-          "image": "series1/image1.jpg",
-          "productId": "brand2-main-product"
-        }
+      "variants": [],
+      "similar": [
+        "placeholder-product-2"
       ],
-      "similar": [],
       "recommended": [
-        "brand2-main-product"
-      ],
-      "isProduct": true,
-      "children": [
-        {
-          "path": "public/images/brand1/series1",
-          "name": "series1",
-          "type": "folder",
-          "children": [
-            {
-              "path": "public/images/brand1/series1/image1.jpg",
-              "name": "image1.jpg",
-              "type": "file"
-            }
-          ]
-        }
+        "placeholder-product-2"
       ]
     },
     {
-      "path": "public/images/brand2",
-      "name": "The Gladiator",
-      "type": "folder",
-      "id": "brand2-main-product",
-      "brand": "Brand 2",
+      "id": "placeholder-product-2",
+      "name": "Example Product 2",
+      "brand": "Another Brand",
       "images": [
-        "image2.jpg"
+        "https://via.placeholder.com/400x400.png?text=Product+2+Image+1"
       ],
       "variants": [],
       "similar": [],
-      "recommended": [],
-      "isProduct": true,
-      "children": [
-        {
-          "path": "public/images/brand2/image2.jpg",
-          "name": "image2.jpg",
-          "type": "file"
-        }
-      ]
+      "recommended": []
     }
   ]
 }
