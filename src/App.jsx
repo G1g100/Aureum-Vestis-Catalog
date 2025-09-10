@@ -1,99 +1,59 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Link, useParams, useNavigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, useParams } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import './App.css';
 
 // --- Helper Functions ---
 
-const findProductById = (node, productId) => {
-  if (node.isProduct && node.id === productId) {
-    return node;
-  }
-  if (node.children) {
-    for (const child of node.children) {
-      const found = findProductById(child, productId);
-      if (found) {
-        return found;
-      }
-    }
-  }
-  return null;
+const findProductById = (manifest, productId) => {
+  if (!manifest || !manifest.children) return null;
+  return manifest.children.find(p => p.id === productId);
 };
 
 
 // --- Components ---
 
-const ProductPreview = ({ product, basePath }) => {
+const ProductPreview = ({ product }) => {
   if (!product) return null;
   return (
     <Link to={`/product/${product.id}`} className="product-preview">
       <LazyLoadImage
         alt={product.name}
         effect="blur"
-        src={`${basePath}${product.path.replace('public', '')}/${product.images[0]}`}
+        src={product.images[0]} // Use absolute URL directly
       />
       <div className="preview-name">{product.name}</div>
     </Link>
   );
 };
 
-const VariantPreview = ({ variant, basePath, productPath }) => {
+const VariantPreview = ({ variant }) => {
   if (!variant) return null;
   return (
     <Link to={`/product/${variant.productId}`} className="product-preview">
       <LazyLoadImage
         alt={variant.name}
         effect="blur"
-        src={`${basePath}${productPath.replace('public', '')}/${variant.image}`}
+        src={variant.image} // Use absolute URL directly
       />
       <div className="preview-name">{variant.name}</div>
     </Link>
   );
 };
 
-const CatalogItem = ({ item, basePath }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleClick = () => {
-    if (item.type === 'folder' && !item.isProduct) {
-      setIsOpen(!isOpen);
-    }
-  };
-
-  const itemPath = item.path.replace('public/', '');
-  const content = (
-    <>
+const CatalogItem = ({ item }) => {
+  return (
+    <Link to={`/product/${item.id}`} className={`catalog-item`}>
       <div className="item-name">{item.name}</div>
-      {item.isProduct && item.images && item.images.length > 0 && (
+      {item.images && item.images.length > 0 && (
         <LazyLoadImage
           alt={item.name}
           effect="blur"
-          src={`${basePath}${item.path.replace('public', '')}/${item.images[0]}`}
+          src={item.images[0]} // Use absolute URL directly
         />
       )}
-      {isOpen && item.children && (
-        <div className="catalog-children">
-          {item.children.map((child) => (
-            <CatalogItem key={child.path} item={child} basePath={basePath} />
-          ))}
-        </div>
-      )}
-    </>
-  );
-
-  if (item.isProduct) {
-    return (
-      <Link to={`/product/${item.id}`} className={`catalog-item ${item.type}`}>
-        {content}
-      </Link>
-    );
-  }
-
-  return (
-    <div className={`catalog-item ${item.type}`} onClick={handleClick}>
-      {content}
-    </div>
+    </Link>
   );
 };
 
@@ -109,30 +69,74 @@ const Header = ({ basePath }) => {
   );
 };
 
+const PaginationControls = ({ currentPage, totalPages, onPageChange }) => {
+  const handlePrevious = () => {
+    onPageChange(currentPage - 1);
+  };
+
+  const handleNext = () => {
+    onPageChange(currentPage + 1);
+  };
+
+  return (
+    <div className="pagination-controls">
+      <button onClick={handlePrevious} disabled={currentPage === 1}>
+        Previous
+      </button>
+      <span>Page {currentPage} of {totalPages}</span>
+      <button onClick={handleNext} disabled={currentPage === totalPages}>
+        Next
+      </button>
+    </div>
+  );
+};
+
 // --- Pages ---
 
-const HomePage = ({ manifest, basePath }) => (
-  <>
-    <div className="info-box">
-      <p>
-        Il nostro catalogo è in continuo aggiornamento e contiene migliaia di
-        articoli. Se non trovi quello che cerchi, non esitare a contattarci!
-        Inviaci il nome, una foto o un link del prodotto che desideri e
-        faremo il possibile per trovarlo per te.
-      </p>
-    </div>
-    <div className="catalog-container">
-      {manifest &&
-        manifest.children.map((item) => (
-          <CatalogItem key={item.path} item={item} basePath={basePath} />
-        ))}
-    </div>
-  </>
-);
+const HomePage = ({ manifest }) => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 100;
 
-const ProductPage = ({ manifest, basePath }) => {
+  if (!manifest || !manifest.children) {
+    return <div className="loading-message">Loading catalog...</div>;
+  }
+
+  const totalItems = manifest.children.length;
+  const totalPages = Math.ceil(totalItems / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const currentItems = manifest.children.slice(startIndex, endIndex);
+
+  const handlePageChange = (page) => {
+    if (page > 0 && page <= totalPages) {
+      setCurrentPage(page);
+      window.scrollTo(0, 0);
+    }
+  };
+
+  return (
+    <>
+      <div className="info-box">
+        <p>
+          Il nostro catalogo è in continuo aggiornamento e contiene migliaia di
+          articoli. Se non trovi quello che cerchi, non esitare a contattarci!
+          Inviaci il nome, una foto o un link del prodotto che desideri e
+          faremo il possibile per trovarlo per te.
+        </p>
+      </div>
+      <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+      <div className="catalog-container">
+        {currentItems.map((item) => (
+          <CatalogItem key={item.id} item={item} />
+        ))}
+      </div>
+      <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+    </>
+  );
+};
+
+const ProductPage = ({ manifest }) => {
   const { productId } = useParams();
-  const navigate = useNavigate();
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
@@ -140,33 +144,21 @@ const ProductPage = ({ manifest, basePath }) => {
       const foundProduct = findProductById(manifest, productId);
       setProduct(foundProduct);
     }
-     // When the product changes, scroll to the top of the page
     window.scrollTo(0, 0);
   }, [manifest, productId]);
 
   if (!product) {
-    return (
-      <div className="product-page">
-        <h2>Loading product...</h2>
-      </div>
-    );
+    return <div className="loading-message">Loading product...</div>;
   }
 
   const renderRelatedItems = (productIds) => {
     if (!productIds || productIds.length === 0) return null;
     return productIds
       .map(id => findProductById(manifest, id))
-      .filter(Boolean) // Filter out any nulls if a product isn't found
+      .filter(Boolean)
       .map(relatedProduct => (
-        <ProductPreview key={relatedProduct.id} product={relatedProduct} basePath={basePath} />
+        <ProductPreview key={relatedProduct.id} product={relatedProduct} />
       ));
-  };
-
-  const renderVariants = (variants) => {
-    if (!variants || variants.length === 0) return null;
-    return variants.map(variant => (
-      <VariantPreview key={variant.productId} variant={variant} basePath={basePath} productPath={product.path} />
-    ));
   };
 
   return (
@@ -178,12 +170,7 @@ const ProductPage = ({ manifest, basePath }) => {
 
       <div className="product-images">
         {product.images.map((image, index) => (
-          <LazyLoadImage
-            key={index}
-            alt={`${product.name} ${index + 1}`}
-            effect="blur"
-            src={`${basePath}${product.path.replace('public', '')}/${image}`}
-          />
+          <LazyLoadImage key={index} alt={`${product.name} ${index + 1}`} effect="blur" src={image} />
         ))}
       </div>
 
@@ -191,7 +178,9 @@ const ProductPage = ({ manifest, basePath }) => {
         <div className="related-section">
           <h4>Variants</h4>
           <div className="related-items">
-            {renderVariants(product.variants)}
+            {product.variants.map(variant => (
+              <VariantPreview key={variant.productId} variant={variant} />
+            ))}
           </div>
         </div>
       )}
@@ -199,18 +188,14 @@ const ProductPage = ({ manifest, basePath }) => {
       {product.similar && product.similar.length > 0 && (
         <div className="related-section">
           <h4>Similar Items</h4>
-          <div className="related-items">
-            {renderRelatedItems(product.similar)}
-          </div>
+          <div className="related-items">{renderRelatedItems(product.similar)}</div>
         </div>
       )}
 
       {product.recommended && product.recommended.length > 0 && (
         <div className="related-section">
           <h4>Recommended for you</h4>
-          <div className="related-items">
-            {renderRelatedItems(product.recommended)}
-          </div>
+          <div className="related-items">{renderRelatedItems(product.recommended)}</div>
         </div>
       )}
 
@@ -227,8 +212,14 @@ function App() {
 
   useEffect(() => {
     fetch(`${basePath}manifest.json`)
-      .then((response) => response.json())
-      .then((data) => setManifest(data));
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        return res.json();
+      })
+      .then((data) => setManifest(data))
+      .catch(err => console.error("Failed to load or parse manifest.json:", err));
   }, [basePath]);
 
   return (
@@ -237,8 +228,8 @@ function App() {
         <Header basePath={basePath} />
         <main>
           <Routes>
-            <Route path="/" element={<HomePage manifest={manifest} basePath={basePath} />} />
-            <Route path="/product/:productId" element={<ProductPage manifest={manifest} basePath={basePath} />} />
+            <Route path="/" element={<HomePage manifest={manifest} />} />
+            <Route path="/product/:productId" element={<ProductPage manifest={manifest} />} />
           </Routes>
         </main>
       </div>

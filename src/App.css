@@ -48,8 +48,14 @@ h1 {
   border: 1px solid var(--gold-accent);
   border-radius: 8px;
   padding: 1rem;
-  margin: 1rem;
-  text-align: left;
+  margin: 1rem auto;
+  max-width: 90%;
+}
+
+.loading-message {
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: var(--gold-accent);
 }
 
 /* Mobile-first: 1 column grid by default */
@@ -58,7 +64,7 @@ h1 {
   grid-template-columns: 1fr;
   gap: 1.5rem;
   padding: 1rem;
-  max-width: 1400px;
+  max-width: 1600px; /* Increased width for desktop */
   margin: 0 auto;
 }
 
@@ -72,11 +78,10 @@ h1 {
 /* Desktop: Auto-filling grid */
 @media (min-width: 900px) {
   .catalog-container {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Slightly larger items */
   }
   .info-box {
-    max-width: 1200px;
-    margin: 1rem auto;
+    max-width: 1400px; /* Increased width */
   }
 }
 
@@ -87,6 +92,8 @@ h1 {
   cursor: pointer;
   transition: all 0.3s ease;
   overflow: hidden;
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 .catalog-item:hover {
@@ -95,20 +102,10 @@ h1 {
   border-color: var(--gold-accent);
 }
 
-.catalog-item.folder .item-name {
+.item-name {
   font-weight: bold;
   padding: 1rem;
   color: var(--gold-accent);
-}
-
-.catalog-item.file .item-name {
-  display: none;
-}
-
-.catalog-children {
-  margin-top: 1rem;
-  padding-left: 1rem;
-  border-left: 1px solid var(--border-color);
 }
 
 .lazy-load-image-background {
@@ -127,8 +124,8 @@ h1 {
 /* --- Product Page Styles --- */
 
 .product-page {
-  padding: 1rem;
-  max-width: 1200px;
+  padding: 1rem 2rem; /* More horizontal padding */
+  max-width: 1400px; /* Increased width */
   margin: 0 auto;
   text-align: left;
 }
@@ -231,4 +228,39 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* --- Pagination Styles --- */
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 1rem;
+}
+
+.pagination-controls button {
+  background-color: var(--gold-accent);
+  color: var(--primary-bg);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.pagination-controls button:hover:not(:disabled) {
+  background-color: #F0C44C; /* Lighter gold */
+}
+
+.pagination-controls button:disabled {
+  background-color: var(--border-color);
+  cursor: not-allowed;
+}
+
+.pagination-controls span {
+  color: var(--text-color);
+  font-weight: bold;
 }
