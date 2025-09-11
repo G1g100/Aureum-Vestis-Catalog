@@ -183,7 +183,30 @@ h1 {
   color: var(--gold-accent);
   text-decoration: none;
   display: inline-block;
-  margin-top: 1rem;
+}
+
+.back-link-top {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.back-link-bottom {
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+}
+
+.product-layout {
+  display: block; /* default for mobile */
+}
+
+@media (min-width: 1024px) {
+  .product-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+  }
 }
 
 .back-link:hover {
