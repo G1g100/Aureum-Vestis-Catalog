@@ -1,5 +1,8 @@
 {
-  "children": [
+  "totalProducts": 887,
+  "totalPages": 18,
+  "itemsPerPage": 50,
+  "products": [
     {
       "id": "2025-09-2",
       "name": "2025-09-2",
