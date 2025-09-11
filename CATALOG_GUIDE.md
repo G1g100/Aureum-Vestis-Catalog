@@ -6,9 +6,11 @@ This guide explains how to manage your product catalog. Since all product data a
 
 ## How the Catalog Works
 
-The entire catalog is controlled by one file: `public/manifest.json`.
+The entire catalog is controlled by one master file: `manifest.source.json`.
 
-This file is a "database" that you edit manually. It contains a list of all your products and all the information associated with them, including the links to your externally hosted images. The application reads this file to build the catalog, the product pages, and the pagination.
+This file is a "database" that you edit manually. It is located in the main directory of your project. It contains a list of all your products and all the information associated with them.
+
+When you run the `npm run deploy` command, a script automatically reads this master file and generates the optimized, paginated data files that the live website uses. **You should never edit the files in the `public/data` directory directly.**
 
 ---
 
@@ -39,15 +41,15 @@ Before you can add a product to the catalog, its images must be uploaded to a ho
 - For example, if your File ID is `1wMgCWAsqlw0nXcMhCldTbwSznMdXUmBT`, your final, direct image URL will be:
   `https://drive.google.com/uc?export=view&id=1wMgCWAsqlw0nXcMhCldTbwSznMdXUmBT`
 
-**This is the URL you will use in your `manifest.json` file.** Repeat this process for every image you want to display.
+**This is the URL you will use in your `manifest.source.json` file.** Repeat this process for every image you want to display.
 
 ---
 
-## Section 2: Editing `manifest.json`
+## Section 2: Editing `manifest.source.json`
 
-Now that you have your image URLs, you can add your products to the catalog. Open the `public/manifest.json` file in a text editor.
+Now that you have your image URLs, you can add your products to the catalog. Open the `manifest.source.json` file in your text editor.
 
-### `manifest.json` Structure
+### `manifest.source.json` Structure
 
 The file contains a list of "children". Each "child" is a product object with the following fields:
 
@@ -64,7 +66,7 @@ The file contains a list of "children". Each "child" is a product object with th
 
 ### Example Product Entry
 
-Here is an example of a complete product entry. You can copy and paste this into the `children` array in `manifest.json` and modify it with your own data.
+Here is an example of a complete product entry. You can copy and paste this into the `children` array in `manifest.source.json` and modify it with your own data.
 
 ```json
 {
@@ -91,4 +93,30 @@ Here is an example of a complete product entry. You can copy and paste this into
 }
 ```
 
-After editing and saving `manifest.json`, the changes will appear in your application the next time you deploy it.
+---
+
+## Section 3: Publishing Your Changes
+
+After you have finished editing your `manifest.source.json` file with all your products and image links, you need to publish these changes to your live website.
+
+Follow these steps every time you update the manifest:
+
+**Step 1: Save Your Changes**
+- Make sure you have saved the `manifest.source.json` file in your text editor.
+
+**Step 2: Commit and Push the Changes to GitHub**
+- You need to commit the changes to your `main` branch on GitHub. You can do this through your preferred Git tool (like GitHub Desktop) or via the command line.
+- The only file you need to commit is `manifest.source.json`.
+
+**Step 3: Deploy the Website**
+- Open a terminal on your computer in the project's folder.
+- Run the following command:
+  `npm run deploy`
+- This command will build the application and automatically push the final website files to the `gh-pages` branch, which makes it live.
+
+**Step 4: View Your Live Site**
+- Wait a few minutes (it can take 5-10 minutes for GitHub to update).
+- Open your browser and go to your website URL: `https://your-username.github.io/Aureum-Vestis-Catalog/`
+- You may need to do a "hard refresh" (`Ctrl+Shift+R` or `Cmd+Shift+R`) to see the latest changes.
+
+That's it! Your catalog will be updated.

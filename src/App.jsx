@@ -4,25 +4,13 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import './App.css';
 
-// --- Helper Functions ---
-
-const findProductById = (manifest, productId) => {
-  if (!manifest || !manifest.children) return null;
-  return manifest.children.find(p => p.id === productId);
-};
-
-
 // --- Components ---
 
 const ProductPreview = ({ product }) => {
   if (!product) return null;
   return (
     <Link to={`/product/${product.id}`} className="product-preview">
-      <LazyLoadImage
-        alt={product.name}
-        effect="blur"
-        src={product.images[0]} // Use absolute URL directly
-      />
+      <LazyLoadImage alt={product.name} effect="blur" src={product.images[0]} />
       <div className="preview-name">{product.name}</div>
     </Link>
   );
@@ -32,11 +20,7 @@ const VariantPreview = ({ variant }) => {
   if (!variant) return null;
   return (
     <Link to={`/product/${variant.productId}`} className="product-preview">
-      <LazyLoadImage
-        alt={variant.name}
-        effect="blur"
-        src={variant.image} // Use absolute URL directly
-      />
+      <LazyLoadImage alt={variant.name} effect="blur" src={variant.image} />
       <div className="preview-name">{variant.name}</div>
     </Link>
   );
@@ -47,11 +31,7 @@ const CatalogItem = ({ item }) => {
     <Link to={`/product/${item.id}`} className={`catalog-item`}>
       <div className="item-name">{item.name}</div>
       {item.images && item.images.length > 0 && (
-        <LazyLoadImage
-          alt={item.name}
-          effect="blur"
-          src={item.images[0]} // Use absolute URL directly
-        />
+        <LazyLoadImage alt={item.name} effect="blur" src={item.images[0]} />
       )}
     </Link>
   );
@@ -70,21 +50,14 @@ const Header = ({ basePath }) => {
 };
 
 const PaginationControls = ({ currentPage, totalPages, onPageChange }) => {
-  const handlePrevious = () => {
-    onPageChange(currentPage - 1);
-  };
-
-  const handleNext = () => {
-    onPageChange(currentPage + 1);
-  };
-
+  if (totalPages <= 1) return null;
   return (
     <div className="pagination-controls">
-      <button onClick={handlePrevious} disabled={currentPage === 1}>
+      <button onClick={() => onPageChange(currentPage - 1)} disabled={currentPage === 1}>
         Previous
       </button>
       <span>Page {currentPage} of {totalPages}</span>
-      <button onClick={handleNext} disabled={currentPage === totalPages}>
+      <button onClick={() => onPageChange(currentPage + 1)} disabled={currentPage === totalPages}>
         Next
       </button>
     </div>
@@ -93,22 +66,27 @@ const PaginationControls = ({ currentPage, totalPages, onPageChange }) => {
 
 // --- Pages ---
 
-const HomePage = ({ manifest }) => {
+const HomePage = ({ meta }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 100;
+  const [pageData, setPageData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
-  if (!manifest || !manifest.children) {
-    return <div className="loading-message">Loading catalog...</div>;
-  }
-
-  const totalItems = manifest.children.length;
-  const totalPages = Math.ceil(totalItems / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
-  const currentItems = manifest.children.slice(startIndex, endIndex);
+  useEffect(() => {
+    setIsLoading(true);
+    fetch(`./data/page-${currentPage}.json`)
+      .then(res => res.json())
+      .then(data => {
+        setPageData(data);
+        setIsLoading(false);
+      })
+      .catch(err => {
+        console.error(`Failed to load page ${currentPage}:`, err);
+        setIsLoading(false);
+      });
+  }, [currentPage]);
 
   const handlePageChange = (page) => {
-    if (page > 0 && page <= totalPages) {
+    if (page > 0 && page <= meta.totalPages) {
       setCurrentPage(page);
       window.scrollTo(0, 0);
     }
@@ -118,34 +96,35 @@ const HomePage = ({ manifest }) => {
     <>
       <div className="info-box">
         <p>
-          Il nostro catalogo è in continuo aggiornamento e contiene migliaia di
-          articoli. Se non trovi quello che cerchi, non esitare a contattarci!
-          Inviaci il nome, una foto o un link del prodotto che desideri e
-          faremo il possibile per trovarlo per te.
+          Il nostro catalogo è in continuo aggiornamento...
         </p>
       </div>
-      <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
-      <div className="catalog-container">
-        {currentItems.map((item) => (
-          <CatalogItem key={item.id} item={item} />
-        ))}
-      </div>
-      <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+      <PaginationControls currentPage={currentPage} totalPages={meta.totalPages} onPageChange={handlePageChange} />
+      {isLoading ? (
+        <div className="loading-message">Loading Page {currentPage}...</div>
+      ) : (
+        <div className="catalog-container">
+          {pageData.map((item) => (
+            <CatalogItem key={item.id} item={item} />
+          ))}
+        </div>
+      )}
+      <PaginationControls currentPage={currentPage} totalPages={meta.totalPages} onPageChange={handlePageChange} />
     </>
   );
 };
 
-const ProductPage = ({ manifest }) => {
+const ProductPage = ({ meta }) => {
   const { productId } = useParams();
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    if (manifest) {
-      const foundProduct = findProductById(manifest, productId);
+    if (meta && meta.products) {
+      const foundProduct = meta.products.find(p => p.id === productId);
       setProduct(foundProduct);
     }
     window.scrollTo(0, 0);
-  }, [manifest, productId]);
+  }, [meta, productId]);
 
   if (!product) {
     return <div className="loading-message">Loading product...</div>;
@@ -154,11 +133,9 @@ const ProductPage = ({ manifest }) => {
   const renderRelatedItems = (productIds) => {
     if (!productIds || productIds.length === 0) return null;
     return productIds
-      .map(id => findProductById(manifest, id))
+      .map(id => meta.products.find(p => p.id === id))
       .filter(Boolean)
-      .map(relatedProduct => (
-        <ProductPreview key={relatedProduct.id} product={relatedProduct} />
-      ));
+      .map(relatedProduct => <ProductPreview key={relatedProduct.id} product={relatedProduct} />);
   };
 
   return (
@@ -167,38 +144,31 @@ const ProductPage = ({ manifest }) => {
         <h2 className="product-title">{product.name}</h2>
         <h3 className="product-brand">{product.brand}</h3>
       </div>
-
       <div className="product-images">
         {product.images.map((image, index) => (
           <LazyLoadImage key={index} alt={`${product.name} ${index + 1}`} effect="blur" src={image} />
         ))}
       </div>
-
       {product.variants && product.variants.length > 0 && (
         <div className="related-section">
           <h4>Variants</h4>
           <div className="related-items">
-            {product.variants.map(variant => (
-              <VariantPreview key={variant.productId} variant={variant} />
-            ))}
+            {product.variants.map(variant => <VariantPreview key={variant.productId} variant={variant} />)}
           </div>
         </div>
       )}
-
       {product.similar && product.similar.length > 0 && (
         <div className="related-section">
           <h4>Similar Items</h4>
           <div className="related-items">{renderRelatedItems(product.similar)}</div>
         </div>
       )}
-
       {product.recommended && product.recommended.length > 0 && (
         <div className="related-section">
           <h4>Recommended for you</h4>
           <div className="related-items">{renderRelatedItems(product.recommended)}</div>
         </div>
       )}
-
       <Link to="/" className="back-link">Back to Catalog</Link>
     </div>
   );
@@ -207,20 +177,19 @@ const ProductPage = ({ manifest }) => {
 // --- Main App ---
 
 function App() {
-  const [manifest, setManifest] = useState(null);
+  const [meta, setMeta] = useState(null);
   const basePath = import.meta.env.BASE_URL;
 
   useEffect(() => {
-    fetch(`${basePath}manifest.json`)
-      .then((res) => {
-        if (!res.ok) {
-          throw new Error(`HTTP error! status: ${res.status}`);
-        }
-        return res.json();
-      })
-      .then((data) => setManifest(data))
-      .catch(err => console.error("Failed to load or parse manifest.json:", err));
+    fetch(`${basePath}data/manifest.json`)
+      .then(res => res.json())
+      .then(data => setMeta(data))
+      .catch(err => console.error("Failed to load metadata manifest:", err));
   }, [basePath]);
+
+  if (!meta) {
+    return <div className="loading-message">Initializing Catalog...</div>;
+  }
 
   return (
     <BrowserRouter basename={basePath}>
@@ -228,8 +197,8 @@ function App() {
         <Header basePath={basePath} />
         <main>
           <Routes>
-            <Route path="/" element={<HomePage manifest={manifest} />} />
-            <Route path="/product/:productId" element={<ProductPage manifest={manifest} />} />
+            <Route path="/" element={<HomePage meta={meta} />} />
+            <Route path="/product/:productId" element={<ProductPage meta={meta} />} />
           </Routes>
         </main>
       </div>
