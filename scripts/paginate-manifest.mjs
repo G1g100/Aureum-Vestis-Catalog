@@ -21,11 +21,33 @@ try {
 
   console.log(`Found ${totalProducts} products. Splitting into ${totalPages} pages of ${ITEMS_PER_PAGE} items each.`);
 
+  const transformGoogleDriveUrl = (url) => {
+    try {
+      const urlObj = new URL(url);
+      if (urlObj.hostname === 'drive.google.com' && urlObj.searchParams.has('id')) {
+        const id = urlObj.searchParams.get('id');
+        return `https://drive.google.com/thumbnail?id=${id}`;
+      }
+    } catch (e) {
+      // Ignore invalid URLs
+    }
+    return url;
+  };
+
+  const transformProductImageUrls = (product) => {
+    return {
+      ...product,
+      images: product.images.map(transformGoogleDriveUrl)
+    };
+  };
+
+  const transformedProducts = allProducts.map(transformProductImageUrls);
+
   // Create paginated files
   for (let i = 0; i < totalPages; i++) {
     const startIndex = i * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
-    const pageData = allProducts.slice(startIndex, endIndex);
+    const pageData = transformedProducts.slice(startIndex, endIndex);
     const pagePath = path.join(OUTPUT_DIR, `page-${i + 1}.json`);
     fs.writeFileSync(pagePath, JSON.stringify(pageData, null, 2));
     console.log(`Wrote ${pageData.length} items to ${pagePath}`);
@@ -37,7 +59,7 @@ try {
     totalProducts: totalProducts,
     totalPages: totalPages,
     itemsPerPage: ITEMS_PER_PAGE,
-    products: allProducts.map(p => ({ id: p.id, name: p.name, brand: p.brand, images: p.images, variants: p.variants, similar: p.similar, recommended: p.recommended })) // Create a full index for product page lookups
+    products: transformedProducts.map(p => ({ id: p.id, name: p.name, brand: p.brand, images: p.images, variants: p.variants, similar: p.similar, recommended: p.recommended })) // Create a full index for product page lookups
   };
 
   const manifestPath = path.join(OUTPUT_DIR, 'manifest.json');
