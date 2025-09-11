@@ -47,10 +47,15 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
     const manifest = JSON.parse(data);
     const idMap = new Map();
 
+    // Ensure manifest.children is an array before mapping
+    if (!Array.isArray(manifest.children)) {
+      throw new Error('manifest.children is not an array');
+    }
+
     // Process each item in the manifest
-    const cleanedManifest = manifest.map(item => {
+    const cleanedChildren = manifest.children.map(item => {
       const newName = cleanDisplayName(item.name);
-      let newId = slugify(item.name);
+      let newId = slugify(newName) || slugify(item.id); // fallback to original id if name is empty
 
       if (idMap.has(newId)) {
         const count = idMap.get(newId);
@@ -67,6 +72,11 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
       };
     });
 
+    const cleanedManifest = {
+      ...manifest,
+      children: cleanedChildren
+    };
+
     // Write the cleaned data back to the file
     fs.writeFile(outputFile, JSON.stringify(cleanedManifest, null, 2), 'utf8', (err) => {
       if (err) {
@@ -77,6 +87,6 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
     });
 
   } catch (err) {
-    console.error(`Error parsing JSON string: ${err}`);
+    console.error(`Error processing manifest: ${err}`);
   }
 });
