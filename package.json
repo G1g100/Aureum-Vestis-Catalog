@@ -6,7 +6,8 @@
   "homepage": "https://<YOUR_USERNAME>.github.io/Aureum-Vestis-Catalog",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "prebuild": "node scripts/paginate-manifest.mjs",
+    "build": "npm run prebuild && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
