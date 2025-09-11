@@ -140,36 +140,45 @@ const ProductPage = ({ meta }) => {
 
   return (
     <div className="product-page">
-      <div className="product-header">
-        <h2 className="product-title">{product.name}</h2>
-        <h3 className="product-brand">{product.brand}</h3>
-      </div>
-      <div className="product-images">
-        {product.images.map((image, index) => (
-          <LazyLoadImage key={index} alt={`${product.name} ${index + 1}`} effect="blur" src={image} />
-        ))}
-      </div>
-      {product.variants && product.variants.length > 0 && (
-        <div className="related-section">
-          <h4>Variants</h4>
-          <div className="related-items">
-            {product.variants.map(variant => <VariantPreview key={variant.productId} variant={variant} />)}
+      <Link to="/" className="back-link back-link-top">← Back to Catalog</Link>
+
+      <div className="product-layout">
+        <div className="product-images">
+          {product.images.map((image, index) => (
+            <LazyLoadImage key={index} alt={`${product.name} ${index + 1}`} effect="blur" src={image} />
+          ))}
+        </div>
+
+        <div className="product-details">
+          <div className="product-header">
+            <h2 className="product-title">{product.name}</h2>
+            <h3 className="product-brand">{product.brand}</h3>
           </div>
+
+          {product.variants && product.variants.length > 0 && (
+            <div className="related-section">
+              <h4>Variants</h4>
+              <div className="related-items">
+                {product.variants.map(variant => <VariantPreview key={variant.productId} variant={variant} />)}
+              </div>
+            </div>
+          )}
+          {product.similar && product.similar.length > 0 && (
+            <div className="related-section">
+              <h4>Similar Items</h4>
+              <div className="related-items">{renderRelatedItems(product.similar)}</div>
+            </div>
+          )}
+          {product.recommended && product.recommended.length > 0 && (
+            <div className="related-section">
+              <h4>Recommended for you</h4>
+              <div className="related-items">{renderRelatedItems(product.recommended)}</div>
+            </div>
+          )}
         </div>
-      )}
-      {product.similar && product.similar.length > 0 && (
-        <div className="related-section">
-          <h4>Similar Items</h4>
-          <div className="related-items">{renderRelatedItems(product.similar)}</div>
-        </div>
-      )}
-      {product.recommended && product.recommended.length > 0 && (
-        <div className="related-section">
-          <h4>Recommended for you</h4>
-          <div className="related-items">{renderRelatedItems(product.recommended)}</div>
-        </div>
-      )}
-      <Link to="/" className="back-link">Back to Catalog</Link>
+      </div>
+
+      <Link to="/" className="back-link back-link-bottom">← Back to Catalog</Link>
     </div>
   );
 };

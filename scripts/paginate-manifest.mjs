@@ -26,7 +26,7 @@ try {
       const urlObj = new URL(url);
       if (urlObj.hostname === 'drive.google.com' && urlObj.searchParams.has('id')) {
         const id = urlObj.searchParams.get('id');
-        return `https://drive.google.com/thumbnail?id=${id}`;
+        return `https://drive.google.com/thumbnail?id=${id}&sz=w1000`;
       }
     } catch (e) {
       // Ignore invalid URLs
