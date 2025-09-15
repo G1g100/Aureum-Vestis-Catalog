@@ -14,8 +14,6 @@ body {
 }
 
 .App {
-  max-width: 1600px;
-  margin: 0 auto;
   padding: 0 1rem;
 }
 
@@ -27,6 +25,7 @@ body {
   justify-content: center;
   gap: 1rem;
   border-bottom: 2px solid var(--gold-accent);
+  margin: 0 -1rem; /* Extend to full width */
 }
 
 .logo {
@@ -58,6 +57,7 @@ h1 {
   padding: 2rem;
   font-size: 1.2rem;
   color: var(--gold-accent);
+  text-align: center;
 }
 
 .catalog-container,
@@ -236,13 +236,6 @@ h1 {
 .back-button:hover {
   background-color: var(--gold-accent);
   color: var(--primary-bg);
-}
-
-
-.back-link-bottom {
-  margin-top: 2rem;
-  display: block;
-  text-align: center;
 }
 
 .product-layout {

@@ -53,7 +53,7 @@ const BackButton = () => {
   const navigate = useNavigate();
   return (
     <button onClick={() => navigate(-1)} className="back-button">
-      ← Back
+      ← Indietro
     </button>
   );
 };
@@ -61,7 +61,7 @@ const BackButton = () => {
 // --- Pages ---
 
 const HomePage = ({ meta }) => {
-  const brands = [...new Set(meta.products.map(p => p.brand))];
+  const brands = [...new Set(meta.products.map(p => p.brand))].sort();
 
   return (
     <>
@@ -101,7 +101,7 @@ const CategoryPage = ({ meta }) => {
 
   const productsByBrand = meta.products.filter(p => p.brand === brandName);
 
-  const subCategories = [...new Set(productsByBrand.map(p => getSubCategory(p.name)))];
+  const subCategories = [...new Set(productsByBrand.map(p => getSubCategory(p.name)))].sort();
 
   const products = productsByBrand.filter(p => {
     if (categoryName) {
@@ -114,6 +114,7 @@ const CategoryPage = ({ meta }) => {
     return (
       <>
         <BackButton />
+        <h2>{brandName}</h2>
         <div className="brands-container">
           {subCategories.map(subCategory => (
             <Link key={subCategory} to={`/brands/${brandName}/${subCategory.toLowerCase()}`} className="brand-link">
@@ -128,6 +129,7 @@ const CategoryPage = ({ meta }) => {
   return (
     <>
       <BackButton />
+      <h2>{brandName} / {categoryName}</h2>
       <div className="catalog-container">
         {products.map((item) => (
           <CatalogItem key={item.id} item={item} />
@@ -172,7 +174,7 @@ const ProductPage = ({ meta }) => {
       <div className="product-layout">
         <div className="product-images">
           <div className="main-image-container">
-            <LazyLoadImage alt={product.name} effect="blur" src={mainImage} wrapperClassName="main-image-wrapper" />
+            {mainImage && <LazyLoadImage alt={product.name} effect="blur" src={mainImage} wrapperClassName="main-image-wrapper" />}
           </div>
           <div className="thumbnail-container">
             {product.images.map((image, index) => (
@@ -215,8 +217,6 @@ const ProductPage = ({ meta }) => {
           )}
         </div>
       </div>
-
-      <Link to="/" className="back-link back-link-bottom">← Back to Catalog</Link>
     </div>
   );
 };
