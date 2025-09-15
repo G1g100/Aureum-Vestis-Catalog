@@ -105,11 +105,11 @@ const CategoryPage = ({ meta }) => {
 
   const productsByBrand = meta.products.filter(p => p.brand === brandName);
 
-  const subCategories = [...new Set(productsByBrand.map(p => getSubCategory(p)))];
+  const subCategories = [...new Set(productsByBrand.map(p => getSubCategory(p.name)))];
 
   const products = productsByBrand.filter(p => {
     if (categoryName) {
-      return getSubCategory(p).toLowerCase() === categoryName.toLowerCase();
+      return getSubCategory(p.name).toLowerCase() === categoryName.toLowerCase();
     }
     return true; // Show all products of the brand if no category is selected
   });
