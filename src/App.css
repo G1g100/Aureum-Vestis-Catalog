@@ -14,7 +14,9 @@ body {
 }
 
 .App {
-  text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .app-header {
@@ -48,7 +50,7 @@ h1 {
   border: 1px solid var(--gold-accent);
   border-radius: 8px;
   padding: 1rem;
-  margin: 1rem 5%; /* Use percentage for responsive margin */
+  margin: 1rem 0;
   text-align: left;
 }
 
@@ -58,27 +60,11 @@ h1 {
   color: var(--gold-accent);
 }
 
-/* Mobile-first: 1 column grid by default */
 .catalog-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.5rem;
-  padding: 1rem 5%; /* Use percentage for responsive padding */
-  margin: 0 auto;
-}
-
-/* Tablet: 2 columns */
-@media (min-width: 600px) {
-  .catalog-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Desktop: Auto-filling grid */
-@media (min-width: 900px) {
-  .catalog-container {
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  }
+  padding: 1rem 0;
 }
 
 .catalog-item {
@@ -92,7 +78,7 @@ h1 {
   color: var(--text-color);
   display: flex;
   flex-direction: column;
-  height: 300px; /* Set a fixed height */
+  height: 300px;
 }
 
 .catalog-item:hover {
@@ -108,15 +94,15 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  flex-shrink: 0; /* Prevent the name from shrinking */
+  flex-shrink: 0;
 }
 
 .lazy-load-image-background {
   display: block;
   width: 100%;
-  flex-grow: 1; /* Allow the image to take up the remaining space */
+  flex-grow: 1;
   background-color: var(--primary-bg);
-  overflow: hidden; /* Ensure the image doesn't overflow its container */
+  overflow: hidden;
 }
 
 .lazy-load-image-background img {
@@ -125,11 +111,8 @@ h1 {
   object-fit: cover;
 }
 
-/* --- Product Page Styles --- */
-
 .product-page {
-  padding: 1rem 5%; /* Use percentage for responsive padding */
-  margin: 0 auto;
+  padding: 1rem 0;
   text-align: left;
 }
 
@@ -158,17 +141,51 @@ h1 {
   margin-bottom: 2rem;
 }
 
-/* On larger screens, use a 2-column layout for product images */
-@media (min-width: 768px) {
-  .product-images {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.main-image-container {
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.main-image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumbnail-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 0.5rem;
+}
+
+.thumbnail-image {
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.thumbnail-image:hover {
+  border-color: var(--gold-accent);
+}
+
+.thumbnail-image.active {
+  border-color: var(--gold-accent);
+  box-shadow: 0 0 10px var(--gold-accent);
 }
 
 
-.product-images img {
-  width: 100%;
-  border-radius: 8px;
+@media (min-width: 768px) {
+  .product-images {
+    grid-template-columns: 1fr;
+  }
 }
 
 .related-section {
@@ -187,16 +204,24 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.back-link {
+.back-button {
+  background-color: var(--secondary-bg);
   color: var(--gold-accent);
-  text-decoration: none;
-  display: inline-block;
+  border: 1px solid var(--gold-accent);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
 }
 
-.back-link-top {
-  margin-bottom: 1.5rem;
-  font-size: 1.1rem;
+.back-button:hover {
+  background-color: var(--gold-accent);
+  color: var(--primary-bg);
 }
+
 
 .back-link-bottom {
   margin-top: 2rem;
@@ -205,20 +230,16 @@ h1 {
 }
 
 .product-layout {
-  display: block; /* default for mobile */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: flex-start;
 }
 
 @media (min-width: 1024px) {
   .product-layout {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: flex-start;
   }
-}
-
-.back-link:hover {
-  text-decoration: underline;
 }
 
 .related-items {
@@ -256,62 +277,11 @@ h1 {
   text-overflow: ellipsis;
 }
 
-/* --- Pagination Styles --- */
-
-.pagination-controls {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 1rem;
-  gap: 1rem;
-}
-
-.pagination-controls button {
-  background-color: var(--gold-accent);
-  color: var(--primary-bg);
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background-color 0.2s;
-}
-
-.pagination-controls button:hover:not(:disabled) {
-  background-color: #F0C44C; /* Lighter gold */
-}
-
-.pagination-controls button:disabled {
-  background-color: var(--border-color);
-  cursor: not-allowed;
-}
-
-.pagination-controls span {
-  color: var(--text-color);
-  font-weight: bold;
-}
-
-/* --- Brands Page Styles --- */
-
 .brands-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1.5rem;
-  padding: 1rem 5%;
-}
-
-/* Tablet: 2 columns */
-@media (min-width: 600px) {
-  .brands-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Desktop: Auto-filling grid */
-@media (min-width: 900px) {
-  .brands-container {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  }
+  padding: 1rem 0;
 }
 
 .brand-link {
@@ -324,6 +294,10 @@ h1 {
   border-radius: 8px;
   transition: all 0.3s ease;
   border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .brand-link:hover {
