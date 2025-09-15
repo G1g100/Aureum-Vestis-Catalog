@@ -86,6 +86,8 @@ const HomePage = ({ meta }) => {
 
 const CategoryPage = ({ meta }) => {
   const { brandName, categoryName } = useParams();
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 12;
 
   const keywords = ["scarpe", "magliette", "tute", "giacca", "orologio", "profumo", "borsa", "cintura", "zaino"];
 
@@ -110,6 +112,16 @@ const CategoryPage = ({ meta }) => {
     return true;
   });
 
+  const totalPages = Math.ceil(products.length / itemsPerPage);
+  const paginatedProducts = products.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+
+  const handlePageChange = (page) => {
+    if (page > 0 && page <= totalPages) {
+      setCurrentPage(page);
+      window.scrollTo(0, 0);
+    }
+  };
+
   if (!categoryName) {
     return (
       <>
@@ -130,11 +142,13 @@ const CategoryPage = ({ meta }) => {
     <>
       <BackButton />
       <h2>{brandName} / {categoryName}</h2>
+      <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
       <div className="catalog-container">
-        {products.map((item) => (
+        {paginatedProducts.map((item) => (
           <CatalogItem key={item.id} item={item} />
         ))}
       </div>
+      <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
     </>
   );
 };
