@@ -67,50 +67,71 @@ const PaginationControls = ({ currentPage, totalPages, onPageChange }) => {
 // --- Pages ---
 
 const HomePage = ({ meta }) => {
-  const [currentPage, setCurrentPage] = useState(1);
-  const [pageData, setPageData] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    setIsLoading(true);
-    fetch(`./data/page-${currentPage}.json`)
-      .then(res => res.json())
-      .then(data => {
-        setPageData(data);
-        setIsLoading(false);
-      })
-      .catch(err => {
-        console.error(`Failed to load page ${currentPage}:`, err);
-        setIsLoading(false);
-      });
-  }, [currentPage]);
-
-  const handlePageChange = (page) => {
-    if (page > 0 && page <= meta.totalPages) {
-      setCurrentPage(page);
-      window.scrollTo(0, 0);
-    }
-  };
+  // Now, this page will show brands instead of products
+  const brands = [...new Set(meta.products.map(p => p.brand))];
 
   return (
     <>
       <div className="info-box">
         <p>
-          Il nostro catalogo è in continuo aggiornamento...
+          Il nostro catalogo è in continuo aggiornamento... Seleziona un brand per iniziare.
         </p>
       </div>
-      <PaginationControls currentPage={currentPage} totalPages={meta.totalPages} onPageChange={handlePageChange} />
-      {isLoading ? (
-        <div className="loading-message">Loading Page {currentPage}...</div>
-      ) : (
-        <div className="catalog-container">
-          {pageData.map((item) => (
-            <CatalogItem key={item.id} item={item} />
-          ))}
-        </div>
-      )}
-      <PaginationControls currentPage={currentPage} totalPages={meta.totalPages} onPageChange={handlePageChange} />
+      <div className="brands-container">
+        {brands.map(brand => (
+          <Link key={brand} to={`/brands/${brand}`} className="brand-link">
+            {brand}
+          </Link>
+        ))}
+      </div>
     </>
+  );
+};
+
+const CategoryPage = ({ meta }) => {
+  const { brandName, categoryName } = useParams();
+
+  const keywords = ["scarpe", "magliette", "tute", "giacca", "orologio", "profumo", "borsa", "cintura", "zaino"];
+
+  const getSubCategory = (productName) => {
+    const name = productName.toLowerCase();
+    for (const keyword of keywords) {
+      if (name.includes(keyword)) {
+        return keyword.charAt(0).toUpperCase() + keyword.slice(1);
+      }
+    }
+    return "Altro";
+  };
+
+  const productsByBrand = meta.products.filter(p => p.brand === brandName);
+
+  const subCategories = [...new Set(productsByBrand.map(p => getSubCategory(p)))];
+
+  const products = productsByBrand.filter(p => {
+    if (categoryName) {
+      return getSubCategory(p).toLowerCase() === categoryName.toLowerCase();
+    }
+    return true; // Show all products of the brand if no category is selected
+  });
+
+  if (!categoryName) {
+    return (
+      <div className="brands-container">
+        {subCategories.map(subCategory => (
+          <Link key={subCategory} to={`/brands/${brandName}/${subCategory.toLowerCase()}`} className="brand-link">
+            {subCategory}
+          </Link>
+        ))}
+      </div>
+    );
+  }
+
+  return (
+    <div className="catalog-container">
+      {products.map((item) => (
+        <CatalogItem key={item.id} item={item} />
+      ))}
+    </div>
   );
 };
 
@@ -186,19 +207,21 @@ const ProductPage = ({ meta }) => {
 // --- Main App ---
 
 function App() {
-  const [meta, setMeta] = useState(null);
+  const [products, setProducts] = useState([]);
   const basePath = import.meta.env.BASE_URL;
 
   useEffect(() => {
     fetch(`${basePath}data/manifest.json`)
       .then(res => res.json())
-      .then(data => setMeta(data))
+      .then(data => setProducts(data.products))
       .catch(err => console.error("Failed to load metadata manifest:", err));
   }, [basePath]);
 
-  if (!meta) {
+  if (products.length === 0) {
     return <div className="loading-message">Initializing Catalog...</div>;
   }
+
+  const meta = { products }; // Create meta object to pass to components
 
   return (
     <BrowserRouter basename={basePath}>
@@ -207,6 +230,9 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<HomePage meta={meta} />} />
+            <Route path="/brands" element={<HomePage meta={meta} />} />
+            <Route path="/brands/:brandName" element={<CategoryPage meta={meta} />} />
+            <Route path="/brands/:brandName/:categoryName" element={<CategoryPage meta={meta} />} />
             <Route path="/product/:productId" element={<ProductPage meta={meta} />} />
           </Routes>
         </main>
