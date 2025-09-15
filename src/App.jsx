@@ -172,7 +172,7 @@ const ProductPage = ({ meta }) => {
       <div className="product-layout">
         <div className="product-images">
           <div className="main-image-container">
-            <LazyLoadImage alt={product.name} effect="blur" src={mainImage} />
+            <LazyLoadImage alt={product.name} effect="blur" src={mainImage} wrapperClassName="main-image-wrapper" />
           </div>
           <div className="thumbnail-container">
             {product.images.map((image, index) => (
