@@ -94,9 +94,9 @@ const CategoryPage = ({ meta }) => {
   const keywords = ["scarpe", "magliette", "tute", "giacca", "orologio", "profumo", "borsa", "cintura", "zaino"];
 
   const getSubCategory = (productName) => {
-    const name = productName.toLowerCase();
+    const name = ` ${productName.toLowerCase()} `;
     for (const keyword of keywords) {
-      if (name.includes(keyword)) {
+      if (name.includes(` ${keyword} `)) {
         return keyword.charAt(0).toUpperCase() + keyword.slice(1);
       }
     }
