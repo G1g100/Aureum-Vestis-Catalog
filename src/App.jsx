@@ -76,6 +76,9 @@ const HomePage = ({ meta }) => {
         <p>
           Il nostro catalogo è in continuo aggiornamento... Seleziona un brand per iniziare.
         </p>
+        <p>
+          Visto che il nostro catalogo è immenso, se non trovi quello che cerchi, puoi inviarci una richiesta tramite email o telefono con il nome del prodotto e immagini o link. Lo troveremo per te!
+        </p>
       </div>
       <div className="brands-container">
         {brands.map(brand => (
@@ -116,22 +119,28 @@ const CategoryPage = ({ meta }) => {
 
   if (!categoryName) {
     return (
-      <div className="brands-container">
-        {subCategories.map(subCategory => (
-          <Link key={subCategory} to={`/brands/${brandName}/${subCategory.toLowerCase()}`} className="brand-link">
-            {subCategory}
-          </Link>
-        ))}
-      </div>
+      <>
+        <Link to="/brands" className="back-link back-link-top">← Back to Brands</Link>
+        <div className="brands-container">
+          {subCategories.map(subCategory => (
+            <Link key={subCategory} to={`/brands/${brandName}/${subCategory.toLowerCase()}`} className="brand-link">
+              {subCategory}
+            </Link>
+          ))}
+        </div>
+      </>
     );
   }
 
   return (
-    <div className="catalog-container">
-      {products.map((item) => (
-        <CatalogItem key={item.id} item={item} />
-      ))}
-    </div>
+    <>
+      <Link to={`/brands/${brandName}`} className="back-link back-link-top">← Back to {brandName}</Link>
+      <div className="catalog-container">
+        {products.map((item) => (
+          <CatalogItem key={item.id} item={item} />
+        ))}
+      </div>
+    </>
   );
 };
 
@@ -159,9 +168,11 @@ const ProductPage = ({ meta }) => {
       .map(relatedProduct => <ProductPreview key={relatedProduct.id} product={relatedProduct} />);
   };
 
+  const brandPageUrl = product ? `/brands/${product.brand}` : '/';
+
   return (
     <div className="product-page">
-      <Link to="/" className="back-link back-link-top">← Back to Catalog</Link>
+      <Link to={brandPageUrl} className="back-link back-link-top">← Back to {product ? product.brand : 'Catalog'}</Link>
 
       <div className="product-layout">
         <div className="product-images">
