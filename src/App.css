@@ -81,20 +81,6 @@ h1 {
   }
 }
 
-/* Tablet: 2 columns */
-@media (min-width: 600px) {
-  .catalog-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Desktop: Auto-filling grid */
-@media (min-width: 900px) {
-  .catalog-container {
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  }
-}
-
 .catalog-item {
   background-color: var(--secondary-bg);
   border: 1px solid var(--border-color);
