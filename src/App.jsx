@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Link, useParams } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, useParams, useNavigate } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import './App.css';
@@ -49,25 +49,18 @@ const Header = ({ basePath }) => {
   );
 };
 
-const PaginationControls = ({ currentPage, totalPages, onPageChange }) => {
-  if (totalPages <= 1) return null;
+const BackButton = () => {
+  const navigate = useNavigate();
   return (
-    <div className="pagination-controls">
-      <button onClick={() => onPageChange(currentPage - 1)} disabled={currentPage === 1}>
-        Previous
-      </button>
-      <span>Page {currentPage} of {totalPages}</span>
-      <button onClick={() => onPageChange(currentPage + 1)} disabled={currentPage === totalPages}>
-        Next
-      </button>
-    </div>
+    <button onClick={() => navigate(-1)} className="back-button">
+      ← Back
+    </button>
   );
 };
 
 // --- Pages ---
 
 const HomePage = ({ meta }) => {
-  // Now, this page will show brands instead of products
   const brands = [...new Set(meta.products.map(p => p.brand))];
 
   return (
@@ -114,13 +107,13 @@ const CategoryPage = ({ meta }) => {
     if (categoryName) {
       return getSubCategory(p.name).toLowerCase() === categoryName.toLowerCase();
     }
-    return true; // Show all products of the brand if no category is selected
+    return true;
   });
 
   if (!categoryName) {
     return (
       <>
-        <Link to="/brands" className="back-link back-link-top">← Back to Brands</Link>
+        <BackButton />
         <div className="brands-container">
           {subCategories.map(subCategory => (
             <Link key={subCategory} to={`/brands/${brandName}/${subCategory.toLowerCase()}`} className="brand-link">
@@ -134,7 +127,7 @@ const CategoryPage = ({ meta }) => {
 
   return (
     <>
-      <Link to={`/brands/${brandName}`} className="back-link back-link-top">← Back to {brandName}</Link>
+      <BackButton />
       <div className="catalog-container">
         {products.map((item) => (
           <CatalogItem key={item.id} item={item} />
@@ -147,11 +140,15 @@ const CategoryPage = ({ meta }) => {
 const ProductPage = ({ meta }) => {
   const { productId } = useParams();
   const [product, setProduct] = useState(null);
+  const [mainImage, setMainImage] = useState(null);
 
   useEffect(() => {
     if (meta && meta.products) {
       const foundProduct = meta.products.find(p => p.id === productId);
       setProduct(foundProduct);
+      if (foundProduct && foundProduct.images.length > 0) {
+        setMainImage(foundProduct.images[0]);
+      }
     }
     window.scrollTo(0, 0);
   }, [meta, productId]);
@@ -168,17 +165,26 @@ const ProductPage = ({ meta }) => {
       .map(relatedProduct => <ProductPreview key={relatedProduct.id} product={relatedProduct} />);
   };
 
-  const brandPageUrl = product ? `/brands/${product.brand}` : '/';
-
   return (
     <div className="product-page">
-      <Link to={brandPageUrl} className="back-link back-link-top">← Back to {product ? product.brand : 'Catalog'}</Link>
+      <BackButton />
 
       <div className="product-layout">
         <div className="product-images">
-          {product.images.map((image, index) => (
-            <LazyLoadImage key={index} alt={`${product.name} ${index + 1}`} effect="blur" src={image} />
-          ))}
+          <div className="main-image-container">
+            <LazyLoadImage alt={product.name} effect="blur" src={mainImage} />
+          </div>
+          <div className="thumbnail-container">
+            {product.images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`${product.name} thumbnail ${index + 1}`}
+                className={`thumbnail-image ${image === mainImage ? 'active' : ''}`}
+                onClick={() => setMainImage(image)}
+              />
+            ))}
+          </div>
         </div>
 
         <div className="product-details">
@@ -232,7 +238,7 @@ function App() {
     return <div className="loading-message">Initializing Catalog...</div>;
   }
 
-  const meta = { products }; // Create meta object to pass to components
+  const meta = { products };
 
   return (
     <BrowserRouter basename={basePath}>
