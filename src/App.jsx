@@ -27,12 +27,17 @@ const VariantPreview = ({ variant }) => {
 };
 
 const CatalogItem = ({ item }) => {
+  // Carica solo la prima immagine
+  const previewImg = item.images && item.images.length > 0 ? item.images[0] : '/placeholder.png';
   return (
-    <Link to={`/product/${item.id}`} className={`catalog-item`}>
+    <Link to={`/product/${item.id}`} className="catalog-item">
       <div className="item-name">{item.name}</div>
-      {item.images && item.images.length > 0 && (
-        <LazyLoadImage alt={item.name} effect="blur" src={item.images[0]} />
-      )}
+      <img
+        src={previewImg}
+        alt={item.name}
+        loading="lazy"
+        style={{ width: "100%", height: "auto" }}
+      />
     </Link>
   );
 };
@@ -198,54 +203,29 @@ const ProductPage = ({ meta }) => {
 
   return (
     <div className="product-page">
-      <BackButton />
-
-      <div className="product-layout">
-        <div className="product-images">
-          <div className="main-image-container">
-            {mainImage && <LazyLoadImage alt={product.name} effect="blur" src={mainImage} wrapperClassName="main-image-wrapper" />}
-          </div>
-          <div className="thumbnail-container">
-            {product.images.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                alt={`${product.name} thumbnail ${index + 1}`}
-                className={`thumbnail-image ${image === mainImage ? 'active' : ''}`}
-                onClick={() => setMainImage(image)}
-              />
-            ))}
-          </div>
+      <div className="product-header">
+        <BackButton />
+        <h2 className="product-title">{product.name}</h2>
+        <div className="product-brand">{product.brand}</div>
+      </div>
+      <div className="product-images">
+        <div className="main-image-container">
+          <img src={mainImage} alt={product.name} className="main-image" />
         </div>
-
-        <div className="product-details">
-          <div className="product-header">
-            <h2 className="product-title">{product.name}</h2>
-            <h3 className="product-brand">{product.brand}</h3>
-          </div>
-
-          {product.variants && product.variants.length > 0 && (
-            <div className="related-section">
-              <h4>Variants</h4>
-              <div className="related-items">
-                {product.variants.map(variant => <VariantPreview key={variant.productId} variant={variant} />)}
-              </div>
-            </div>
-          )}
-          {product.similar && product.similar.length > 0 && (
-            <div className="related-section">
-              <h4>Similar Items</h4>
-              <div className="related-items">{renderRelatedItems(product.similar)}</div>
-            </div>
-          )}
-          {product.recommended && product.recommended.length > 0 && (
-            <div className="related-section">
-              <h4>Recommended for you</h4>
-              <div className="related-items">{renderRelatedItems(product.recommended)}</div>
-            </div>
-          )}
+        <div className="thumbnail-container">
+          {product.images.map((img, idx) => (
+            <img
+              key={idx}
+              src={img}
+              alt={`thumb-${idx}`}
+              className={`thumbnail-image${mainImage === img ? " active" : ""}`}
+              loading="lazy"
+              onClick={() => setMainImage(img)}
+            />
+          ))}
         </div>
       </div>
+      {/* ...resto della pagina... */}
     </div>
   );
 };

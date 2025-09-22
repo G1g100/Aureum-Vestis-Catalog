@@ -1,7 +1,707 @@
 [
   {
-    "id": "nuovo-equilibrio-mr530tg-grey-argento-nb530-scarpe-da-jogging-casual-retro-scarpe-reale-usa-materiali-originali-e-la-fornitura-di-colla-tmall-mescolata-in-un-mazzo-di-controso",
-    "name": "Nuovo equilibrio MR530TG Grey argento NB530 Scarpe da jogging casual retrò SCARPE REALE Usa materiali originali e la fornitura di colla TMall mescolata in un mazzo di controso",
+    "id": "[2025-09-03]-serie-nb5740-new-bilaggi",
+    "name": "New Balance Serie NB5740 Bilaggs",
+    "brand": "New Balance",
+    "images": [
+      "https://drive.google.com/thumbnail?id=1GmC8KLI1b5pQ_EkMx0dg7A0PieiSQnCl&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1fUJuJTBendNBh7Qykh_HhvqE3SobU46t&sz=w1000",
+      "https://drive.google.com/thumbnail?id=10pYE2NrfmIhmn6GNosCYAPUlI_-TBQLC&sz=w1000",
+      "https://drive.google.com/thumbnail?id=11Q0TOydLQkiVJjDSjhlEfGxQ_q5UYzgM&sz=w1000",
+      "https://drive.google.com/thumbnail?id=10xhVjqwgyRQGGHJDULb9FePJUvaP8bWg&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1MKRLOuS7E_bxQVHQRXFM9ylqOPhF1o4i&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1crgYiEOZO6wAphDwZZs5QH5hCqLWs0re&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1hHwNfJ6FTIcJ8VBqMC9G6iiIsqTPWM_R&sz=w1000",
+      "https://drive.google.com/thumbnail?id=15VGci7EDA1aPurjbwYnLjkINcLSslpfb&sz=w1000"
+    ],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-02]-air-jordan-1-personizione-di-leggio-di-leggio-di-letta-log-di-fascia-alta-in-bianco-e-nero-big-big-factory-big-factory-big-factory-pure-original-process-originale-ultimo-cardboard-originale-original-head-layer-in-pelle-più-perfetta-a-forma-di-scarpa-più-perfetta-a-una-differenza-di-sguardo-di-qualsiasi-terra-disponibile-in-commercio-e-in-versione-rotonda-di-cima-della-pelle-di-determinazione-in-pelle.",
+        "name": "Nike AIR JORDAN 1 High Top Sneaker in White and Black",
+        "image": "https://drive.google.com/uc?export=view&id=181sNWTnmNT-1ePC2aIqpyGLTFWRrbdUX"
+      },
+      {
+        "id": "[2025-09-03]-vans-classics-knu-skool-scacchi-in-bianco-e-nero-graffiti-vans-edizione-grassa-ufficiale-scarpe-per-pane-per-lingua-spessa-scarpe-di-patate-super-popolari,-classico-retrò,-dito-ingrandito,-bordo-in-alto-e-lingua-addensata.-vans-classics-classics-scarpe-di-patate",
+        "name": "Vans Knu Skool Scarpe per Pane con Lingua Spessa",
+        "image": "https://drive.google.com/uc?export=view&id=1uPBSx7GWoAmiclpk772TbNHSU1hUyLo7"
+      },
+      {
+        "id": "[2025-09-04]-profumo-di-veleno-rosa-dior-100ml",
+        "name": "Dior Profumo di Veleno Rosa 100ml Eau de Parfum",
+        "image": "https://drive.google.com/uc?export=view&id=1koWDlCIH63HRIser8ZYocbVwRLySJ3K5"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Adidas Women's 2-Stripe Running Tights",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-03]-lancome-beautiful-life-eau-delicacy",
+        "name": "Lancôme Beautiful Life Eau De Parfum",
+        "image": "https://drive.google.com/uc?export=view&id=1C8VtW90qj9sltFnIRLtX829KU5jAdNWl"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-03]-new-balance-mr530kmw-silver-grey-nb530-scarpe-da-jogging-casual-retrò-su-scaffali-reali",
+    "name": "New Balance MR530KMW",
+    "brand": "New Balance",
+    "images": [
+      "https://drive.google.com/thumbnail?id=1cRKMQ89Tl8-C17eFdB8OHWU_Mw-jqcWp&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1rIzvZu6IiYdRGzCisNM_iJsNmJaggm-f&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1zSbRQ0lpb8LPkug7uU8YIRLAlmo_iTeR&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1KHC47ki-c5q1QUyORdezqyxTMmXkW1Q-&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1xk5SN96ZBc9qLH7_X5_iLWQ7kUkHPoqc&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1-u7wAseZ5ckFbL_DNuFK7GRmHfa341Qt&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1SLzQz1fl0Ys-Du-5_T2Pu7Ki6TAtkdNk&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1WVFE8teY5dc-dov-poaxBOIPpNJy1nSL&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1EWppnZ9TUEj6s14ygUJhAHjpzEbK7pS-&sz=w1000"
+    ],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-vans-knu-skool-lavato-in-denim-in-denim-black-generio-fatto-scarpe-a-grasso-strappato-con-scarpe-di-patate-super-popolari,-classico-retrò,-punta-allargata,-bordi-ispessiti-e-lingua-addensata.-vans-classics-classics-side-patate-scarpe-knu-skool",
+        "name": "Vans Knu Skool Black Classic Wide Lace-Up Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=18X68FdsHUDGVMWal9g4nH2PhxFLMfn1e"
+      },
+      {
+        "id": "[2025-09-04]-gg-pearl-rhinestone-orecchini-🧚‍♀️-orecchini-gg-classici-〰️-articoli-alla-moda-e-versatile🛍️",
+        "name": "Gucci GG Pearl Rhinestone Earrings",
+        "image": "https://drive.google.com/uc?export=view&id=1OX8L6-egKh2tRqdXiuLU9QZkUS7F851h"
+      },
+      {
+        "id": "[2025-09-04]-🇧🇧rm-richard-miller-~-dito-dorato",
+        "name": "Richard Mille Dito Dorato",
+        "image": "https://drive.google.com/uc?export=view&id=1OlAIn7dW8pB5Nyt2l2_cnM1D2j_0Tp2I"
+      },
+      {
+        "id": "[2025-09-02]-air-jordan-1-personalizzazione-di-leggio-di-leggio-di-letta-bape-bape-bape-bape-bui-e-blu-decostruzione-cintri-di-faiburia-puro-puro-processo-originale-originale-originale-originale-oriena-originale-oriena-in-modello-perfettue-cast-casso-a-una-grazie-distrisce-qualsiasi-eattura-di-terra-e-versa-di-versola-round-in-commercio",
+        "name": "Nike Air Jordan 1 Personalizzazione Bape in Blu e Bianco Distinta Decostuzione con Cinture e Fascette Originali.",
+        "image": "https://drive.google.com/uc?export=view&id=1sgfEZzKxuIKGPPdLTocZ_67uKIh-B02z"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Chanel 2025 Autumn-Winter Style",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-04]-chanel🇫🇷-piccolo-spilla-nuovo-arrivo-in-negozio,-l'accessorio-che-comprende-meglio-le-donne.-donne-che",
+    "name": "New Balance Piccolo Accessorio per Donne",
+    "brand": "New Balance",
+    "images": [
+      "https://drive.google.com/thumbnail?id=1icpwIpxJwMLVkoS4ewRBPvyXb3agCnTJ&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1budI03vzu6P1pkHajD8Vu9rKyJ8PDaEj&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1cI7Zsr5k3_GSQOy0KzKKuJhLPSNXTICM&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1rxPlXTpJoF3tihTPX_7Hxy6CZ5xcfVjJ&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1byLrFo2bnO_uuxnwip5UdU58cDbPxJlf&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1elZUkc8beahYuhlM_dHJ6HE3NCgZJp-9&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1YnGPb_0rNSmMArCQxn8N17NKT_j14n0F&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1FH8OPf6Q6IYfGY_tcJP0cggBCA2W_Wpo&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1rxIZd_GZ785jbjk3sSUrVwIBJmWpTffo&sz=w1000"
+    ],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-02]-kith-x-asics-gel-kayano-12.1-marrone-e-blu-arancione-arancione-arancioni-con-co-branding-asics-versatile-sport-casual-jogging-scarpe-#original-nanofibra-composite-#light-ridotta-di-peso-del-55%-grammo-#new-ff-blasts-#gel-silicone-cushing-#ev-#ev",
+        "name": "Asics Kith Gel-Kayano 12.1 Marrone Blu Arancione",
+        "image": "https://drive.google.com/uc?export=view&id=11QliClzvgX4KbohrLVyRVj0Ll3jX-2wb"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Asics Gel Kayano Trainer 25",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Nike Women's 2025 Spring Release Sneaker",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-02]-asics-gel-kayano-14-grigio-verde-grigio-militare-di-14a-generazione-di-cuscino-ad-aria-nanofibra-varietà-di-scarpe-da-jogging-sport-casual-#original-nanofibra-composite-materiale-#lighten-55%-gram-peso-#new-ff-blast-plus-midsole-#gel-silicone-cuscato-#eva-#eva-#eva",
+        "name": "Asics Gel-Kayano 14 \"Grigio Verde",
+        "image": "https://drive.google.com/uc?export=view&id=13-5LXfjSwEumPUqVeoG1TyQM8YJuoH_k"
+      },
+      {
+        "id": "[2025-09-06]-il-nuovo-profumo-forte-di-gucci-love-lady-90ml-questo-nuovo-profumo-floreale-orientale-segue-la-ricchezza-e-l'eleganza-dell'originale-eau-de-toilette-lanciato-nel-2010.-secondo-gucci,-nella-concentrazione-più-raffinata-di-eau-de-parfum,-il-fiore,-il-fiore",
+        "name": "Gucci Love Lady Eau de Parfum 90ml",
+        "image": "https://drive.google.com/uc?export=view&id=1jjMhObzERb-TPe8tKV1CE0SmUVvsKlWp"
+      }
+    ]
+  },
+  {
+    "id": "miu-miu-x-forrest-gundo-scarpe-sviluppo-originale",
+    "name": "New Balance Forrest Gundo Scarpe",
+    "brand": "New Balance",
+    "images": [],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-2",
+        "name": "Gucci Slim Watch",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-03]-vans-classics-knu-skool-modello-di-mucca-in-bianco-e-nero-vans-edizione-grassa-ufficiale-scarpe-di-pane-per-lingua-spessa-scarpe-di-patate-super-popolari,-retrò-e-classico,-con-punta-allargata,-bordi-addensati-e-lingue-addensate.-vans-classics-classics-side-patate-shoes-k",
+        "name": "Vans Classics Knu Skool Shoes in Bianco e Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1-YzAmflZcUkKQyHj9dL_GkLPHldv-4f4"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Nike Fall Running Collection Release Date Tee",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-04]-puma-easy-rider-rosso-e-bianco",
+        "name": "PUMA Easy Rider Red & White",
+        "image": "https://drive.google.com/uc?export=view&id=1g9_ozaLKudyjGn25EqIKEPejbkPKI8OF"
+      },
+      {
+        "id": "[2025-09-04]-wanguo-changkinetic-moon-fase-expert,-la-nuova-serie-pilota-iw51584-orologio-da-fondo-trasparente",
+        "name": "IWC IW51584 Fase Moonphase Pilot Watch",
+        "image": "https://drive.google.com/uc?export=view&id=1hcpmcM3dgRHEhqLQovjzHB1UnqOt-C-j"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-04]-new-balance-nb5740-series-navy-blue-red-retro-casual-running-shoes-real-photos-first-release",
+    "name": "New Balance NB5740 Series Navy Blue Red Retro Casual Running Shoes",
+    "brand": "New Balance",
+    "images": [
+      "https://drive.google.com/thumbnail?id=1VY1YGq77dybtjFey1JK2j-p_NAhBQOb_&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1RBpfzZJL8bhwaFHTybxIIIsT23bBvj5E&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1zm0_20BY8YRUQxy3cQyxSzUf0RSuddh7&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1HeO6vUlN9kXaIlFZiiWd1ikr-nPAuDxM&sz=w1000",
+      "https://drive.google.com/thumbnail?id=10ydpBYnLFLdPwQdvg3jdvNxg2_bhVso0&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Vrc9g9G1hMG8Nih5nKsZb3ZWcubWDBWY&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1GR7Avr5NS24KV-Ss9bEkoJeLaI3O9wko&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1qJ_Fq79aGpVSHSPRcbOd_MIv4J5HJ2Zu&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1zXhkGUwqUQq0oOFySxhE21O29wSUh86q&sz=w1000"
+    ],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-serie-di-cinture-casuali-di-kuqi-maschile",
+        "name": "Gucci Mens Casual Belts",
+        "image": "https://drive.google.com/uc?export=view&id=15IM_gdl-zrEXDLvVqRRZeFLeNuPSjVC_"
+      },
+      {
+        "id": "[2025-09-04]-mlb-capelli-collar-abbigliamento-da-lavoro-giù-blu-navy-blue",
+        "name": "MLB Workwear Navy Blue Collar Capelli",
+        "image": "https://drive.google.com/uc?export=view&id=1HO9YiyRz-Y0yiF22DNoLaUp1U4FtmXTH"
+      },
+      {
+        "id": "[2025-09-04]-vans-caldrone-black-official-pang-scarpe-american-retro-(nuova-versione,-nuova-stampo-di-zecca,-new-version-basketing-knife)-retro-classic,-dito-ingrandito,-tessuto-a-maglie-traspirante-sul-corpo-della-scarpa,-addensato-di-bordi-e-addensato-di-lingua.-vans-classics-classics-scarpe-di-patate",
+        "name": "Vans Caldrone Retro Scarpe",
+        "image": "https://drive.google.com/uc?export=view&id=1u-aEf5uyLAsR0SNstIylub2qmDRiiyfP"
+      },
+      {
+        "id": "[2025-09-02]-asics-gel-sonoma-cn-bianco-e-nero",
+        "name": "Asics Gel-Sonoma 10  Black and White",
+        "image": "https://drive.google.com/uc?export=view&id=1wEKGOaqKhYC5E-rvfnRktPHGNtvP4aeD"
+      },
+      {
+        "id": "[2025-09-06]-copertina-di-magnete-di-ripristino-automatico-del-profumo-di-chanel-blue-uomini,-fragranza:-le-note-aromatiche-in-legno-combinano-l'aroma-fresco-fruttato-di-agrumi-e-il-ricco-aroma-di-cedro-ambra-secco,-interpretando-la-piacevole-atmosfera-di-divertimento-sensoriale.-le-note-muschiate-in-legno-aggiungono-un-ultimo-tocco-di-tenerezza.-ricco-nuovo-sandalo-caledonico,-cremoso-profumo-caldo-e-morbido-che-rende-le-persone-ubriache",
+        "name": "Chanel Blue for Men Perfume Automatic Magnetic Clam Case",
+        "image": "https://drive.google.com/uc?export=view&id=1U4lIo6IcXB0pIZ0LRh0eSntA_97a_FsN"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-04]-new-balance-nb5740-serie-nb5740-scarpe-da-jogging-casual-retrò-rosa-vera-uscita",
+    "name": "New Balance NB5740 Casual Retro Sneakers Rosa",
+    "brand": "New Balance",
+    "images": [
+      "https://drive.google.com/thumbnail?id=1NpZUrv1COhLuDZXOps23xoqT1pHaUfyj&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Q-87fwyDyJVlYtEm5b-gQKl6vvMEiUeL&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Mk2E9J9-1CBp9nDG1E2iJsmMWOnDzoph&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1QdaCk9A08Mt8DiWoFXPrSXADKomqiK50&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Kp0s60L7Rj29yMl51ZOTZE8EYAnN5ipv&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1nBw0wHD4Odt32awND7zq9GYrEJi-xlA-&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1frEki7oRXNiyZFJcW3kGiOxciYe9iLd6&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1EsS-1EI6F3NBAE-fR39ScgAp5lnVh6o-&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1ou_bLENX0mU1NeSwiH0-zRhy5eQ8mf6W&sz=w1000"
+    ],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-bass-per-spalla_assillaria-118-€",
+        "name": "Yves Saint Laurent BASS Shoulder Bag",
+        "image": "https://drive.google.com/uc?export=view&id=1ribs7eqNLAfaYR_RadjwfznA3H-6M8Zg"
+      },
+      {
+        "id": "[2025-09-02]-state-series-il",
+        "name": "Adidas State Series",
+        "image": "https://drive.google.com/uc?export=view&id=10zWP5X-1QH3H6DtOIoDu8NrP_bxeb40n"
+      },
+      {
+        "id": "[2025-09-02]-aj1-grey-shadow",
+        "name": "Nike AJ1 Grey Shadow",
+        "image": "https://drive.google.com/uc?export=view&id=1fYAOcRYYRdz5_UOEx62bkym9eBF5e1A0"
+      },
+      {
+        "id": "[2025-09-02]-[pff-factory]-patek-philippe-classical-series-5227-orologio",
+        "name": "Patek Philippe Classical Series 5227 Watch",
+        "image": "https://drive.google.com/uc?export=view&id=1Knt-KzPNsEthwevrUCk92RGoo2zPYp8C"
+      },
+      {
+        "id": "[2025-09-02]-adidas-yeezy-desert-500-fw2656-\"visione-morbida\"-thanos-purple",
+        "name": "Adidas Yeezy Desert 500",
+        "image": "https://drive.google.com/uc?export=view&id=13E2Tc9AAT67od1yYTA-XQksizhX1P6dD"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-04]-new-balance-wr530cb-grey-nb530-scarpe-da-jogging-casual-retrò-su-scaffale-reale",
+    "name": "New Balance WR530CB Scarpe da jogging",
+    "brand": "New Balance",
+    "images": [
+      "https://drive.google.com/thumbnail?id=1r_9-UprAjl7lV0YCorsh2Q9InO5ZVbpY&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1MAZrytOf0SOupnnoRJfR5Z5pj2SqpvIj&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1KjHbErnQDW6_59n7TBDTHmS3812W3hTn&sz=w1000",
+      "https://drive.google.com/thumbnail?id=16U0fRv4zj6E2jcJaWYWA_jd18iUu-p2S&sz=w1000",
+      "https://drive.google.com/thumbnail?id=12c7HMd5kQeDkaGfjA3fQnVXNhOs_602C&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1pW9Oi8Ri9F8pTXjH-SeOkta_0PKLFl_H&sz=w1000",
+      "https://drive.google.com/thumbnail?id=11xRJY2xvzu9vtm_BJOkVL6RMLv5PJkhr&sz=w1000",
+      "https://drive.google.com/thumbnail?id=18AFTUtyJRG4g8XGg4kM7QwiPBZ9CNNsn&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1yxg85OPMFhGfa4I1k9c-qe9Cr-0cLGTM&sz=w1000"
+    ],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-06]-frammento-x-travis-scott-x-lv-98-€",
+        "name": "Louis Vuitton Frammento x Travis Scott Collaboration",
+        "image": "https://drive.google.com/uc?export=view&id=1_x8dhnw2NkSdtSy6omQ0gveSjLiJeTpC"
+      },
+      {
+        "id": "[2025-09-03]-pago-millionaire-ep-strong-perfume-23-modelli-da-100-ml!",
+        "name": "1Milion Pago Millionaire Ep Strong Perfume 100ml",
+        "image": "https://drive.google.com/uc?export=view&id=1g7zmZq91t5rWPOff3RWqVLo8CdXQ422I"
+      },
+      {
+        "id": "[2025-09-06]-puma-ca-pro-p.uni-white,-grigio-e-blu",
+        "name": "PUMA Ca Pro P.Uni White, Grey, and Blue",
+        "image": "https://drive.google.com/uc?export=view&id=14-DgbjCJv48ZTYyzZ0MVYX65KXteDW7i"
+      },
+      {
+        "id": "[2025-09-04]-omega-orologio-da-quarzo-da-donna-di-moda",
+        "name": "Omega Donna Moda Orologio da Quarzo",
+        "image": "https://drive.google.com/uc?export=view&id=1ZbiB_sC17xyzDTgXB5Z5UL7ft3iLSczU"
+      },
+      {
+        "id": "[2025-09-04]-vans-classics-knu-skool-blue-orange-vans-nuova-scarpa-di-pane-a-colori-retrò-di-scarpe-di-patate-super-popolari,-classico-retrò,-dito-ingrandito,-bordi-addensati-e-lingua-addensata.-vans-classics-classics-side-patate-shoes-knu",
+        "name": "Vans Knu Classics Blue Orange",
+        "image": "https://drive.google.com/uc?export=view&id=10eK2Ul7YO4inuRzLi3XJxARoaLFrLPZG"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-04]-new-balance-mr530cf-white-powder-nb530-scarpe-da-jogging-casual-retrò-su-scaffale-reale",
+    "name": "New Balance MR530CF White Powder",
+    "brand": "New Balance",
+    "images": [
+      "https://drive.google.com/thumbnail?id=17eFRQbHrRKRaSA2NEJNpeGrHYHsLBSb_&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1UcOOMTNA47BnBZLvFOzVU64YlGtsZwLe&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1vWP4EeRLMKOVCOLP8xLoTHlaQdBTHW54&sz=w1000",
+      "https://drive.google.com/thumbnail?id=14EEs0KiidtKWjpTGPeKm_R-fPpsfMK3u&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1g6NKlDdpRul4k8gZWzKCd3Gfbi8ASoyF&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Pf6xCSxDyjv1AbBPGUUbIcUqY1gIZ0bd&sz=w1000",
+      "https://drive.google.com/thumbnail?id=19AJZXVwtbJinzvODXDJb_Nplu5nSrvKl&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1by_hBHq3YtDXeQo9Sg8kQhvdHvkbg-Rr&sz=w1000",
+      "https://drive.google.com/thumbnail?id=10-nVjNpvOG3GIWjhKfongmOoJlE9wOot&sz=w1000"
+    ],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-2",
+        "name": "The North Face The Thermoball Jacket 2025-09-25",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-04]-armani-armani-rose-small-disc-light-luxury-diamond-diamond-brick-red-orologio-rosso-ar11357-ar11356-armani-fashion-and-casual-women's-watch",
+        "name": "Emporio Armani Women's Armani Rose Small Disc Light Luxury Diamond Watch Red",
+        "image": "https://drive.google.com/uc?export=view&id=1RmcU7ZVmFB0RMCOf87YsZO2oP7doK8DD"
+      },
+      {
+        "id": "[2025-09-06]-miumiu-wander-hobo-fold-ascelle-118-€-€",
+        "name": "Miu Miu Wander Hobo",
+        "image": "https://drive.google.com/uc?export=view&id=1HMvDij4_u4oaZrdOsMxx88PTcOyL7F5D"
+      },
+      {
+        "id": "[2025-09-02]-richard-mill-rm51-02-xuan-diamond-tourbillon-series",
+        "name": "Richard Mille RM 51-02 Xuan Diamond Tourbillon",
+        "image": "https://drive.google.com/uc?export=view&id=16xLbosvPeqSoREyFi1xwrAwI_lbwUOzm"
+      },
+      {
+        "id": "[2025-09-04]-coach-reversible-city-tote33",
+        "name": "Coach Reversible City Tote",
+        "image": "https://drive.google.com/uc?export=view&id=1fxHhlbXIWijsqQbsyRlZ_pTe2cULmAk6"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-04]-new-balance-mr530cb-scarpe-da-jogging-casual-retrò-nb530-nb530,-vero-scatto-sugli-scaffali,-utilizzando-materiali-e-colla-originali,-alimentazione-tmall-mescolata-in-maggiori-commercianti,-set-completo-di-stampi-originali-puri,-taglio-in-pelle-originale,-texture-invincibile",
+    "name": "New Balance MR530CB Casual Retro Running Shoes",
+    "brand": "New Balance",
+    "images": [
+      "https://drive.google.com/thumbnail?id=1iMYCmXdkWXYvicCx3eWpAt1vgR9vJUvk&sz=w1000",
+      "https://drive.google.com/thumbnail?id=19vhxTQQsvDIu4n4PjJte2J7PWW7AdcTg&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1fIjdp699t0g6W5tGOOmQQLlLmTuhsTpb&sz=w1000",
+      "https://drive.google.com/thumbnail?id=16dEu-YHqj6oCh7JHXHPo1dPVEwDk53Ye&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Ni-Dhcdo_tWe_32vZpjFE3WdAV8c2boV&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1FK8MTfJedjbh0yu_bTiKoy2d2rLkIO0c&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1sYhcmA01yIVBgE6zpwryhOe_8XSoeV2_&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1aOZ5lEPEz9fHDAMx7LKEOJKlh2ypjhcX&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1dGTY7EKZD7iyv9Y-gpzABM1JXPcwQ7oF&sz=w1000"
+    ],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-new-chanel-xiaoxiang-orecchini-semicircolari-rossi-di-capodanno,-il-contatore-viene-lanciato-contemporaneamente.-il-materiale-coerente-originale-è-abbinato-a-orecchini-a-ago-in-argento-sterling💗-l'ottimo-lavoro-è-fatto-con-il-massimo-efficacia-in-termini-di-costi-e-la-massima-qualità-sull'intera-rete,-l'effetto-dell'orecchio-è-particolarmente-buono!-è-così-bello!-adatto-a-tutti-i-tipi-di-occasioni-festive-♥-️",
+        "name": "Chanel Semicircular Red Earrings with Sterling Silver Piercing and Counters",
+        "image": "https://drive.google.com/uc?export=view&id=15HGdz1ZFiRzvmvxvnEYm7SPHS0Xgbb1x"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "PUMA Men's Football Cleats 2025",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Coach Signature Wristwatch - 2025 Model",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-02]-state-series-il",
+        "name": "Adidas State Series",
+        "image": "https://drive.google.com/uc?export=view&id=10zWP5X-1QH3H6DtOIoDu8NrP_bxeb40n"
+      },
+      {
+        "id": "[2025-09-03]-chanel-2020-nuova-borsa-per-le-vacanze-primaverili",
+        "name": "Chanel Borsa da Viaggio primaverile",
+        "image": "https://drive.google.com/uc?export=view&id=1RcrDMhbklZUnS13BE7fKaBuLWL6Gxg0r"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-04]-new-balance-mr530ab-bianco-e-verde",
+    "name": "New Balance MR530AB",
+    "brand": "New Balance",
+    "images": [
+      "https://drive.google.com/thumbnail?id=15V5c1TWuOM7aiZt8ZlvMs72zl7rzS00L&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1G47z4TfJCYveThGGR4HCrxkxmNl0NnTS&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1kd7mtYev678RValJNHcUNztrGET8BLvT&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1sFmiDTCj50Hxwj393PQNbAExc583jYSU&sz=w1000",
+      "https://drive.google.com/thumbnail?id=167wiPYDZVTPOwY0MV5N46bRkCvyS9d92&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1UGGb3po6UYe67nG653TE2bMTN1aMZT4V&sz=w1000",
+      "https://drive.google.com/thumbnail?id=19nWLPbrH7mKyb1Ye0MZ4Ii9kbOQrzxp0&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1ScBBqhOJl-4RMGFAmx-Gip1bJjVqfmnr&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1e6JbGToR5iYQrIn2InWIc_A_dV-iFn5l&sz=w1000"
+    ],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-06]-vans-knu-skool-burgundy-vans-versione-grassa-ufficiale-scarpe-di-pane-per-lingua-spessa-scarpe-di-patate-super-popolari,-retrò-e-classico,-dito-ingrandito,-bordi-addensati-e-lingua-addensata.-vans-classics-classics-side-patate-school-knu-skool-è-perfetto",
+        "name": "Vans Knu Skool Burgundy Classic Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1z3OUU6J9l_hFFCIn1g_QTdSzt3V_0htF"
+      },
+      {
+        "id": "[2025-09-04]-bracciale-bracciale-lv-bracciale-craft🇷🇼-original-original-singolo-articolo🇷🇼-nuovo-modello-di-tendenza-retrò-essentials-di-moda-retrò-può-essere-indossato-da-uomini-e-donne-in-coppia-rock-punk-thai-argento-ad-stile-retrò-elementi-alla-moda-versatile-sito-ufficiale-l'ultima-catena-di-scollana-in-stile-star-di-grado-retro-della-catena-di-bracciali-argento-in-argento.",
+        "name": "Louis Vuitton Retro Chain Bracelet",
+        "image": "https://drive.google.com/uc?export=view&id=1TTz-UCVo2WgjbYNAwDsxRa3RCc0loZ-F"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Adidas Men's Football Boots 2024 (Assuming 2025 is not part of the model year, it could either represent the Release date or the product year is already 2024)",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-02]-cenere-vulcanica",
+        "name": "Adidas Cenere Vulcanica Sneaker",
+        "image": "https://drive.google.com/uc?export=view&id=1muneB56ZFhmlQCzmsv7_CDf-3uE_qxjb"
+      },
+      {
+        "id": "[2025-09-06]-mcqueen-&-grey-drop-coule",
+        "name": "Alexander McQueen Coule",
+        "image": "https://drive.google.com/uc?export=view&id=1W1aEVsJ7nDtUxLp5dp6oS9uESFiepPOL"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-04]-nuovo-equilibrio-mr530tg-grey-argento-nb530-scarpe-da-jogging-casual-retrò-scarpe-reale-usa-materiali-originali-e-la-fornitura-di-colla-tmall-mescolata-in-un-mazzo-di-controso",
+    "name": "New Balance MR 530 TG in Grey Argento",
     "brand": "New Balance",
     "images": [
       "https://drive.google.com/thumbnail?id=1jS-UQAVzo3WocV3vRRUe7f9arZvT1TBt&sz=w1000",
@@ -15,12 +715,64 @@
       "https://drive.google.com/thumbnail?id=1w8iKh_Xf7nPjLMLiDYcK8tPnj34X00yn&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-02]-asics-gel-kayano-14-grigio-nero-grigio-asics-di-14a-generazione-cuscino-ad-aria-nanofibra-varietà-di-scarpe-da-jogging-sport-casual-#original-nanofibra-composite-materiale-#lighten-55%-gram-peso-#new-ff-blast-plus-intervallo-#gel-silicone-cuscine-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaizza",
+        "name": "ASICS Gel-Kayano 14 Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1xzP3gzzrBuxPDCjaN9sTjq-7aRGzj15O"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Vacheron Constantin 2025 Release",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-04]-vans-classics-knu-skool-blue-vans-vans-ufficiali-di-pane-a-colorblocco-retrò-scarpe-di-patate-super-popolari,-classico-retrò,-dito-ingrandito,-bordi-addensati-e-lingua-addensata.-vans-classics-classics-side-patate-shoes-knu",
+        "name": "Vans Classic Skool Blue",
+        "image": "https://drive.google.com/uc?export=view&id=1HkBFAPWjVP4OTGB0MkluML2mCIKh3V92"
+      },
+      {
+        "id": "[2025-09-03]-yms-ultime-versione-rivista-e-aggiornata-vc-egérie-goddess-series",
+        "name": "Vacheron Constantin Egérie Goddess Series",
+        "image": "https://drive.google.com/uc?export=view&id=18vQf19ixf30b0z7tSEAGIgbLrk9JJy29"
+      },
+      {
+        "id": "[2025-09-02]-tw-factory-patek-philippe-complex-multifunctional-series-5905r-010",
+        "name": "Patek Philippe 5905R-010",
+        "image": "https://drive.google.com/uc?export=view&id=15xCpc1Pljn1R1vyENbY8xhxr-eSPQsEJ"
+      }
+    ]
   },
   {
-    "id": "nuovo-saldo-nb5740-serie-retro-scarpe-da-jogging-casual-puro",
-    "name": "Nuovo saldo NB5740 Serie retrò scarpe da jogging casual puro",
+    "id": "[2025-09-04]-nuovo-saldo-nb5740-serie-retrò-scarpe-da-jogging-casual-puro",
+    "name": "New Balance NB5740 Retro Running Shoes",
     "brand": "New Balance",
     "images": [
       "https://drive.google.com/thumbnail?id=1Iiij0gffiUGCvm1TJIyUvoY5wWCPQvkF&sz=w1000",
@@ -33,12 +785,64 @@
       "https://drive.google.com/thumbnail?id=1OSIRdzT3LS-kG04tdApsn5pdmhAxRoiF&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-03]-stan-smith-x-fiorucci-è-stato-co-brand-da-smith.-fiorucci,-un-noto-marchio-di-tendenza-nato-negli-anni-'60,-ha-attirato-l'attenzione-di-molti-giovani-oggi-con-la-sua-fantastica-creatività.-costantemente-l'arrivo-di-san-valentino-il-14-febbraio",
+        "name": "Adidas Stan Smith X Fiorucci",
+        "image": "https://drive.google.com/uc?export=view&id=1FBwB_XzNtDrfc9OKellzMTfgqcyrY0CX"
+      },
+      {
+        "id": "[2025-09-04]-𝐓𝐡𝐞-𝐍𝐨𝐫𝐭𝐡-𝐅𝐚𝐜𝐞-𝐍𝐮𝐩𝐭𝐬𝐞-𝐃𝐨𝐰𝐧-𝐉𝐚𝐜𝐤𝐞𝐭-north-1996-noptse-classic-american-giacca-arancione",
+        "name": "The North Face 2025 Nuptse Classic Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=1IkRRgrxsCYZniI2xDLnL_XmpEzEBJhPp"
+      },
+      {
+        "id": "[2025-09-06]-vans-classics-knu-skool-shoes-shoe-skool-scottish-scottish-scarpe-a-pane-rossa-imran-pato-e-furgoni-sono-scarpe-di-patate-super-popolari,-retrò-e-classico,-con-punta-allargata,-bordi-ispessiti-e-lingua-addensata.-vans-cla",
+        "name": "Vans Classics Old Skool Sneakers Red",
+        "image": "https://drive.google.com/uc?export=view&id=18dz-YKqk9f-GYyrtL8CvWRWwPLGBjV5W"
+      },
+      {
+        "id": "[2025-09-04]-vans-classics-knu-skool-nuovi-scarpe-da-fiori-ricamato-a-fiori-ricamati-e-scarpe-di-pane-per-lingua-shoi-di-patate-super-popolari,-retrò-e-classico,-con-punta-allargata,-bordi-addensati-e-lingue-addensate.-vans-classics-classics-side-patate-shoes-knu",
+        "name": "Vans Classics Knu Skool Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1bnAwOba7OoVe5YeuXMnkIrzgsonAz9UB"
+      },
+      {
+        "id": "[2025-09-04]-𝐕𝐢𝐯𝐢𝐞𝐧𝐧𝐞-𝐖𝐞𝐬𝐭𝐰𝐨𝐨𝐨𝐝🪐✨-collana-di-saturno-classica-di-alta-qualità-per-uomo-e-donna-collana-vivienne-westwood-queen-madre-saturno-collana!-lo-stilista-britannico,-madre-del-punk-nella-moda!-trend-di-moda",
+        "name": "Vivienne Westwood Saturno Classica Necklace for Men and Women",
+        "image": "https://drive.google.com/uc?export=view&id=1Sgy1lWd1Mjz2d8SJW1Wp-c10iCQHGrA-"
+      }
+    ]
   },
   {
-    "id": "salehe-bembury-x-new-balance-574-yurt-nb574-serie-di-co-brand-brand-scarpe-da-corsa-casual-retro",
-    "name": "Salehe Bembury x New Balance 574 Yurt NB574 Serie di co-brand-brand Scarpe da corsa casual retrò",
+    "id": "[2025-09-04]-salehe-bembury-x-new-balance-574-yurt-nb574-serie-di-co-brand-brand-scarpe-da-corsa-casual-retrò",
+    "name": "New Balance Salehe Bembury 574 Yurt",
     "brand": "New Balance",
     "images": [
       "https://drive.google.com/thumbnail?id=1KEYjipjY0gpabIjwZEtMY_p5nGvN2BJB&sz=w1000",
@@ -52,12 +856,64 @@
       "https://drive.google.com/thumbnail?id=1C3Xkm7UoBqGhxBOl_hKi4DK1Qj0uNmio&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-2",
+        "name": "Vans Women's 2025 Low Top Skateboarding Shoes",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Asics Men's Gel-Kayano 29 Running Shoes (2025 Model)",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-04]-profumo-dior-100ml🔜fahrenheit-fragranza-leggera-da-uomo",
+        "name": "Dior Profumo Fahrenheit 100ml Eau de Toilette for Men",
+        "image": "https://drive.google.com/uc?export=view&id=1AaV3DxyVE4M4_8NwgZ6QzamznRZI4dnE"
+      },
+      {
+        "id": "[2025-09-02]-allenamento-morale-in-bianco-e-nero",
+        "name": "Adidas Allenamento morale bianco nero",
+        "image": "https://drive.google.com/uc?export=view&id=10Cru7fUKNoH52uObP7Tkp-FJ68PXKhla"
+      },
+      {
+        "id": "[2025-09-06]-lv-x-timberland-tongbolan-co-brand-model-125-€-€",
+        "name": "Louis Vuitton Co-branded Model",
+        "image": "https://drive.google.com/uc?export=view&id=1Ki3c8BF8O89zn2Hwwcrt6-BMTFdbwZSs"
+      }
+    ]
   },
   {
-    "id": "new-balance-mr530ta-silver-black-nb530-scarpe-da-jogging-casual-retro-sugli-scaffali",
-    "name": "New Balance MR530ta Silver Black NB530 Scarpe da jogging casual retrò sugli scaffali",
+    "id": "[2025-09-04]-new-balance-mr530ta-silver-black-nb530-scarpe-da-jogging-casual-retrò-sugli-scaffali",
+    "name": "New Balance MR530ta Silver Black",
     "brand": "New Balance",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZaGheLv1rRangsznspgdQC2AQHgDpyPk&sz=w1000",
@@ -71,12 +927,64 @@
       "https://drive.google.com/thumbnail?id=1rqkql0TrKKsZpo5ZgaXPQ-XroIhkdTKZ&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-02]-il-miglior-lavoro-di-replica-dell'anno-di-hengbao-hublot-hublot-hublot-big-bang-soul-series-641.jx.0120.rt-\"full-transparent-watch\"",
+        "name": "Hublot Big Bang Soul Series 641.JX.0120.Rt Full Transparent Watch",
+        "image": "https://drive.google.com/uc?export=view&id=1HqkUcR-by2Tr3okI6p0QtQNLVc7GEbit"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Gucci Slim Watch",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Men's Asics Gel-Nimbus Running Shoes",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-03]-puma-smash-v2-vulc-cv-pure-white",
+        "name": "Puma Smash V2 Vulc",
+        "image": "https://drive.google.com/uc?export=view&id=1LiUO8q_uuhIiHYl9J71_IRrbcE_3F5DX"
+      },
+      {
+        "id": "[2025-09-04]-ugg-tasman-weather-hybrid-series-24ss-autumn-and-winter-new-style,-stivali-martin-casual-a-mezza-crollo-all'aperto,-stivali-da-neve-#purchasing-agente-per-qualità,-il-tessuto-è-realizzato-in-materiale-in-metà-della-vacca-importata,-l'interno-della-scarpa-è-🔥-furry-integrated-interner-lock,-caldo.-gomma-anti-slip-esterna",
+        "name": "Gucci Tasman Weather Hybrid Series Stivali Casual Waterproof Snow Boots - Cowhide Upper with Furry Lining.",
+        "image": "https://drive.google.com/uc?export=view&id=1ISPR0YPxc9PBRrSlgIJ_SAdEBei99xbe"
+      }
+    ]
   },
   {
-    "id": "new-balance-nb5740-series-grey-red-casual-jogging-shoes-real-shot-first-release",
-    "name": "New Balance NB5740 Series Grey Red Casual Jogging Shoes Real Shot First Release",
+    "id": "[2025-09-04]-new-balance-nb5740-series-grey-red-casual-jogging-shoes-real-shot-first-release",
+    "name": "New Balance 5740 Series Grey Red Casual Jogging Shoes",
     "brand": "New Balance",
     "images": [
       "https://drive.google.com/thumbnail?id=16YJ27Gqar9N9LaoRzZGMDed7oBpv_2Kd&sz=w1000",
@@ -90,12 +998,64 @@
       "https://drive.google.com/thumbnail?id=10mLw4NG5yMlSxOFwoovLB3vkRsZhkHjC&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-wanguo-changkinetic-moon-fase-expert,-la-nuova-serie-pilota-iw51584-orologio-da-fondo-trasparente",
+        "name": "IWC IW51584 Fase Moonphase Pilot Watch",
+        "image": "https://drive.google.com/uc?export=view&id=1hcpmcM3dgRHEhqLQovjzHB1UnqOt-C-j"
+      },
+      {
+        "id": "[2025-09-03]-bracciale-balenciaga-🇷🇼thai-silver-style-bracele-bracciale-blenciaga-celebrità-same-stile-per-uomini-e-donne-retrò-e-vecchio-stile-replica-originale-puro-a-mano-pure-~-autentica-modello-di-apertura-e-elementi-essenziali-di-moda-per-uomini-e-donne-possono-indossare-coppie-rocciose-in-stile-thai-argento-elementi-retrò-trendy-e-versatili-super-come-💕",
+        "name": "Balenciaga Thai Silver Style Bracelet",
+        "image": "https://drive.google.com/uc?export=view&id=1-IzV2v1SNU_dJlkTmuTchvTT1z7SjVtZ"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Descente Ladies' 2025 Autumn 2nd Release",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Gucci 2025-09-02",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-04]-vans-knu-skool-scarpe-per-pane-a-metà-top-versioni-grasse-ufficiali-scarpe-di-pane-nero-vans-super-populari-scarpe-di-patate,-retrò-e-classico,-dito-ingrandito,-bordi-ispessiti-e-lingua-addensata.-vans-classics-classics-side-patate-scarpe-knu-skool",
+        "name": "Vans Old Skool Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1IEKxrZUloednSTdsotaaKpdjT2sCman6"
+      }
+    ]
   },
   {
-    "id": "miu-miu-miu-x-new-balance-nb530-sport-retro-co-brand-e-le-scarpe-casuali-di-addestramento-di-forrest-gundam-training-original-development-dising-drom-the-classic-nb530-sneakers-ha-lanciato-la-sua-versione-iterativa-530sl-le-sneaker-sono-decostruite-e-leggere-per-un-po-di-vecchio-stile",
-    "name": "Miu Miu Miu X New Balance NB530 Sport retrò co-brand e le scarpe casuali di addestramento di Forrest Gundam Training Original Development Dising Drom the Classic NB530 Sneakers ha lanciato la sua versione iterativa 530SL Le sneaker sono decostruite e leggere per un po di vecchio stile",
+    "id": "[2025-09-04]-miu-miu-miu-x-new-balance-nb530-sport-retrò-co-brand-e-le-scarpe-casuali-di-addestramento-di-forrest-gundam-training-original-development-dising-drom-the-classic-nb530-sneakers,-ha-lanciato-la-sua-versione-iterativa-530sl.-le-sneaker-sono-decostruite-e-leggere-per-un-po-'di-vecchio-stile",
+    "name": "New Balance NB530SL Sneakers",
     "brand": "New Balance",
     "images": [
       "https://drive.google.com/thumbnail?id=1k3hcohTta_WWQ-FaKxFT2b6TnnpmD-KY&sz=w1000",
@@ -109,12 +1069,64 @@
       "https://drive.google.com/thumbnail?id=1fUi5tvoSKZzzb3uWBGUQvNjHVJ2Ev44i&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-mcqueen-haze-blue-tail",
+        "name": "Alexander McQueen Haze Blue Tail",
+        "image": "https://drive.google.com/uc?export=view&id=1blcagRjnfjP3qssRpL__Jsj6I9NWT05d"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Nike 2025 Release - 09/15 Model",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-03]-allenatore-dell'esercito-puma-bianco,-grigio,-nero",
+        "name": "Allenatore dell'esercito Puma \n\n(Note: Removed date, redundant color description)",
+        "image": "https://drive.google.com/uc?export=view&id=1abyoMXp5-jFMXP1M_rFIKdFqnZuylYH4"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Asics Gel Kayano Trabuco",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Vans 2025-09-2",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      }
+    ]
   },
   {
-    "id": "perfume-without-impurities-all-details-correct-not-comparable-to-market-11-quality-can-be-used-as",
-    "name": "Perfume without impurities all details correct not comparable to market 11 quality can be used as",
+    "id": "[2025-09-06]-perfume-without-impurities,-all-details-correct,-not-comparable-to-market-11-quality,-can-be-used-as",
+    "name": "New Balance Perfume",
     "brand": "New Balance",
     "images": [
       "https://drive.google.com/thumbnail?id=1dS_bZn63a2fktDvOfjAeTWnDPV_b2MxY&sz=w1000",
@@ -127,12 +1139,125 @@
       "https://drive.google.com/thumbnail?id=1sLEANdVMhoDa9pe90RIINpq7MVQUN2DE&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-puma-smash-v2-vulc-cv-in-bianco-e-nero",
+        "name": "PUMA Smash V2 Vulc CV",
+        "image": "https://drive.google.com/uc?export=view&id=1ZS45P4hXNviu0ghwMdjDsTqtEdAG5tBA"
+      },
+      {
+        "id": "[2025-09-04]-casio-casio-watch-g-shock-black-and-red-contrast-classic-square-expression-coppia-orologio-dw-5600hr-1",
+        "name": "Casio G-Shock DW-5600HR-1 Watch",
+        "image": "https://drive.google.com/uc?export=view&id=1qYlgxX_wKxatngXSqA8f776lLst-Wgah"
+      },
+      {
+        "id": "[2025-09-04]-mcqueen-&-purple-fleece-tail",
+        "name": "Alexander McQueen Purple Fleece Tail",
+        "image": "https://drive.google.com/uc?export=view&id=1V0qqFpkXv6MPHTVn9kvlqS1gepG5uTdh"
+      },
+      {
+        "id": "[2025-09-04]-fila-fusion",
+        "name": "Fila Fusion",
+        "image": "https://drive.google.com/uc?export=view&id=1t1_oxYQvCFxpWyZOdLIpEXU0XyTMjwQo"
+      },
+      {
+        "id": "[2025-09-02]-asics-gel-kayano-14-grigio-nero-grigio-asics-di-14a-generazione-cuscino-ad-aria-nanofibra-varietà-di-scarpe-da-jogging-sport-casual-#original-nanofibra-composite-materiale-#lighten-55%-gram-peso-#new-ff-blast-plus-intervallo-#gel-silicone-cuscine-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaio-#eva-acciaizza",
+        "name": "ASICS Gel-Kayano 14 Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1xzP3gzzrBuxPDCjaN9sTjq-7aRGzj15O"
+      }
+    ]
   },
   {
-    "id": "ugg-tasman-weather-hybrid-series-outdoor-mid-top-casual-martin-boots-snow-boots-with-integrated-plus",
-    "name": "UGG Tasman Weather Hybrid Series Outdoor Mid-Top Casual Martin Boots Snow Boots with Integrated Plus",
+    "id": "real-shot-first-release",
+    "name": "New Balance Real Shot First Release",
+    "brand": "New Balance",
+    "images": [],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-03]-vans-caldrone-white,-vance-ufficiale,-scarpe-da-lastra-retrò-americana-(nuova-versione-di-pane,-nuova-stampo,-nuova-versione-del-coltello-da-punzonatura)-classico-retrò,-punta-allargata,-tessuto-a-maglie-traspirante-sul-corpo-della-scarpa,-addensata-con-bordi-e-addensata-con-lingua.-patame-classici-classici-di-vans-classics",
+        "name": "Vans caldrone White, Ufficiale, Scarpe da Lastra Rétro Americana (Nuova Versione, Stampo Nuovo)",
+        "image": "https://drive.google.com/uc?export=view&id=1dMc9jdx7BtHrbO9ANnY19kxrK3tiUL7B"
+      },
+      {
+        "id": "[2025-09-03]-puma-x-sophia-webster-ghirlanda-rosa-bianco",
+        "name": "Puma Sophia Webster Ghirlanda Rosa Bianco Sneaker",
+        "image": "https://drive.google.com/uc?export=view&id=1rOrSLWHo9CxfWRSHpWlrtX-7B_bmS088"
+      },
+      {
+        "id": "[2025-09-06]-vans-classics-knu-skool-shoes-shoe-skool-scottish-scottish-scarpe-a-pane-rossa-imran-pato-e-furgoni-sono-scarpe-di-patate-super-popolari,-retrò-e-classico,-con-punta-allargata,-bordi-ispessiti-e-lingua-addensata.-vans-cla",
+        "name": "Vans Classics Old Skool Sneakers Red",
+        "image": "https://drive.google.com/uc?export=view&id=18dz-YKqk9f-GYyrtL8CvWRWwPLGBjV5W"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Nike Performance Running T-Shirt 2025 - Release Date September 2nd",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Nike 2025 Release - 09/15 Model",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-06]-ugg-tasman-weather-hybrid-series-outdoor-mid-top-casual-martin-boots-snow-boots-with-integrated-plus",
+    "name": "New Balance 998 Winter Boot",
     "brand": "New Balance",
     "images": [
       "https://drive.google.com/thumbnail?id=1JYlaaW_V-2uz3QTTjqc9KvNBEcT48czr&sz=w1000",
@@ -146,69 +1271,382 @@
       "https://drive.google.com/thumbnail?id=1Z3bopbO1ch00zpMDsXqHr1T-sL4X21xi&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-hoka-one-one-sky-blue",
+        "name": "Hoka One One Sky Blue",
+        "image": "https://drive.google.com/uc?export=view&id=1Pp0825UvAk00WZElAtjyhK4u-ygQ80s_"
+      },
+      {
+        "id": "[2025-09-02]-serie-di-lusso-a-watch-blue-blue-cartier",
+        "name": "Cartier Serie di lusso a Watch Blue",
+        "image": "https://drive.google.com/uc?export=view&id=19BcEi0R-mnPS4rPHF3GFca8sjRYnTHA0"
+      },
+      {
+        "id": "[2025-09-06]-puma-x-central-saint-martins-ralph",
+        "name": "PUMA x Central Saint Martins",
+        "image": "https://drive.google.com/uc?export=view&id=1c64Gk-ZwUGIUmnP_HUTLMTNB-erXxhha"
+      },
+      {
+        "id": "[2025-09-02]-asics-onitsuka-tigre-tokuten-riso-blu-grigio-grigio-asics-onitsuka-tigre-scarpe-sportive-retrò-neutre-leggera-e-comoda-moda-e-stile-retrò-e-la-luce-integrato-adatto-per-estate-~-semplici-impostazioni-con-linee-sottili-sono-fatti-in-pelle-cupi",
+        "name": "Asics Onitsuka Tigre Riso Blu Grigio-Grigio",
+        "image": "https://drive.google.com/uc?export=view&id=1e6c0FDBfwGuXi9KPzxLISktsC73YZ5j3"
+      },
+      {
+        "id": "[2025-09-04]-giacca-gamma-archeopteryx-gamma",
+        "name": "Arc-teryx Gamma Archeopteryx Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=1T7HsjtsTEWDN5FmWYoFKbEmmRmg0Sm9n"
+      }
+    ]
   },
   {
-    "id": "2025-09-2-95",
-    "name": "2025-09-2",
+    "id": "gli-stivali-da-uomo-ugg-sono-disponibili-esclusivamente-sugli-scaffali-2020-nbghborozio",
+    "name": "New Balance Men's 2020 NBGHBOROZIO Boots",
     "brand": "New Balance",
+    "images": [],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-02]-[pff-factory]-patek-philippe-classical-series-5227-orologio",
+        "name": "Patek Philippe Classical Series 5227 Watch",
+        "image": "https://drive.google.com/uc?export=view&id=1Knt-KzPNsEthwevrUCk92RGoo2zPYp8C"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Adidas Women's 2-Stripe Running Tights",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-04]-puma-speedcat-the-open-yy75-€-€",
+        "name": "PUMA Speedcat The Open",
+        "image": "https://drive.google.com/uc?export=view&id=1-Xp6qtdmsh3m6v0l_DpBoJwDEyuKAKQm"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Nike Air Zoom Alphafly Next% Mens Running Shoe",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-02]-asics-gel-nyc-retro-retro-itebi-brown-and-blue-asics-nuovi-sport-di-strada-spessa-e-scarpe-casual-asics-asics-lancia-il-nuovo-gel-nyc-per-evidenziare-la-vitalità-di-new-york-city.-questa-nuova-serie-incorpora-lo-stile-di-design-classico-di-più-versioni-di-gel-ed-è-stata-ampiamente-elogata.-la-sua-ispirazione-del-design",
+        "name": "Asics Gel-NYC Retro Itebi Brown Blue",
+        "image": "https://drive.google.com/uc?export=view&id=1n_EgJpf-QEeXTEpOwQEBAOx4DF_gNGY0"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-2",
+    "name": "New Balance Men's 990V7 Black/White Trainer Sneaker",
+    "brand": "Descente",
     "images": [
-      "https://drive.google.com/thumbnail?id=1zezX_izhaXDlCyd-xI3QROcKXlV474aP&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1r9_bqKcMSapIFH-XGmk6UfTmkLAhPiDa&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1W1jAHEPOiRwgv7gLlnXYWf6rDlYrI8u9&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1i-D7w5B2sA9MAWnuBMnuYcWMFz-XTflA&sz=w1000",
-      "https://drive.google.com/thumbnail?id=12nJK5s5fi5fVy_ldU-tNTPIPZBl6OYzh&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Y3-7oewxBsG7-Bw05tOBY6GYcntqhF8-&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1kKWE36DJrGPRWXFXbDfNwjEh_aq3Y9Mj&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1I_MlJcQariVbY9E4h2-1VjzaX5R4lHDh&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1OA6mtfKrc4juXFy5IKq82x00DubLPo0F&sz=w1000"
+      "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1wq0SR2ElwfFar-nU0W3nEldgU8Wwaa86&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1_yfba2TzlCFAjli-84hjQOdejJsbQ8DQ&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1WTTAPT2Cf1UFXaNm049-9GQTR5MUAyMK&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1rHNStPbiipZEA4e2f7LiwtGq3q1vqUFj&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1vzJtqSIT1I5zsddmlGjCX6zKs-nfAWPX&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1eJsUY_a_8nUwXnstQA8KCrtuSMQquY6Y&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Eek6yLjtCOd_b1GKau-VOkODErN8klB1&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1XIUGldwOG-C-mbhV6fU8IYpCt8hdrJZW&sz=w1000"
     ],
     "variants": [],
     "similar": [],
-    "recommended": []
+    "recommended": [
+      {
+        "id": "[2025-09-03]-puma-smash-v2-vulc-cv-bianco-e-nero",
+        "name": "PUMA Smash V2 Vulc",
+        "image": "https://drive.google.com/uc?export=view&id=1aW9CJWsZMAFwqEydOfGtLpIkMllY15pi"
+      },
+      {
+        "id": "[2025-09-04]-studri-d'oro-lv-louis-vuitton-la-personalità-porta-una-visione-alla-moda-e-interessante,-e-il-brillante-processo-di-taglio-rende-la-lucidatura-della-superficie-molto-bella-a-360-gradi-e-abbagliante.-tutti-gli-aspetti-sono-perfetti.-il-design-generale-è-semplice-e-altamente-riconoscibile-ed-elegante.-studi-atmosferici",
+        "name": "Louis Vuitton Studri d'Oro",
+        "image": "https://drive.google.com/uc?export=view&id=15bISmxr-uvKCAVv044K8BHnZLPCKjeqK"
+      },
+      {
+        "id": "[2025-09-02]-cartier-cartler-🎉-blue-balon",
+        "name": "Cartier Blue Ballon",
+        "image": "https://drive.google.com/uc?export=view&id=1eotHqps5Ty4b-QFbomZ-z98xaERP48ag"
+      },
+      {
+        "id": "[2025-09-06]-iv-louis-vuitton-presbyterian-watch",
+        "name": "Louis Vuitton IV Watch",
+        "image": "https://drive.google.com/uc?export=view&id=1NGe9GHXUquci7CtywGsKmJJXCVIVh8ML"
+      },
+      {
+        "id": "[2025-09-04]-e035-modello-3824lb-lyndale-new-women-down-giacca.",
+        "name": "Canada Goose Lyndale Down Jacket.",
+        "image": "https://drive.google.com/uc?export=view&id=1YjZw5C7_S2kJYaehN-ka0eRIAEkGngtf"
+      }
+    ]
   },
   {
-    "id": "2025-09-2-96",
-    "name": "2025-09-2",
+    "id": "adidas-clover-laser-rhombus-zaino-originali-urbano",
+    "name": "New Balance Backpack Urban",
     "brand": "New Balance",
+    "images": [],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-06]-mk-women's-bag",
+        "name": "MK Women's Bag",
+        "image": "https://drive.google.com/uc?export=view&id=1VEk1ykxvxPkTZ0eI31xZ9jSl_0QikcTp"
+      },
+      {
+        "id": "[2025-09-03]-bad-bunny-x-ad-originals-response-cl-rice-brown-powder-bad-rabbit-co-brown-brunod-retrò-scarpe-da-corsa-casual.-i-veri-scatti-sono-sugli-scaffali.-il-corpo-della-scarpa-è-realizzato-in-pelle-scamosciata-e-mesh-di-grandi-dimensioni,-che-è-piena-di-atmosfera-retrò.-l'intersuola-adotta-adidas-classic-adiprene",
+        "name": "Adidas Bad Bunny X Originals Response Cl. Rice Brown Powder Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=11ZQ9-wDaooIvXZu_i-3r4vlQee-E3X5o"
+      },
+      {
+        "id": "[2025-09-02]-asics-onitsuka-tigre-tokuten-rosa-e-viola-asics-onitsuka-tigre-scarpe-sportive-retrò-neutre-luce-e-comoda-moda-e-stile-retrò-e-integrato-adatto-per-estate-~-semplici-ambientazioni-con-linee-sottili-sono-fatti-in-pelle-cupiosa-e-trasuda-il-giappone",
+        "name": "Asics Onitsuka Tigre Rosa E Viola Scarpe Sportive",
+        "image": "https://drive.google.com/uc?export=view&id=1MqLcrV6i9iDL7PYNLMlj2Wzn23tBGz1Y"
+      },
+      {
+        "id": "[2025-09-02]-og-little-lightning",
+        "name": "Nike OG Little Lightning",
+        "image": "https://drive.google.com/uc?export=view&id=1IoMEs-26xUz4fiKNohpg7FjcjD-6qIm3"
+      },
+      {
+        "id": "[2025-09-04]-vans-knu-skool-scarpe-di-pane-a-metà-top-vans-edition-ufficiale-scarpe-per-pane-marrone-vans-shoe-di-patate,-retrò-e-classico,-con-punta-allargata,-bordi-addensati-e-lingua-addensata.-vans-classics-classics-side-patate-scarpe-knu-skool",
+        "name": "Vans Knu Skool Classic Waffle Sneakers.",
+        "image": "https://drive.google.com/uc?export=view&id=1HnNO3yPud3UxDY1hmcT78WXMxSSHMFPe"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-2",
+    "name": "New Balance 9/15/2025-9/2",
+    "brand": "Descente",
     "images": [
-      "https://drive.google.com/thumbnail?id=1_V--Wt177fPLd5BXqwYeXioMMhhyXwBC&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1JBSodoPdWIsXkh8Qgeq6tMe523UYJYuP&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1YwPSSa_bM82H7D3sTeWov-5h83o31H5o&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1kW1lrHzgsHtZdNTiEmwvlBXfz661O_kn&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1K8EPS-4WDUaKXtRGWWKXiqxnWUJlEX4c&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1ADDZFa5KjR7_Df0_oEdmr0mnYGsgPwhy&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1FDSbrMeR1BvpMXKLowJWtlwft77y23Ee&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1ZkLfyD6F2hEb4dJIvfGzIsm8tw7gGRF0&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1n52v-6q4QIg1FOwFgCr03Y4898a7JtbS&sz=w1000"
+      "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1wq0SR2ElwfFar-nU0W3nEldgU8Wwaa86&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1_yfba2TzlCFAjli-84hjQOdejJsbQ8DQ&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1WTTAPT2Cf1UFXaNm049-9GQTR5MUAyMK&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1rHNStPbiipZEA4e2f7LiwtGq3q1vqUFj&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1vzJtqSIT1I5zsddmlGjCX6zKs-nfAWPX&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1eJsUY_a_8nUwXnstQA8KCrtuSMQquY6Y&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Eek6yLjtCOd_b1GKau-VOkODErN8klB1&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1XIUGldwOG-C-mbhV6fU8IYpCt8hdrJZW&sz=w1000"
     ],
     "variants": [],
     "similar": [],
-    "recommended": []
+    "recommended": [
+      {
+        "id": "[2025-09-04]-𝐊𝐨𝐥𝐨𝐧kelong-giacca-di-colla-a-pressione-completa",
+        "name": "Kolon Kelong Waterproof Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=1JUPm9zh242O3Sxb9FyXqXt8KNEsfRV5f"
+      },
+      {
+        "id": "[2025-09-06]-dujia-vintage-faye-wong-model",
+        "name": "Louis Vuitton Vintage Handbag Dujia Faye Wong Model",
+        "image": "https://drive.google.com/uc?export=view&id=1GwhMCtGswERjNkvdZjAp3gMLqCe0jrVW"
+      },
+      {
+        "id": "[2025-09-03]-l's-classic-speedy",
+        "name": "L'S Classic Speedy",
+        "image": "https://drive.google.com/uc?export=view&id=1Kvm7U6jeqDBNeiy344vqkm2deezlMkLG"
+      },
+      {
+        "id": "[2025-09-02]-asics-gel-sonoma-15-50-bei-white-asics-in-stile-mountain-sthie-outdoor-scarpe-sporti-sporti-per-lascire-coscio-stile-fazionale-alde-e-migliore-popolare.-che-si-tratti-di-abbinamento-o-prestazioni-del-colore,-si-sente-saldamente-cuori-delle-giovani-generazioni.-questa-scarpa-ha-molti-aspetti-dal-design,-tecnologia-alla-corrispondenza-dei-colori",
+        "name": "Asics Gel-Sonoma 15",
+        "image": "https://drive.google.com/uc?export=view&id=1mcSSLKtXAhic8tgm-4w3dCH5hDRsBDcV"
+      },
+      {
+        "id": "[2025-09-06]-puma-bella-ut-bello-e-nero",
+        "name": "PUMA Bella Ut Bello e Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1vT3zntZiz5MdmVpFSj6dWoxR8Vh-dtKk"
+      }
+    ]
   },
   {
-    "id": "2025-09-2-97",
-    "name": "2025-09-2",
+    "id": "prodotto-generico",
+    "name": "New Balance Prodotto Generico",
     "brand": "New Balance",
+    "images": [],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-2",
+        "name": "Men's Asics Running Shoes",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-06]-serie-di-allenatore-donkey-scarpe-in-denim-bianco-grigio",
+        "name": "Louis Vuitton Donkey Golf Shoes in White Grey Denim",
+        "image": "https://drive.google.com/uc?export=view&id=118LW7gfKqqfDJl1zIySSsOKNY6xgiNAu"
+      },
+      {
+        "id": "[2025-09-02]-asics-onitsuka-tigre-tokuten-bianco,-blu-e-rosso-asics-onitsuka-tigre-scarpe-sportive-retrò-neutre-leggera-e-comoda-di-moda-e-retrò-e-stile-di-luce-integrato-adatto-per-estate-~-semplici-impostazioni-con-linee-sottili-sono-fatti-in-pelle-cupi",
+        "name": "Asics Onitsuka Tigre Tokuten Bianco Blu Rosso",
+        "image": "https://drive.google.com/uc?export=view&id=1Nn_ioufRP3m4komrCYNLBRwYxS7ImR_W"
+      },
+      {
+        "id": "[2025-09-02]-luce-di-coda",
+        "name": "Adidas Luce Di Coda",
+        "image": "https://drive.google.com/uc?export=view&id=1xz7D5UvgkW6gOn-kscWvROAadxxRUkeo"
+      },
+      {
+        "id": "[2025-09-06]-hermes-kelly-ascarica-borsa",
+        "name": "Hermes Kelly Ascarica Bag",
+        "image": "https://drive.google.com/uc?export=view&id=1RrBeVSJsV6UK9I6E9GOEcG9mMdD8kC-c"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-2",
+    "name": "New Balance 2025 September Release Collection",
+    "brand": "Descente",
     "images": [
-      "https://drive.google.com/thumbnail?id=1ChVQFAms2uBu6RPWgrCTsCvqB4JFPSDL&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1xxNPkMV7WJ3Nbrt2wew-OYbIfaLa5EJX&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1rIWWWArZSnkwluAwcYiEQDPQeU1w-YfM&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1RIzOVxmauhdbyl0bF-f55UVpqHr0ubDJ&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1wexaGNcaoN6g_LCqMPxp-D3uUZoHpRIn&sz=w1000",
-      "https://drive.google.com/thumbnail?id=12uEVUICvkmeEBiHHwf9DaMZGQWgcmKWz&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1XObZALZls6wKpZyGuVBmr0Jc-I-QXP7q&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1LhV8MJgGsIdjFM39R6jRnJDaTDF7w6aj&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1__K7OjwwBA0X4KJdg0KHOe_5D9b2u272&sz=w1000"
+      "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1wq0SR2ElwfFar-nU0W3nEldgU8Wwaa86&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1_yfba2TzlCFAjli-84hjQOdejJsbQ8DQ&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1WTTAPT2Cf1UFXaNm049-9GQTR5MUAyMK&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1rHNStPbiipZEA4e2f7LiwtGq3q1vqUFj&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1vzJtqSIT1I5zsddmlGjCX6zKs-nfAWPX&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1eJsUY_a_8nUwXnstQA8KCrtuSMQquY6Y&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Eek6yLjtCOd_b1GKau-VOkODErN8klB1&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1XIUGldwOG-C-mbhV6fU8IYpCt8hdrJZW&sz=w1000"
     ],
     "variants": [],
     "similar": [],
-    "recommended": []
+    "recommended": [
+      {
+        "id": "[2025-09-02]-nike-air-force-1-basso-macaron",
+        "name": "Nike Air Force 1 Basso Macaron",
+        "image": "https://drive.google.com/uc?export=view&id=1VtIrsu2cQqMO192cOl30yEaZiTsOgMDf"
+      },
+      {
+        "id": "[2025-09-02]-generazione-di-cocco-verde-matcha",
+        "name": "Adidas Generazione Di Cocco Verde Matcha",
+        "image": "https://drive.google.com/uc?export=view&id=1T-Kv9Tz1nOmLDd1F67Js0jPRIF1uMfG_"
+      },
+      {
+        "id": "[2025-09-04]-1⃣️pink-edt:-adatto-alle-ragazze-che-prendono-il-percorso-dolce,-con-un-gusto-molto-dolce.-adatto-a-donne-che-sono-felici-e-sorridenti-tutto-il-giorno-2⃣-⃣-edt:-è-sicuramente-un-piatto-fresco-con-un-sapore-molto-naturale,-più-sfrenato-ed-energico.-adatto-a-donne-in-amore-3⃣️acco-edp,-adatto-a-giovani-donne-mature",
+        "name": "Chanel Pink Eau de Toilette",
+        "image": "https://drive.google.com/uc?export=view&id=1TxdXJV8w-qGBD13fXNrLNYkvyrTvm6nT"
+      },
+      {
+        "id": "[2025-09-06]-viene-lanciata-la-serie-aggiornata-dell'ereditarietà-di-vacheron-costantin-vc-🎮rp6!",
+        "name": "Vacheron Constantin Updated Heritage Collection",
+        "image": "https://drive.google.com/uc?export=view&id=1ANQM0g1gSoOvK_F2Zp6OvETX651tR5ri"
+      },
+      {
+        "id": "[2025-09-04]-lv-dauphine-mini",
+        "name": "LV Dauphine Mini",
+        "image": "https://drive.google.com/uc?export=view&id=1RVJ3oZCz8GtZFKyZLAc5EBBylRSDWWVJ"
+      }
+    ]
   },
   {
-    "id": "new-balance-wr530am-milk-white-blu",
-    "name": "New Balance WR530am Milk White Blu",
+    "id": "[2025-09-06]-new-balance-wr530am-milk-white-blu",
+    "name": "New Balance WR530am",
     "brand": "New Balance",
     "images": [
       "https://drive.google.com/thumbnail?id=1op4JQg-4HEe56LcHMmM0F9IP0nl66hsA&sz=w1000",
@@ -222,11 +1660,63 @@
       "https://drive.google.com/thumbnail?id=19n0ICfQ7gaBXtetAuHiDByyQ-ubHHUJD&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-2",
+        "name": "Vans Old Skool 2025 Fall Release",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-02]-orologio-da-uomo-cartier-cartler🎉",
+        "name": "Cartier Orologio da Uomo",
+        "image": "https://drive.google.com/uc?export=view&id=1J7dbWvR_Kq_Sz7lmv2vPljzikE6kVF58"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Coach Women's Small [Year] Shoulder Bag",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-03]-kailas-artemisia-down-powder",
+        "name": "Adidas Artemisia Down Powder",
+        "image": "https://drive.google.com/uc?export=view&id=1NkImi_H0mk0OVeB9J8jsdKzxFyimiMw6"
+      },
+      {
+        "id": "[2025-09-03]-di-~-ao-serie-di-cinture-casuali-da-uomo",
+        "name": "Dior DI AO Serie cinture casuali da uomo",
+        "image": "https://drive.google.com/uc?export=view&id=1yxv4k-nwPqdejCTP7hAA5RN61EDQlv0Z"
+      }
+    ]
   },
   {
-    "id": "new-balance-mr530cc-in-bianco-e-nero",
+    "id": "[2025-09-06]-new-balance-mr530cc-in-bianco-e-nero",
     "name": "New Balance MR530cc in bianco e nero",
     "brand": "New Balance",
     "images": [
@@ -241,12 +1731,64 @@
       "https://drive.google.com/thumbnail?id=1OxVzKc-HQIIM0s8vWYRmzULW5mfzM8IX&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-02]-asics-gel-sonoma-15-50-bei-white-asics-in-stile-mountain-sthie-outdoor-scarpe-sporti-sporti-per-lascire-coscio-stile-fazionale-alde-e-migliore-popolare.-che-si-tratti-di-abbinamento-o-prestazioni-del-colore,-si-sente-saldamente-cuori-delle-giovani-generazioni.-questa-scarpa-ha-molti-aspetti-dal-design,-tecnologia-alla-corrispondenza-dei-colori",
+        "name": "Asics Gel-Sonoma 15",
+        "image": "https://drive.google.com/uc?export=view&id=1mcSSLKtXAhic8tgm-4w3dCH5hDRsBDcV"
+      },
+      {
+        "id": "[2025-09-02]-adidas-yeezy-desert-500-db2966-\"supermoon-yellow\"-super-moon-yellow",
+        "name": "Adidas Yeezy Desert 500 Supermoon Yellow",
+        "image": "https://drive.google.com/uc?export=view&id=1uDu_d-WRiexxD4Z8ho4tQfWDzajPGKV4"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Canada Goose 2025 Parka",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-03]-neoterinario-x-ad-originals-superstar-ha-co-brand-co-bianco-guscio-bianco-shot-originale-a-livello-di-compagnia",
+        "name": "Adidas Neoterinario X AD Originals Superstar",
+        "image": "https://drive.google.com/uc?export=view&id=11l869eVhs__WeJYcX923zC1X_mq2yLK4"
+      },
+      {
+        "id": "[2025-09-04]-dior-man-dance-sweetheart-miss-man-dance-flower-sweetheart-perfume-femminile-rich-perfume-edp-100ml",
+        "name": "Dior Man Dance Eau de Parfum 100ml",
+        "image": "https://drive.google.com/uc?export=view&id=1f-qFTE9-Q6v0EPHuwovb3em4w0rdPluQ"
+      }
+    ]
   },
   {
-    "id": "new-balance-mr530ni-white-brown-nb530-scarpe-da-jogging-casual-retro-su-scaffali-reali",
-    "name": "New Balance MR530ni White Brown NB530 Scarpe da jogging casual retrò su scaffali reali",
+    "id": "[2025-09-06]-new-balance-mr530ni-white-brown-nb530-scarpe-da-jogging-casual-retrò-su-scaffali-reali",
+    "name": "New Balance MR530ni Casual Shoe",
     "brand": "New Balance",
     "images": [
       "https://drive.google.com/thumbnail?id=1jIhA-_40cdsX0tH4WwaLvTrV0smtPv7b&sz=w1000",
@@ -260,31 +1802,109 @@
       "https://drive.google.com/thumbnail?id=1rvR3M0EqYgt_6LIOgHy4bN6B4X0T2uIi&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-08]-new-balance-nb530",
+        "name": "NB530 New Balance",
+        "image": "https://drive.google.com/uc?export=view&id=1fvrlKNmuTVdfXk2NQmtehp83fi0-R45H"
+      },
+      {
+        "id": "[2025-09-08]-nb530-scarpe-per-bambini-a-doppio-pizzo-rotto",
+        "name": "New Balance NB530 Junior Double Layer Ripped Sock Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1HSrOW8gkhar_IwGNZYg4GGalW6gYwJNY"
+      },
+      {
+        "id": "[2025-09-08]-nb997h-large-velcro-four-seasons-popular-running-shoes",
+        "name": "New Balance 997H Velcro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1YNspBybolqCvl_xuLZ1C004BpwVJiyN4"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-03]-ugg-mini-bailey-button-ii-boot-maroon-mini-bailey-puallio-2.0-schedi-snochi-string",
+        "name": "Gucci Mini Bailey Button Ii Boot Maroon",
+        "image": "https://drive.google.com/uc?export=view&id=15FlRIn1NiFGUJvHEOFrwD5-eduKKQX5B"
+      },
+      {
+        "id": "[2025-09-02]-adidas-yeezy-desert-500-db2966-\"supermoon-yellow\"-super-moon-yellow",
+        "name": "Adidas Yeezy Desert 500 Supermoon Yellow",
+        "image": "https://drive.google.com/uc?export=view&id=1uDu_d-WRiexxD4Z8ho4tQfWDzajPGKV4"
+      },
+      {
+        "id": "[2025-09-02]-asics-gel-kahana-tr-v4-beige-green",
+        "name": "Asics Gel-Kahana TR V4 Beige Green",
+        "image": "https://drive.google.com/uc?export=view&id=1qXjuV2_Vle4nZL1w0Y5GQeK0xAuhBKRL"
+      },
+      {
+        "id": "[2025-09-06]-lv-nero",
+        "name": "Louis Vuitton Nero Handbag",
+        "image": "https://drive.google.com/uc?export=view&id=1-cYz4g9xJseHcCa9d1R-6Thm4_uXA1rV"
+      },
+      {
+        "id": "[2025-09-02]-nuovissima-combinazione-di-colori-di-chicago",
+        "name": "Nike Chicago Colorblock",
+        "image": "https://drive.google.com/uc?export=view&id=1lUvBwjBvYvgegtHDSqN43zgVKYPb00eH"
+      }
+    ]
   },
   {
-    "id": "2025-09-2-98",
-    "name": "2025-09-2",
-    "brand": "Moncler",
+    "id": "[2025-09-2",
+    "name": "Moncler Autumn/Winter 2025 Collection",
+    "brand": "Descente",
     "images": [
-      "https://drive.google.com/thumbnail?id=1m16A7TSn59sOC34NUltLRcOrRqIsK6qS&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1SBc67UEzpC6aGQUDLeV_L7GoKBmHm_GA&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1d8ePMrIR7EH878dll28mYfsIsXb597HH&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1pCtIuRNt1LvKlCGSfRSgQHW6DwS7BYUS&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1aWtuDFOFNMTEchBPg8V857YkViKN6loh&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1LCdccx-tk11dRf59tbaq3iJQ_DnGdDzJ&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Cgwx6HjjHHNagW4B9JF_KAkI582uzFGt&sz=w1000",
-      "https://drive.google.com/thumbnail?id=18d6xPgbkv-c0I1r3NmR_L20PA53P3iV-&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1nArYDDvTJNkRc8yTCdi4yJ8AoWIUMMPV&sz=w1000"
+      "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1wq0SR2ElwfFar-nU0W3nEldgU8Wwaa86&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1_yfba2TzlCFAjli-84hjQOdejJsbQ8DQ&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1WTTAPT2Cf1UFXaNm049-9GQTR5MUAyMK&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1rHNStPbiipZEA4e2f7LiwtGq3q1vqUFj&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1vzJtqSIT1I5zsddmlGjCX6zKs-nfAWPX&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1eJsUY_a_8nUwXnstQA8KCrtuSMQquY6Y&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Eek6yLjtCOd_b1GKau-VOkODErN8klB1&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1XIUGldwOG-C-mbhV6fU8IYpCt8hdrJZW&sz=w1000"
     ],
     "variants": [],
     "similar": [],
-    "recommended": []
+    "recommended": [
+      {
+        "id": "[2025-09-04]-expert-di-fase-lunare-di-wangankinetic,-serie-pilota-di-zecca-iw51584-push-in-clist",
+        "name": "IWC Expert Moon Phase Watch IW51584 Push-in Clist",
+        "image": "https://drive.google.com/uc?export=view&id=17OvPNlAd5MsPBCIIpcCIXGTnu5K1XKEF"
+      },
+      {
+        "id": "[2025-09-02]-originals-bermuda-suede-suede",
+        "name": "Adidas Originals Bermuda",
+        "image": "https://drive.google.com/uc?export=view&id=1-b5t1Beg3Q8Dy_dvn15yVLkh3gzGhJMi"
+      },
+      {
+        "id": "[2025-09-02]-adidas-yeezy500-utility-black",
+        "name": "Adidas Yeezy 500 Utility - Black",
+        "image": "https://drive.google.com/uc?export=view&id=1mKBUdB69baFBWlL5CHeGmRnQJK0TxnGT"
+      },
+      {
+        "id": "[2025-09-04]-vans-classics-knu-skool-bread-shoes-2023-fat-edition-classic-rosso-pane-scarpe-imran-potato-e-vans-sono-scarpe-di-patate-super-popolari,-classico-retrò,-con-piede-allargate,-bordi-spostati-e-addensati-e-lingue-addensate.-vans-cla",
+        "name": "Vans Classics Knu Skool Bread Shoes 2023 Fat Edition Roasted Red Color",
+        "image": "https://drive.google.com/uc?export=view&id=1mIydSW4OtrnWaA3XVxbAev6_lgZdqYpR"
+      },
+      {
+        "id": "[2025-09-03]-north-down-giacca-black",
+        "name": "The North Face Men's Black Down Giacca",
+        "image": "https://drive.google.com/uc?export=view&id=1uBWT2Y5WiCZsHq-k8NgubqzZ-insaPBS"
+      }
+    ]
   },
   {
-    "id": "moncler-moncler-x-palm-angels-down-giacca",
-    "name": "Moncler Moncler x Palm Angels Down Giacca",
+    "id": "[2025-09-04]-moncler-moncler-x-palm-angels-down-giacca",
+    "name": "Moncler Down Giacca",
     "brand": "Moncler",
     "images": [
       "https://drive.google.com/thumbnail?id=10fhsTqrLFfQM8YZXtOqh-4kWCO4Q3WV8&sz=w1000",
@@ -298,12 +1918,64 @@
       "https://drive.google.com/thumbnail?id=1cbGZi5sm4divkVX9yS7Vr3o1ePYNj9QK&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-04]-moncler-24-classic-style-dervox-limited-color-matching",
+        "name": "Moncler Dervox Classic Style",
+        "image": "https://drive.google.com/uc?export=view&id=1eu28JWF6nnE8n_GjKbAmn28iVZRb-wVL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗔𝗽𝗵𝗿𝗼𝘁𝗶-nero",
+        "name": "Moncler Apboti Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1l4l-1laqAxeYenxecRiLn6inT3-QelZL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿｜-mengkou-mengkelai-fw22-genius-x-palm-angel",
+        "name": "Moncler Mengkou Mengkelai FW22 Genius x Palm Angel",
+        "image": "https://drive.google.com/uc?export=view&id=1GLEDvJUtrd1KzOBxR8ndcghGLaoGZNFn"
+      },
+      {
+        "id": "[2025-09-04]-𝑴𝒐𝒏𝒄𝒍𝒆𝒓mengkelai-mask-maya-series-ai-green",
+        "name": "Moncler Mengkelai Mask Maya Series Ai Green",
+        "image": "https://drive.google.com/uc?export=view&id=18teuEMK7r3_d2xIUR22cHeEY0jf3Jm8H"
+      },
+      {
+        "id": "[2025-09-06]-moncler-unisex-moncler-x-palm-angels-haunani-down-jacket",
+        "name": "Moncler Unisex Moncler x Palm Angels Haunani Down Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=1nmIthawbVgvTbti15Oy1ESk-F81qzqyT"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-ysl-reversal-perfume-paris-edp-fruit-loss-fruit-per-profumo-di-profumo-di-lunga-durata-raccomandazione-lo-stile-a-stella-è-una-bottiglia-di-strass-a-stella-in-edizione-limitata.-il-profumo-simile-all'uomo-che-vuoi-innamorarti-quando-lo-spruzzi-...-senza-dubbio-ysl-mon-paris-saint-laurent-inversione-la-bottiglia-per-il-profumo-delle-donne-di-parigi-ha-anche-un-aspetto-elevato",
+        "name": "Saint Laurent Reversal Perfume",
+        "image": "https://drive.google.com/uc?export=view&id=1Nwhp8YRtHaoGStkHK4Lkysj5bkZngd5O"
+      },
+      {
+        "id": "[2025-09-04]-vans-knu-skool-zodiac-limited-edition🐲-vans-capodanno-ufficiale-delle-scarpe-da-pane-retrò-dragon-il-modello-zodiacale-annuale-con-il-più-alto-indice-è-qui.-il-colore-principale-del-rosso-retrò-è-benedetto-per-fortuna.-le-strisce-laterali-convesse-rosse-sono-incarnate-nelle-scale-del-drago.-viene-inoltre-utilizzato-lo-speciale-anno-di-drago-del-motivo-a-scacchiera-del-drago.",
+        "name": "Vans Zodiac Limited Edition Dragon Cap.",
+        "image": "https://drive.google.com/uc?export=view&id=1G6-q0xi_TgGlFaHM7jtwUI6TH3HHltm8"
+      },
+      {
+        "id": "[2025-09-06]-𝐊𝐨𝐥𝐨𝐧kelong-318-giacca-per-colla-a-pressione-completa",
+        "name": "Kolon Keelong 318 Full Zip Bomber Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=1fsZRZWVP5n5IkULOlb4b19PSIvZzIYsF"
+      },
+      {
+        "id": "[2025-09-04]-orecchini-chanel💎💎-è-arrivata-una-grande-ondata-di-orecchini-nuovi-di-zecca!-!-stile-temperamento-di-lusso-b-bellezza-atmosferica❤❤-grande-marchio-lo-stile-chanel-è-sempre-classico-e-resistente-[colore]-selezionato-tedesco-925-aghi-in-argento-sterling-in-stile-orecchini-in-stile-lungo",
+        "name": "Chanel Sterling Silver Long Earrings - Tedesco 925",
+        "image": "https://drive.google.com/uc?export=view&id=1TPsX56Ki3IrNLsRSVuH2hgtC21t1EpZE"
+      },
+      {
+        "id": "[2025-09-02]-asics-gel-kahana-8-series-grey-blue-asics-classic-scarpe-da-corsa-all'aperto-outdoor-scatti-a-livello-di-compagnia-ora-il-vento-funzionale-e-il-vento-all'aperto-stanno-soffiando-vigorosamente,-questo-gel-kahana-8-è-la-caratteristica-principale-di-\"stile-di-fuoristrada-funzionale-esterno-urbano\",-urbano-e",
+        "name": "Asics Gel-Kahana 8 Trail Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1ItU6lvyGfNYGXkeiSD0Ora6roHne8Gq-"
+      }
+    ]
   },
   {
-    "id": "moncler-24-classic-style-dervox-limited-color-matching",
-    "name": "Moncler 24 Classic Style Dervox Limited Color Matching",
+    "id": "[2025-09-04]-moncler-24-classic-style-dervox-limited-color-matching",
+    "name": "Moncler Dervox Classic Style",
     "brand": "Moncler",
     "images": [
       "https://drive.google.com/thumbnail?id=1eu28JWF6nnE8n_GjKbAmn28iVZRb-wVL&sz=w1000",
@@ -317,12 +1989,64 @@
       "https://drive.google.com/thumbnail?id=1exh0vOba741P7bL_nG_f_Dhiga9ORvaZ&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-04]-moncler-moncler-x-palm-angels-down-giacca",
+        "name": "Moncler Down Giacca",
+        "image": "https://drive.google.com/uc?export=view&id=10fhsTqrLFfQM8YZXtOqh-4kWCO4Q3WV8"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗔𝗽𝗵𝗿𝗼𝘁𝗶-nero",
+        "name": "Moncler Apboti Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1l4l-1laqAxeYenxecRiLn6inT3-QelZL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿｜-mengkou-mengkelai-fw22-genius-x-palm-angel",
+        "name": "Moncler Mengkou Mengkelai FW22 Genius x Palm Angel",
+        "image": "https://drive.google.com/uc?export=view&id=1GLEDvJUtrd1KzOBxR8ndcghGLaoGZNFn"
+      },
+      {
+        "id": "[2025-09-04]-𝑴𝒐𝒏𝒄𝒍𝒆𝒓mengkelai-mask-maya-series-ai-green",
+        "name": "Moncler Mengkelai Mask Maya Series Ai Green",
+        "image": "https://drive.google.com/uc?export=view&id=18teuEMK7r3_d2xIUR22cHeEY0jf3Jm8H"
+      },
+      {
+        "id": "[2025-09-06]-moncler-unisex-moncler-x-palm-angels-haunani-down-jacket",
+        "name": "Moncler Unisex Moncler x Palm Angels Haunani Down Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=1nmIthawbVgvTbti15Oy1ESk-F81qzqyT"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-louis-vuitton-01",
+        "name": "Louis Vuitton",
+        "image": "https://drive.google.com/uc?export=view&id=1lM2Nc9MW5pG8D84vvE-vOC3hXhgiyj9Z"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Asics Running Shoes 2022",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-04]-converse-x-lv-brand-donkey-co-brand-co-brand-80-€",
+        "name": "Louis Vuitton Donkey Bag",
+        "image": "https://drive.google.com/uc?export=view&id=1DJHVgVsgNVicLrqhrebjZJbieXkZcN2f"
+      },
+      {
+        "id": "[2025-09-04]-tf-ebony-agarwood-50ml-tf-ebony-agarwood-perfume-50ml-fragranza-orientale-orientale-temperatura-in-legno-il-profumo-neutro-usa-agarwood,-palissandro-brasiliano,-cardamomo-pepe-di-sichuan,-legno-di-sandalo,-veterinario,-fagioli-tonka,-vanilla-e-amber.-\"i-tag-sono-sexy,-maturi-e-sonnolenti-e-fanno-sì-che-le-persone-voglia-indulgere-nella-versione-finale-di-ebony-agarwood!",
+        "name": "Tom Ford Ebony Agarwood 50ml Eau de Parfum Oriental Woody Fragrance",
+        "image": "https://drive.google.com/uc?export=view&id=1Ta9KrOZofEFEI4EX1_Zpgr1u-olvkEgt"
+      },
+      {
+        "id": "[2025-09-04]-anno-gucci-della-serie-di-tickey-di-topolino-stampato-a-sella-a-sella-a-doppio-l-logo-(topolino)-(topolino)",
+        "name": "Gucci Topolino Printed Leather Bifold Wallet",
+        "image": "https://drive.google.com/uc?export=view&id=1eQX6e-hM7EZDReAc9UJ2D4BRBZRhXCwn"
+      }
+    ]
   },
   {
-    "id": "nero",
-    "name": "𝗠𝗼𝗻𝗰𝗹𝗲𝗿 𝗔𝗽𝗵𝗿𝗼𝘁𝗶 nero",
+    "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗔𝗽𝗵𝗿𝗼𝘁𝗶-nero",
+    "name": "Moncler Apboti Nero",
     "brand": "Moncler",
     "images": [
       "https://drive.google.com/thumbnail?id=1l4l-1laqAxeYenxecRiLn6inT3-QelZL&sz=w1000",
@@ -333,31 +2057,109 @@
       "https://drive.google.com/thumbnail?id=1kKxom0ZA7EmnDxe0HclMl_5_o58T5-0h&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-04]-moncler-moncler-x-palm-angels-down-giacca",
+        "name": "Moncler Down Giacca",
+        "image": "https://drive.google.com/uc?export=view&id=10fhsTqrLFfQM8YZXtOqh-4kWCO4Q3WV8"
+      },
+      {
+        "id": "[2025-09-04]-moncler-24-classic-style-dervox-limited-color-matching",
+        "name": "Moncler Dervox Classic Style",
+        "image": "https://drive.google.com/uc?export=view&id=1eu28JWF6nnE8n_GjKbAmn28iVZRb-wVL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿｜-mengkou-mengkelai-fw22-genius-x-palm-angel",
+        "name": "Moncler Mengkou Mengkelai FW22 Genius x Palm Angel",
+        "image": "https://drive.google.com/uc?export=view&id=1GLEDvJUtrd1KzOBxR8ndcghGLaoGZNFn"
+      },
+      {
+        "id": "[2025-09-04]-𝑴𝒐𝒏𝒄𝒍𝒆𝒓mengkelai-mask-maya-series-ai-green",
+        "name": "Moncler Mengkelai Mask Maya Series Ai Green",
+        "image": "https://drive.google.com/uc?export=view&id=18teuEMK7r3_d2xIUR22cHeEY0jf3Jm8H"
+      },
+      {
+        "id": "[2025-09-06]-moncler-unisex-moncler-x-palm-angels-haunani-down-jacket",
+        "name": "Moncler Unisex Moncler x Palm Angels Haunani Down Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=1nmIthawbVgvTbti15Oy1ESk-F81qzqyT"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-casio-gshock-watch-square-sports-men-and-women-watch-electronic-dw-5600bb-1-5600bbn",
+        "name": "Casio G-Shock Watch DW-5600BB",
+        "image": "https://drive.google.com/uc?export=view&id=1e2IbPB7s60ALoWz1XbDBTU4M3XF5MK6T"
+      },
+      {
+        "id": "[2025-09-04]-sciarpa",
+        "name": "Gucci Scarf",
+        "image": "https://drive.google.com/uc?export=view&id=1e-vKiLragzaeugbNRCh3bS3d0B5tsH7S"
+      },
+      {
+        "id": "[2025-09-04]-chanel-n.-5-adatto-alla-folla:-donne-piene-di-eleganza,-atmosfera-affascinante-e-moderna.-non-sono-elegante-né-affascinante.-hahaha-sono-una-bambina,-ma-mi-piace.-mi-piace-la-bottiglia-di-xiaoxiang,-quando-l'ho-spruzzata-per-la-prima-volta,-ho-sentito-l'odore-dell'acqua-insaponata-😢-ma",
+        "name": "Chanel N.5 Eau de Toilette",
+        "image": "https://drive.google.com/uc?export=view&id=18owQxAF1-bFz94nb7MQSjxE4-ZuSBYAD"
+      },
+      {
+        "id": "[2025-09-04]-hoka-one-one-blue",
+        "name": "Hoka Blue",
+        "image": "https://drive.google.com/uc?export=view&id=1lJYbjFFQEfSJiLEAu8TEx8aeO-ZRLflx"
+      },
+      {
+        "id": "[2025-09-06]-miiusu-zaino-135-€",
+        "name": "Miu Miu Su Zaino",
+        "image": "https://drive.google.com/uc?export=view&id=1JdCtwFu0rVlZ-g4giWGpDMrBpdGYTGjG"
+      }
+    ]
   },
   {
-    "id": "2025-09-2-99",
-    "name": "2025-09-2",
-    "brand": "Moncler",
+    "id": "[2025-09-2",
+    "name": "Moncler Mens Short Sleeve Casual T-Shirt",
+    "brand": "Descente",
     "images": [
-      "https://drive.google.com/thumbnail?id=1rU6YqiWqEiv_yPdJoSoN8XvHEmMCQAW4&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1xthOJf6P9BKv_w13xYqkObGEKE1g6R-E&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1LlI-3RSdvPJpXms2ZwDan8oDLPFxmZHp&sz=w1000",
-      "https://drive.google.com/thumbnail?id=14_E3QBXNXJ78rPML3e4RaZNmVEBp865a&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1_rs0E0N-BjgepL6DOKI_NB-EKACq1zWs&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1V3nhcaFUUYlBDBYBfJXNlgR8HKuo3-Eu&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1vfPf9Yib8lu8LAzDgiZZc9LNU0dYimaa&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Hhu_Qt0mzNX1cgrWiMbB1Z8m-utzIvCM&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1WGSbKBqI9RkJfEdsblorEa5b0I5qCyH7&sz=w1000"
+      "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1wq0SR2ElwfFar-nU0W3nEldgU8Wwaa86&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1_yfba2TzlCFAjli-84hjQOdejJsbQ8DQ&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1WTTAPT2Cf1UFXaNm049-9GQTR5MUAyMK&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1rHNStPbiipZEA4e2f7LiwtGq3q1vqUFj&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1vzJtqSIT1I5zsddmlGjCX6zKs-nfAWPX&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1eJsUY_a_8nUwXnstQA8KCrtuSMQquY6Y&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Eek6yLjtCOd_b1GKau-VOkODErN8klB1&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1XIUGldwOG-C-mbhV6fU8IYpCt8hdrJZW&sz=w1000"
     ],
     "variants": [],
     "similar": [],
-    "recommended": []
+    "recommended": [
+      {
+        "id": "[2025-09-03]-vans-classics-knu-skool-modello-di-mucca-in-bianco-e-nero-vans-edizione-grassa-ufficiale-scarpe-di-pane-per-lingua-spessa-scarpe-di-patate-super-popolari,-retrò-e-classico,-con-punta-allargata,-bordi-addensati-e-lingue-addensate.-vans-classics-classics-side-patate-shoes-k",
+        "name": "Vans Classics Knu Skool Shoes in Bianco e Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1-YzAmflZcUkKQyHj9dL_GkLPHldv-4f4"
+      },
+      {
+        "id": "[2025-09-04]-fila-fusion",
+        "name": "Fila Fusion",
+        "image": "https://drive.google.com/uc?export=view&id=1t1_oxYQvCFxpWyZOdLIpEXU0XyTMjwQo"
+      },
+      {
+        "id": "[2025-09-03]-vans-knu-skool-vr3-lx-beige-fat-edition-big-logo-shoes-shoes-vulcanized-show-scarpe-le-scarpe-knuskool-sono-anche-un-progetto-congiunto-di-imranpotato-e-sono-stati-lanciati-quattro-nuovi-colori.-la-prima-combinazione-di-colori-è-scelta-come-un-bianco-e-nero-molto-classico",
+        "name": "Louis Vuitton Vans Knu-Skool Vr3 LX Beige Fat Edition Big Logo Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1gjPwLq0GoJamnPxEMJL7v3q76B5zY8ZT"
+      },
+      {
+        "id": "[2025-09-02]-air-jordan-1-personizzazione-di-leggio-di-letta-di-letta-della-maggiore-dimi-big-factory-big-crafticship-pure-craftsmanship-originale-ultima-pelle-originale-originale-in-pelle-più-perfetta-la-forma-della-scarpa-più-perfetta-con-una-differenza-di-sguardo-di-qualsiasi-terreno-di-copertura-della-terra-di-intestino-disponibile-in-commercio-è-perfetta-in-tutti-gli-aspetti",
+        "name": "Nike Air Jordan 1 Personlized Shoe with Perfect Leather",
+        "image": "https://drive.google.com/uc?export=view&id=1Y9r69LpJ4dH0TBPU8CMt_3lPXnoSAuL4"
+      },
+      {
+        "id": "[2025-09-02]-mesh-ice-silk-gw2871-bianco-pieno",
+        "name": "Adidas Mesh Ice Silk Bianco Pieno",
+        "image": "https://drive.google.com/uc?export=view&id=1yy87dNohuBnrjyDl0kHnWPYFxXlA7-03"
+      }
+    ]
   },
   {
-    "id": "mengkou-mengkelai-fw22-genius-x-palm-angel",
-    "name": "𝗠𝗼𝗻𝗰𝗹𝗲𝗿｜ Mengkou Mengkelai FW22 Genius x Palm Angel",
+    "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿｜-mengkou-mengkelai-fw22-genius-x-palm-angel",
+    "name": "Moncler Mengkou Mengkelai FW22 Genius x Palm Angel",
     "brand": "Moncler",
     "images": [
       "https://drive.google.com/thumbnail?id=1GLEDvJUtrd1KzOBxR8ndcghGLaoGZNFn&sz=w1000",
@@ -371,12 +2173,64 @@
       "https://drive.google.com/thumbnail?id=1g6swdvgIpJiRDhr3GnkXkG-U0CvmfSMu&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-04]-moncler-moncler-x-palm-angels-down-giacca",
+        "name": "Moncler Down Giacca",
+        "image": "https://drive.google.com/uc?export=view&id=10fhsTqrLFfQM8YZXtOqh-4kWCO4Q3WV8"
+      },
+      {
+        "id": "[2025-09-04]-moncler-24-classic-style-dervox-limited-color-matching",
+        "name": "Moncler Dervox Classic Style",
+        "image": "https://drive.google.com/uc?export=view&id=1eu28JWF6nnE8n_GjKbAmn28iVZRb-wVL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗔𝗽𝗵𝗿𝗼𝘁𝗶-nero",
+        "name": "Moncler Apboti Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1l4l-1laqAxeYenxecRiLn6inT3-QelZL"
+      },
+      {
+        "id": "[2025-09-04]-𝑴𝒐𝒏𝒄𝒍𝒆𝒓mengkelai-mask-maya-series-ai-green",
+        "name": "Moncler Mengkelai Mask Maya Series Ai Green",
+        "image": "https://drive.google.com/uc?export=view&id=18teuEMK7r3_d2xIUR22cHeEY0jf3Jm8H"
+      },
+      {
+        "id": "[2025-09-06]-moncler-unisex-moncler-x-palm-angels-haunani-down-jacket",
+        "name": "Moncler Unisex Moncler x Palm Angels Haunani Down Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=1nmIthawbVgvTbti15Oy1ESk-F81qzqyT"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-02]-la-nuova-versione-aggiornata-di-rolex-di-green-water-ghost",
+        "name": "Rolex Green Water Ghost Updated Edition",
+        "image": "https://drive.google.com/uc?export=view&id=1kTYkL6R6vPChD8mE-hVAtkQDn8Rak13o"
+      },
+      {
+        "id": "[2025-09-06]-vans-classics-knu-skool-black-and-grey-grid-vans-versione-grassa-ufficiale-scarpe-per-pane-per-lingua-spessa-vans-super-populari-di-patate,-retrò-e-classico,-punta-allargata,-bordi-addensati-e-lingua-addensata.-vans-classics-classics-side-patate-shoes-knu",
+        "name": "Vans Classic Black and Grey Grid Skool Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1zhFG6X1tskyimQay6sIt0r-PPXZ5_8pg"
+      },
+      {
+        "id": "[2025-09-06]-puma-ca-pro-p.uni-white,-grigio-e-blu",
+        "name": "PUMA Ca Pro P.Uni White, Grey, and Blue",
+        "image": "https://drive.google.com/uc?export=view&id=14-DgbjCJv48ZTYyzZ0MVYX65KXteDW7i"
+      },
+      {
+        "id": "[2025-09-04]-allenatore-lv-nero",
+        "name": "Allenatore",
+        "image": "https://drive.google.com/uc?export=view&id=1slD6oq8pa-03g81HCk2b-xUC9x72FWqX"
+      },
+      {
+        "id": "[2025-09-02]-[sneaker-personalizzate]-asics-onitzuka-tiger-mexico-66-youlong-zeling-rongxue-milano-real-shot-è-sugli-scaffali",
+        "name": "Asics Onitzuka Tiger Mexico 66",
+        "image": "https://drive.google.com/uc?export=view&id=1jDiZiw2yFUDw0rnSBy6_BRNnXDAuotdF"
+      }
+    ]
   },
   {
-    "id": "mengkelai-mask-maya-series-ai-green",
-    "name": "𝑴𝒐𝒏𝒄𝒍𝒆𝒓Mengkelai Mask Maya Series Ai Green",
+    "id": "[2025-09-04]-𝑴𝒐𝒏𝒄𝒍𝒆𝒓mengkelai-mask-maya-series-ai-green",
+    "name": "Moncler Mengkelai Mask Maya Series Ai Green",
     "brand": "Moncler",
     "images": [
       "https://drive.google.com/thumbnail?id=18teuEMK7r3_d2xIUR22cHeEY0jf3Jm8H&sz=w1000",
@@ -390,28 +2244,108 @@
       "https://drive.google.com/thumbnail?id=1KzA_U5rrAF_VsRiviuti8QcslwDvfLih&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-04]-moncler-moncler-x-palm-angels-down-giacca",
+        "name": "Moncler Down Giacca",
+        "image": "https://drive.google.com/uc?export=view&id=10fhsTqrLFfQM8YZXtOqh-4kWCO4Q3WV8"
+      },
+      {
+        "id": "[2025-09-04]-moncler-24-classic-style-dervox-limited-color-matching",
+        "name": "Moncler Dervox Classic Style",
+        "image": "https://drive.google.com/uc?export=view&id=1eu28JWF6nnE8n_GjKbAmn28iVZRb-wVL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗔𝗽𝗵𝗿𝗼𝘁𝗶-nero",
+        "name": "Moncler Apboti Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1l4l-1laqAxeYenxecRiLn6inT3-QelZL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿｜-mengkou-mengkelai-fw22-genius-x-palm-angel",
+        "name": "Moncler Mengkou Mengkelai FW22 Genius x Palm Angel",
+        "image": "https://drive.google.com/uc?export=view&id=1GLEDvJUtrd1KzOBxR8ndcghGLaoGZNFn"
+      },
+      {
+        "id": "[2025-09-06]-moncler-unisex-moncler-x-palm-angels-haunani-down-jacket",
+        "name": "Moncler Unisex Moncler x Palm Angels Haunani Down Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=1nmIthawbVgvTbti15Oy1ESk-F81qzqyT"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-06]-jj+-new-release-hublot-42mm-size-equipped-with-original-hublot-hb1110-movement",
+        "name": "Hublot 42mm JJ+ Watch",
+        "image": "https://drive.google.com/uc?export=view&id=1JgagwzMjRWJGr-ZJSmy7ZcCaAidR69_2"
+      },
+      {
+        "id": "[2025-09-02]-asics-onitsuka-tiger-ultimate-81-ex",
+        "name": "Asics Onitsuka Tiger Ultimate 81 EX",
+        "image": "https://drive.google.com/uc?export=view&id=1U3N9-RNGak9_2d-PNpFnYQLDlYX36ZoG"
+      },
+      {
+        "id": "[2025-09-04]-la-nuova-spilla-sincrona-di-texture-in-legno-retrò-di-ysl-saint-laurent-counter-è-l'ornamento-che-comprende-di-più-le-donne.-quelle-donne-che-dedicano-tutti-i-loro-sforzi-per-essere-se-stessi-spesso-adorano-di-più-il-significato-della-spilla.-lady-saint-laurent-ha-bloccato-la-spilla-al-suo-cappello-e-ha-detto-alle-donne-alla-moda-che-l'hanno-imitata:-[la-spilla-è-molto-pratica,-può-essere-ignorata.",
+        "name": "YSL Saint Laurent Counter Sincrona Wood Texture Brooch",
+        "image": "https://drive.google.com/uc?export=view&id=1ec4phiCMJMyDRJO69pTVMnS6WuZXQuxB"
+      },
+      {
+        "id": "[2025-09-03]-puma-suede-bz-emb-nero",
+        "name": "PUMA Suede",
+        "image": "https://drive.google.com/uc?export=view&id=1heNEROrFHblGP2DKoO0is7xPoGt8BI_P"
+      },
+      {
+        "id": "[2025-09-03]-hiono-x-vans-knu-skool-pop-mart-ono-ono-co-brande-i-graffiti-in-bianco-e-nero-questa-volta-vans-e-popular-ip-di-pop-mart-sono-così-interessanti!-le-scarpe-di-patate-super-popolari-di-vans-sono-retrò-e-classiche,-con-punta-allargata,-bordi-addensati-e-lingua-addensata.-furgoni",
+        "name": "Vans HIONO KNU SKOOL POP MART ONO CO-BRAND IP GRAFFITI SHOES",
+        "image": "https://drive.google.com/uc?export=view&id=1dHaG0mSs10QhJDTitwtsMM-AyKfqDX0Z"
+      }
+    ]
   },
   {
-    "id": "2025-09-2-100",
-    "name": "2025-09-2",
-    "brand": "Moncler",
+    "id": "[2025-09-2",
+    "name": "Moncler Women's Short Sleeve Polo Shirt [2025]",
+    "brand": "Descente",
     "images": [
-      "https://drive.google.com/thumbnail?id=1rRHklOrULdkj-L1bNFj5IsiW0xwvxhRL&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1boT5kM3i_c0oU0rOMfPaYrheVkvFO0kP&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1r8PvtuG93ikTqCbnHfeTyYBGyJ0EBknL&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1ZaUEAYaVqph_gEzOJ38xwnTrP7PhONwz&sz=w1000",
-      "https://drive.google.com/thumbnail?id=15lsA1JhYZ8ZoxIlcBeCF30HI-vARJSNC&sz=w1000",
-      "https://drive.google.com/thumbnail?id=121EHn5STMINd7ES3YJuxZV7DmhGhLC2U&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1KCfhM8rkQPMFZDwKcCDEC8LiVVFkg_R9&sz=w1000"
+      "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1wq0SR2ElwfFar-nU0W3nEldgU8Wwaa86&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1_yfba2TzlCFAjli-84hjQOdejJsbQ8DQ&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1WTTAPT2Cf1UFXaNm049-9GQTR5MUAyMK&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1rHNStPbiipZEA4e2f7LiwtGq3q1vqUFj&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1vzJtqSIT1I5zsddmlGjCX6zKs-nfAWPX&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1eJsUY_a_8nUwXnstQA8KCrtuSMQquY6Y&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Eek6yLjtCOd_b1GKau-VOkODErN8klB1&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1XIUGldwOG-C-mbhV6fU8IYpCt8hdrJZW&sz=w1000"
     ],
     "variants": [],
     "similar": [],
-    "recommended": []
+    "recommended": [
+      {
+        "id": "[2025-09-06]-clean-factory-c-factory-mosanite-rock-sugar-diamond-scale-2023-nuovo-modello-beckham-beckham-stesso-modello",
+        "name": "Rolex Nuovo Mosanite Rock Sugar Diamond Scale",
+        "image": "https://drive.google.com/uc?export=view&id=1TSagh4WTbgJAlQym3aPlPeNI69gN2skH"
+      },
+      {
+        "id": "[2025-09-04]-puma-speedcat-shield-lth-bianco-e-nero",
+        "name": "PUMA Speedcat Shield LTH White Black",
+        "image": "https://drive.google.com/uc?export=view&id=1EDIF9DT_4rt5QV0vm3RsOmIjRrilrhsK"
+      },
+      {
+        "id": "[2025-09-04]-puma-ca-pro-pro-classic-blui",
+        "name": "PUMA CA Pro Classic Blui",
+        "image": "https://drive.google.com/uc?export=view&id=1nZ80s6Ox-KLfE5r_YBACFo_tOxrUw5NC"
+      },
+      {
+        "id": "[2025-09-04]-un-must-per-ruggire!-serie-di-bottiglie-di-profumi-vintage!-non-puoi-perderlo-quando-incontri-il-diritto!-i-dettagli-degli-accessori-hardware-sono-perfetti-e-impeccabili-e-la-cosa-reale-è-più-squisita!-ch@serie-nelvintage!-proprio-come-ha-detto-la-signora-coco,-\"la-popolarità-è-fugace,-lo-stile-dura-per-sempre\"-e-il-modello-vintage-è-tra-questi.-tra-questi,-il-modello-vintage-lo-è",
+        "name": "Louis Vuitton Vintage Perfume Bottle Set",
+        "image": "https://drive.google.com/uc?export=view&id=1tF0ZbrDqk8xRmQk6humDcCICOXVaja-5"
+      },
+      {
+        "id": "[2025-09-04]-chanel🇫🇷-piccolo-spilla-nuovo-arrivo-in-negozio,-l'accessorio-che-comprende-meglio-le-donne.-donne-che",
+        "name": "New Balance Piccolo Accessorio per Donne",
+        "image": "https://drive.google.com/uc?export=view&id=1icpwIpxJwMLVkoS4ewRBPvyXb3agCnTJ"
+      }
+    ]
   },
   {
-    "id": "moncler-unisex-moncler-x-palm-angels-haunani-down-jacket",
+    "id": "[2025-09-06]-moncler-unisex-moncler-x-palm-angels-haunani-down-jacket",
     "name": "Moncler Unisex Moncler x Palm Angels Haunani Down Jacket",
     "brand": "Moncler",
     "images": [
@@ -426,31 +2360,109 @@
       "https://drive.google.com/thumbnail?id=1MAwVWYhkdPeY5oS_3DFe14zm_vrF72wG&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-04]-moncler-moncler-x-palm-angels-down-giacca",
+        "name": "Moncler Down Giacca",
+        "image": "https://drive.google.com/uc?export=view&id=10fhsTqrLFfQM8YZXtOqh-4kWCO4Q3WV8"
+      },
+      {
+        "id": "[2025-09-04]-moncler-24-classic-style-dervox-limited-color-matching",
+        "name": "Moncler Dervox Classic Style",
+        "image": "https://drive.google.com/uc?export=view&id=1eu28JWF6nnE8n_GjKbAmn28iVZRb-wVL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗔𝗽𝗵𝗿𝗼𝘁𝗶-nero",
+        "name": "Moncler Apboti Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1l4l-1laqAxeYenxecRiLn6inT3-QelZL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿｜-mengkou-mengkelai-fw22-genius-x-palm-angel",
+        "name": "Moncler Mengkou Mengkelai FW22 Genius x Palm Angel",
+        "image": "https://drive.google.com/uc?export=view&id=1GLEDvJUtrd1KzOBxR8ndcghGLaoGZNFn"
+      },
+      {
+        "id": "[2025-09-04]-𝑴𝒐𝒏𝒄𝒍𝒆𝒓mengkelai-mask-maya-series-ai-green",
+        "name": "Moncler Mengkelai Mask Maya Series Ai Green",
+        "image": "https://drive.google.com/uc?export=view&id=18teuEMK7r3_d2xIUR22cHeEY0jf3Jm8H"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-06]-puma-bella-ut-bello-e-nero",
+        "name": "PUMA Bella Ut Bello e Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1vT3zntZiz5MdmVpFSj6dWoxR8Vh-dtKk"
+      },
+      {
+        "id": "[2025-09-02]-adidas-yeezy-desert-500-db2908-\"blush\"-grigio-terrestre",
+        "name": "Adidas Yeezy Desert 500 Grigio/Blush",
+        "image": "https://drive.google.com/uc?export=view&id=1ZtSPLCj4tzLYmnaR0J2yBHk3OMbhhpAV"
+      },
+      {
+        "id": "[2025-09-02]-zebra-grigia",
+        "name": "Zebra Grigia Hoodie",
+        "image": "https://drive.google.com/uc?export=view&id=1RBM0AB4Cwq01pIzSe4qSi7xF9JxyxOpX"
+      },
+      {
+        "id": "[2025-09-02]-mesh-ice-silk-gw2869-blu-ghiaccio",
+        "name": "Adidas Blu Ice Ghiaccio Mesh Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1NmBJSJXdgVWgoK41YaCB9vy_RQ73vm40"
+      },
+      {
+        "id": "[2025-09-02]-air-jordan-1-mid-grey-black-panda-toe",
+        "name": "Nike Air Jordan 1 Mid Grey Black Panda Toe",
+        "image": "https://drive.google.com/uc?export=view&id=136kAk4QhHIvLYJTANWzDbtex98E6p5mH"
+      }
+    ]
   },
   {
-    "id": "2025-09-2-101",
-    "name": "2025-09-2",
-    "brand": "Moncler",
+    "id": "[2025-09-2",
+    "name": "Moncler Men's [Date Not Apparent]",
+    "brand": "Descente",
     "images": [
-      "https://drive.google.com/thumbnail?id=1ceUKh67LGA5sxad0wxa4kQxOLg8bPMiS&sz=w1000",
-      "https://drive.google.com/thumbnail?id=11_D13n4kwr4DzagiKxzV8BbKoQQAoqGo&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1smxss-tAnBy3eoQygLVk84mWsvcb079x&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1DeA93XRZCSpaFEtztw3f2y-BfKO29fOQ&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1l9Q3ZspsLEzdecTIIjcQ-vSykDFNZOh4&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1i6ZfXrdYrThIuql9by0xRTk729DgY4sq&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1o8nvyjQfYSaPoYHRBL3E1dUheNfgo5Ci&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1eA1t6GmaVAJmTbfVNJK52Q1Ikf5oyjqa&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1AUo6jIOm2h6MAQNcEXjS0Y866WrgiPEi&sz=w1000"
+      "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1wq0SR2ElwfFar-nU0W3nEldgU8Wwaa86&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1_yfba2TzlCFAjli-84hjQOdejJsbQ8DQ&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1WTTAPT2Cf1UFXaNm049-9GQTR5MUAyMK&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1rHNStPbiipZEA4e2f7LiwtGq3q1vqUFj&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1vzJtqSIT1I5zsddmlGjCX6zKs-nfAWPX&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1eJsUY_a_8nUwXnstQA8KCrtuSMQquY6Y&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Eek6yLjtCOd_b1GKau-VOkODErN8klB1&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1XIUGldwOG-C-mbhV6fU8IYpCt8hdrJZW&sz=w1000"
     ],
     "variants": [],
     "similar": [],
-    "recommended": []
+    "recommended": [
+      {
+        "id": "[2025-09-08]-nuovo-saldo-nb9060-scarpe-da-jogging-sportivo-casual-retrò",
+        "name": "New Balance NB9060 Nuovo Saldo Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1I9vv-oQ85JEMfIOTlMIjAyEiKy_oI55i"
+      },
+      {
+        "id": "[2025-09-06]-puma-scuderia-ferrari-白红",
+        "name": "Puma Scuderia Ferrari Heritage Red and White",
+        "image": "https://drive.google.com/uc?export=view&id=1QulZkBEKWckow-BS_y3CCYLPKNGnxHEc"
+      },
+      {
+        "id": "[2025-09-04]-ferragamo-a-doppia-testa",
+        "name": "Salvatore Ferragamo a doppia testa",
+        "image": "https://drive.google.com/uc?export=view&id=13KQqyldT_yuNzog2RUs7E4t7tSPsojdU"
+      },
+      {
+        "id": "[2025-09-04]-𝐆𝐮𝐜𝐜𝐢-collana-gucci-ultima-catena-in-stile-serie-di-rabbia-in-stile-a-stella-superiore-serie-foresta-double-g-design-concept-pattern-pattern-la-collana-rende-i-vestiti-di-fascia-alta-più-eleganti-e-uscire-con-più-marchio-e-personalità.-i-dettagli-sono-trattati-con-argento.-il-mercato-è-luminoso-ed-elegante.-questo-modello-è-stato-rilasciato.",
+        "name": "Gucci Ultima Catena Collana in Argento con Design Foresta Double G",
+        "image": "https://drive.google.com/uc?export=view&id=1OR1QEUMkutjfChMv216b89CFgSUN_cey"
+      },
+      {
+        "id": "[2025-09-02]-tw-patek-philippe-complex-serie-multifunzionale-5205g-013",
+        "name": "Patek Philippe 5205G-013",
+        "image": "https://drive.google.com/uc?export=view&id=1b9iKXnIaCi74qxtPME4RV3P8LWHVGU9I"
+      }
+    ]
   },
   {
-    "id": "mengkelai",
-    "name": "𝗠𝗼𝗻𝗰𝗹𝗲𝗿 𝗠𝗮𝘆𝗮 Mengkelai",
+    "id": "[2025-09-06]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗠𝗮𝘆𝗮-mengkelai",
+    "name": "Moncler Maya Mengkelai",
     "brand": "Moncler",
     "images": [
       "https://drive.google.com/thumbnail?id=1NtEWzPSlgSiB-LbHN0P-Si7-pReUhlnq&sz=w1000",
@@ -464,12 +2476,64 @@
       "https://drive.google.com/thumbnail?id=12mS8GKPuFg7IkMLLDuaNTYsmqL4wEQs2&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-04]-moncler-moncler-x-palm-angels-down-giacca",
+        "name": "Moncler Down Giacca",
+        "image": "https://drive.google.com/uc?export=view&id=10fhsTqrLFfQM8YZXtOqh-4kWCO4Q3WV8"
+      },
+      {
+        "id": "[2025-09-04]-moncler-24-classic-style-dervox-limited-color-matching",
+        "name": "Moncler Dervox Classic Style",
+        "image": "https://drive.google.com/uc?export=view&id=1eu28JWF6nnE8n_GjKbAmn28iVZRb-wVL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗔𝗽𝗵𝗿𝗼𝘁𝗶-nero",
+        "name": "Moncler Apboti Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1l4l-1laqAxeYenxecRiLn6inT3-QelZL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿｜-mengkou-mengkelai-fw22-genius-x-palm-angel",
+        "name": "Moncler Mengkou Mengkelai FW22 Genius x Palm Angel",
+        "image": "https://drive.google.com/uc?export=view&id=1GLEDvJUtrd1KzOBxR8ndcghGLaoGZNFn"
+      },
+      {
+        "id": "[2025-09-04]-𝑴𝒐𝒏𝒄𝒍𝒆𝒓mengkelai-mask-maya-series-ai-green",
+        "name": "Moncler Mengkelai Mask Maya Series Ai Green",
+        "image": "https://drive.google.com/uc?export=view&id=18teuEMK7r3_d2xIUR22cHeEY0jf3Jm8H"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-02]-asics-onitsuka-tiger-mexico-66-sd-grey-black-green",
+        "name": "ASICS Onitsuka Tiger Mexico 66 SD",
+        "image": "https://drive.google.com/uc?export=view&id=1MlULGm3OFiC2sjFwwJ3GaZqZxDU4ZhqX"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Asics Men's Gel-Cumulus 23 Running Shoe",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-04]-lv-dauphine-mini",
+        "name": "LV Dauphine Mini",
+        "image": "https://drive.google.com/uc?export=view&id=1RVJ3oZCz8GtZFKyZLAc5EBBylRSDWWVJ"
+      },
+      {
+        "id": "[2025-09-04]-fenty-x-puma-grezzo-colla-in-bianco-e-nero",
+        "name": "Fenty x Puma Grezzo Colla",
+        "image": "https://drive.google.com/uc?export=view&id=17Uf4LbNhFLLY54VbxqZ5ue-ob0fumJPV"
+      },
+      {
+        "id": "[2025-09-03]-e035-modello-3824lb-lyndale-new-women-down-jacket",
+        "name": "Canada Goose E035 Lyndale Down Jacket for Women",
+        "image": "https://drive.google.com/uc?export=view&id=1DOV9Fhs4nVJjgzNyHtU2EYhBK_RjG1BJ"
+      }
+    ]
   },
   {
-    "id": "red-mengkelai",
-    "name": "𝗠𝗼𝗻𝗰𝗹𝗲𝗿 𝗠𝗮𝘆𝗮 Red Mengkelai",
+    "id": "[2025-09-06]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗠𝗮𝘆𝗮-red-mengkelai",
+    "name": "Moncler Maya Red",
     "brand": "Moncler",
     "images": [
       "https://drive.google.com/thumbnail?id=1HXnW9HAx1HTBYdGpAiCvuyQkVIABogrV&sz=w1000",
@@ -483,12 +2547,64 @@
       "https://drive.google.com/thumbnail?id=1hIHC3_iWfievfpPjOZNxlfVG3_KYSq6v&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-04]-moncler-moncler-x-palm-angels-down-giacca",
+        "name": "Moncler Down Giacca",
+        "image": "https://drive.google.com/uc?export=view&id=10fhsTqrLFfQM8YZXtOqh-4kWCO4Q3WV8"
+      },
+      {
+        "id": "[2025-09-04]-moncler-24-classic-style-dervox-limited-color-matching",
+        "name": "Moncler Dervox Classic Style",
+        "image": "https://drive.google.com/uc?export=view&id=1eu28JWF6nnE8n_GjKbAmn28iVZRb-wVL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗔𝗽𝗵𝗿𝗼𝘁𝗶-nero",
+        "name": "Moncler Apboti Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1l4l-1laqAxeYenxecRiLn6inT3-QelZL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿｜-mengkou-mengkelai-fw22-genius-x-palm-angel",
+        "name": "Moncler Mengkou Mengkelai FW22 Genius x Palm Angel",
+        "image": "https://drive.google.com/uc?export=view&id=1GLEDvJUtrd1KzOBxR8ndcghGLaoGZNFn"
+      },
+      {
+        "id": "[2025-09-04]-𝑴𝒐𝒏𝒄𝒍𝒆𝒓mengkelai-mask-maya-series-ai-green",
+        "name": "Moncler Mengkelai Mask Maya Series Ai Green",
+        "image": "https://drive.google.com/uc?export=view&id=18teuEMK7r3_d2xIUR22cHeEY0jf3Jm8H"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-puma-bella-ut-puma-75-€",
+        "name": "PUMA Bella UT",
+        "image": "https://drive.google.com/uc?export=view&id=1BSxITaP-NA_ehrwbbe49ZPjEqeLtGep4"
+      },
+      {
+        "id": "[2025-09-04]-vans-classics-knu-skool-bread-shoes-2023-fat-edition-color-batch-shoes-classic-bread-imran-pata-e-vans-sono-scarpe-di-patate-super-popolari,-classiche-retrò,-con-punta-allargata,-bordi-ispessiti-e-lingua-addensata.-vans-cla",
+        "name": "Vans Classics Knu Skool Bread Fat Edition Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1wjP4-kdnrhQILh-Qdnfr1oi0_3zBkS-X"
+      },
+      {
+        "id": "[2025-09-02]-clotx-originals-gazelle-\"halo-ivory\"",
+        "name": "Adidas Clotx Originals Gazelle Halo Ivory",
+        "image": "https://drive.google.com/uc?export=view&id=1Frn7kpTVmC1omDhMVWl1myjpDfp-49TZ"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Asics Women's Gel-Lyte V Trainer Black/White",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-04]-puma-ralph-sampson-mid-grey-e-white-suture",
+        "name": "PUMA Ralph Sampson Mid Grey/White",
+        "image": "https://drive.google.com/uc?export=view&id=1EuPTiVWatM9hmqbuyUUA-VDYEUvd3qNo"
+      }
+    ]
   },
   {
-    "id": "beige",
-    "name": "𝗠𝗼𝗻𝗰𝗹𝗲𝗿 𝗔𝗽𝗵𝗿𝗼𝘁𝗶 beige",
+    "id": "[2025-09-06]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗔𝗽𝗵𝗿𝗼𝘁𝗶-beige",
+    "name": "Moncler Apboti Beige",
     "brand": "Moncler",
     "images": [
       "https://drive.google.com/thumbnail?id=1aIXof54h-lV6ivnhPHmGf4Bf9-yUjVTK&sz=w1000",
@@ -497,12 +2613,64 @@
       "https://drive.google.com/thumbnail?id=1oxiBHU3lYRvTg00qq0qJ4OaqmDSiqySN&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-04]-moncler-moncler-x-palm-angels-down-giacca",
+        "name": "Moncler Down Giacca",
+        "image": "https://drive.google.com/uc?export=view&id=10fhsTqrLFfQM8YZXtOqh-4kWCO4Q3WV8"
+      },
+      {
+        "id": "[2025-09-04]-moncler-24-classic-style-dervox-limited-color-matching",
+        "name": "Moncler Dervox Classic Style",
+        "image": "https://drive.google.com/uc?export=view&id=1eu28JWF6nnE8n_GjKbAmn28iVZRb-wVL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗔𝗽𝗵𝗿𝗼𝘁𝗶-nero",
+        "name": "Moncler Apboti Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1l4l-1laqAxeYenxecRiLn6inT3-QelZL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿｜-mengkou-mengkelai-fw22-genius-x-palm-angel",
+        "name": "Moncler Mengkou Mengkelai FW22 Genius x Palm Angel",
+        "image": "https://drive.google.com/uc?export=view&id=1GLEDvJUtrd1KzOBxR8ndcghGLaoGZNFn"
+      },
+      {
+        "id": "[2025-09-04]-𝑴𝒐𝒏𝒄𝒍𝒆𝒓mengkelai-mask-maya-series-ai-green",
+        "name": "Moncler Mengkelai Mask Maya Series Ai Green",
+        "image": "https://drive.google.com/uc?export=view&id=18teuEMK7r3_d2xIUR22cHeEY0jf3Jm8H"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-03]-vans-classics-knu-skool-mi-brown-blue-vans-scarpe-grassi-con-giuntura-grassa-scarpa-van-super-potera-potta,-retro-e-classica,-toe-gli-alleggio,-bordi-addensati-e-lingua-addensata.-vans-classics-classics-side-patate-shoes-knu",
+        "name": "Vans Classics Knu Shoes in Brown and Blue",
+        "image": "https://drive.google.com/uc?export=view&id=1CuH7eWAVRgoGEyxRgWz2aGErY1jd7MQ3"
+      },
+      {
+        "id": "[2025-09-03]-ch@nel-catena-di-maglione-perle-a-diamante-cristallina-wrinkled-21b-21b-e-gioielli-invernali-abbigliamento-a-multistrato-nonna-profumata",
+        "name": "Chanel catena di maglione perle e diamante cristallina abbigliamento multistrato con profumo",
+        "image": "https://drive.google.com/uc?export=view&id=1oN1wodgdB__-7il-0iJaVesWshj5LsXT"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Versace Men's Casual Watch",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-06]-la-sua-classica-cintura-da-uomo-da-regalo-h-head-box",
+        "name": "Hermes Classic Men's Belt Gift Box H-Head Box",
+        "image": "https://drive.google.com/uc?export=view&id=1MOFy91u2cgk8IKvOVs3XmevZIcdOnjPQ"
+      },
+      {
+        "id": "[2025-09-04]-ugg-tasman-weather-hybrid-series-24ss-fall-and-winter-new-model-zhongbang-lightweight-casual-martin-boots",
+        "name": "Gucci Tasman Weather Hybrid Martin Boots",
+        "image": "https://drive.google.com/uc?export=view&id=16IKB9GOTyzPSy8ZYcLxGTpL-GfxTeY3B"
+      }
+    ]
   },
   {
-    "id": "moncler-escaut-down-down-down",
-    "name": "Moncler Escaut Down Down Down",
+    "id": "[2025-09-06]-moncler-escaut-down-down-down",
+    "name": "Moncler Escaut Down Jacket",
     "brand": "Moncler",
     "images": [
       "https://drive.google.com/thumbnail?id=12aOBHaB4pf8iaGRyadOGgKj1LO9KD0SP&sz=w1000",
@@ -516,31 +2684,155 @@
       "https://drive.google.com/thumbnail?id=1tjRJ1lx8JBtk78f7vZf27xcf3lms_xLJ&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-04]-moncler-moncler-x-palm-angels-down-giacca",
+        "name": "Moncler Down Giacca",
+        "image": "https://drive.google.com/uc?export=view&id=10fhsTqrLFfQM8YZXtOqh-4kWCO4Q3WV8"
+      },
+      {
+        "id": "[2025-09-04]-moncler-24-classic-style-dervox-limited-color-matching",
+        "name": "Moncler Dervox Classic Style",
+        "image": "https://drive.google.com/uc?export=view&id=1eu28JWF6nnE8n_GjKbAmn28iVZRb-wVL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿-𝗔𝗽𝗵𝗿𝗼𝘁𝗶-nero",
+        "name": "Moncler Apboti Nero",
+        "image": "https://drive.google.com/uc?export=view&id=1l4l-1laqAxeYenxecRiLn6inT3-QelZL"
+      },
+      {
+        "id": "[2025-09-04]-𝗠𝗼𝗻𝗰𝗹𝗲𝗿｜-mengkou-mengkelai-fw22-genius-x-palm-angel",
+        "name": "Moncler Mengkou Mengkelai FW22 Genius x Palm Angel",
+        "image": "https://drive.google.com/uc?export=view&id=1GLEDvJUtrd1KzOBxR8ndcghGLaoGZNFn"
+      },
+      {
+        "id": "[2025-09-04]-𝑴𝒐𝒏𝒄𝒍𝒆𝒓mengkelai-mask-maya-series-ai-green",
+        "name": "Moncler Mengkelai Mask Maya Series Ai Green",
+        "image": "https://drive.google.com/uc?export=view&id=18teuEMK7r3_d2xIUR22cHeEY0jf3Jm8H"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-06]-open-yy-x-puma-speedcet-khaki-argento",
+        "name": "Puma Speedcet Khaki Argento",
+        "image": "https://drive.google.com/uc?export=view&id=1RqfVrPUHqrfvRRpUzax2NntSmbKZ-fm5"
+      },
+      {
+        "id": "[2025-09-04]-serie-di-cinture-casuali-di-kuqi-maschile",
+        "name": "Gucci Mens Casual Belts",
+        "image": "https://drive.google.com/uc?export=view&id=15IM_gdl-zrEXDLvVqRRZeFLeNuPSjVC_"
+      },
+      {
+        "id": "[2025-09-04]-annasu-annasui-75ml-recensione-del-profumo-unicorno🦄️-heartful-di-ragazza-piena-✨-una-bottiglia-di-profumo-che-devi-acquistare-per-il-tuo-aspetto-fantasy-girl-~-dopo-averlo-ottenuto,-è-un-modello-molto-strutturato.-la-scatola-è-una-combinazione-blu-lattea-con-il-timbro-d'oro-delinea-unicorni,-stelle,-fiori-e-altri-elementi🦄",
+        "name": "Anna Sui Heartful \n\n(Note: standardization has involved simplifying the title into key words related to the brand and product, and excluding extraneous punctuation, emojis and extraneous information not directly related to the brand or product)",
+        "image": "https://drive.google.com/uc?export=view&id=1XyYj2Ej_i8KZcU5raSseUFoeqBkhFbh0"
+      },
+      {
+        "id": "[2025-09-02]-richard-mille-rm010",
+        "name": "RM010",
+        "image": "https://drive.google.com/uc?export=view&id=1XJtWvxF-cnXvGrSm7iDPzG3pLoRwuSkG"
+      },
+      {
+        "id": "[2025-09-02]-vacheron-costantin-vc-🎮rp6-serie-di-versione-aggiornata-ereditaria!",
+        "name": "VACHERON CONSTANTIN VC Serie di Versione Aggiornata Ereditaria",
+        "image": "https://drive.google.com/uc?export=view&id=1xiUjcqkzJxK4aKG-OIn5_-bLv5de-Skr"
+      }
+    ]
   },
   {
-    "id": "2025-09-2-102",
-    "name": "2025-09-2",
-    "brand": "Moncler",
+    "id": "[2025-09-2",
+    "name": "Moncler 2025 Fall Collection",
+    "brand": "Descente",
     "images": [
-      "https://drive.google.com/thumbnail?id=1kLUo4paC9U6ci28ymdWc0WMqnC3N8HDr&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1CiKftZ5vxF4Dw0ZRmH2coawZk8MR6E8M&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1leb5qpWrA5aMwLQxTazfCr9UJzO6fPnd&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1gVF2yEsktDEaZ8jr8xRuctxkI-qs2B4T&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1ITmq9f9KulJ_3rs-VLcN1N7-ahWINGl9&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1DdewZXTuKDq8x0YJZe1gnAO7MD-L7wk2&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1XN_mZDOFlNtmNXrkCX4uvlPbmpy4OMiZ&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1xxezWLcoLTzOLg6ImfxydLKtHHpJCGOx&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1crdyA93U-T7kN194kLpLnzqFJmBIDJFv&sz=w1000"
+      "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1wq0SR2ElwfFar-nU0W3nEldgU8Wwaa86&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1_yfba2TzlCFAjli-84hjQOdejJsbQ8DQ&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1WTTAPT2Cf1UFXaNm049-9GQTR5MUAyMK&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1rHNStPbiipZEA4e2f7LiwtGq3q1vqUFj&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1vzJtqSIT1I5zsddmlGjCX6zKs-nfAWPX&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1eJsUY_a_8nUwXnstQA8KCrtuSMQquY6Y&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Eek6yLjtCOd_b1GKau-VOkODErN8klB1&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1XIUGldwOG-C-mbhV6fU8IYpCt8hdrJZW&sz=w1000"
     ],
     "variants": [],
     "similar": [],
-    "recommended": []
+    "recommended": [
+      {
+        "id": "[2025-09-02]-cartier-cartler🎉-orologio-da-uomo-2",
+        "name": "Cartier Orologio da Uomo 2",
+        "image": "https://drive.google.com/uc?export=view&id=15bxlQrbzMtjhxxGpn7fXlsC8b_857t_o"
+      },
+      {
+        "id": "[2025-09-02]-[pff-factory]-patek-philippe-classical-series-5227-orologio",
+        "name": "Patek Philippe Classical Series 5227 Watch",
+        "image": "https://drive.google.com/uc?export=view&id=1Knt-KzPNsEthwevrUCk92RGoo2zPYp8C"
+      },
+      {
+        "id": "[2025-09-06]-hermes-kelly-ascarica-borsa",
+        "name": "Hermes Kelly Ascarica Bag",
+        "image": "https://drive.google.com/uc?export=view&id=1RrBeVSJsV6UK9I6E9GOEcG9mMdD8kC-c"
+      },
+      {
+        "id": "[2025-09-02]-asics-gel-kayano-14-marrone-bianco-asics-di-14a-generazione-cuscino-ad-aria-nanofibra-versatile-scarpe-da-jogging-sportivo-casual-#original-nanofibra-composito-#light-ridotto-di-peso-55%-g-#new-ff-blast-plus-midsuole-#gel-silicone-cuscini-#eva-acciaio-in-acciaio-#eva-acciaio-in-acciaio-#eva-acciaio-in-acciaio-#eva-acciaio-in-acciaio-#eva-acciaio-in-acciaio-#eva-acciaio-in-acciaio-#va",
+        "name": "Asics Gel-Kayano 14",
+        "image": "https://drive.google.com/uc?export=view&id=1CuUdqbUHix24KestE0x4SRbZ5Og1B4WE"
+      },
+      {
+        "id": "[2025-09-03]-adidas-stan-smith-classic-pink-tail",
+        "name": "Adidas Stan Smith Classic Pink",
+        "image": "https://drive.google.com/uc?export=view&id=1C5-WZj8zFhfNPieh1Qob4aCVvupWIVJf"
+      }
+    ]
   },
   {
-    "id": "miiusu-zaino-135",
-    "name": "MIIUSu zaino 135 €",
+    "id": "applique-ricamata-con-cappuccio-con-cappuccio",
+    "name": "Miu Miu Applique Embellished Hooded Jacket",
+    "brand": "Miu Miu",
+    "images": [],
+    "variants": [],
+    "similar": [
+      {
+        "id": "[2025-09-06]-miiusu-zaino-135-€",
+        "name": "Miu Miu Su Zaino",
+        "image": "https://drive.google.com/uc?export=view&id=1JdCtwFu0rVlZ-g4giWGpDMrBpdGYTGjG"
+      },
+      {
+        "id": "[2025-09-06]-miumiu-wander-hobo-fold-ascelle-118-€-€",
+        "name": "Miu Miu Wander Hobo",
+        "image": "https://drive.google.com/uc?export=view&id=1HMvDij4_u4oaZrdOsMxx88PTcOyL7F5D"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-fila-fusion",
+        "name": "Fila Fusion",
+        "image": "https://drive.google.com/uc?export=view&id=1t1_oxYQvCFxpWyZOdLIpEXU0XyTMjwQo"
+      },
+      {
+        "id": "[2025-09-04]-north-down-jacket-red",
+        "name": "The North Face Down Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=10vOKaAn6ZjYvRYgtsbD2AQUDa7d1zJjI"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Patek Philippe 2025 Automatic Mens Watch",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-02]-luce-di-coda",
+        "name": "Adidas Luce Di Coda",
+        "image": "https://drive.google.com/uc?export=view&id=1xz7D5UvgkW6gOn-kscWvROAadxxRUkeo"
+      },
+      {
+        "id": "[2025-09-03]-giappone-limited-snake-snake-anno-limitato-anno-di-serpente-limitato-limited-nangabawa-songzan-namto",
+        "name": "Arc-teryx Giappone Limited Edition Snake Year Model",
+        "image": "https://drive.google.com/uc?export=view&id=1cVmQ4BL1L9h6SfbhWke8RvZfkBVmxWvA"
+      }
+    ]
+  },
+  {
+    "id": "[2025-09-06]-miiusu-zaino-135-€",
+    "name": "Miu Miu Su Zaino",
     "brand": "Miu Miu",
     "images": [
       "https://drive.google.com/thumbnail?id=1JdCtwFu0rVlZ-g4giWGpDMrBpdGYTGjG&sz=w1000",
@@ -554,12 +2846,49 @@
       "https://drive.google.com/thumbnail?id=1Y7e0lEDyemQYAodtCnH7gWIFWwSz-LOg&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "applique-ricamata-con-cappuccio-con-cappuccio",
+        "name": "Miu Miu Applique Embellished Hooded Jacket",
+        "image": null
+      },
+      {
+        "id": "[2025-09-06]-miumiu-wander-hobo-fold-ascelle-118-€-€",
+        "name": "Miu Miu Wander Hobo",
+        "image": "https://drive.google.com/uc?export=view&id=1HMvDij4_u4oaZrdOsMxx88PTcOyL7F5D"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-06]-perfume-without-impurities,-all-details-correct,-not-comparable-to-market-11-quality,-can-be-used-as",
+        "name": "New Balance Perfume",
+        "image": "https://drive.google.com/uc?export=view&id=1dS_bZn63a2fktDvOfjAeTWnDPV_b2MxY"
+      },
+      {
+        "id": "[2025-09-04]-new-balance-mr530cb-scarpe-da-jogging-casual-retrò-nb530-nb530,-vero-scatto-sugli-scaffali,-utilizzando-materiali-e-colla-originali,-alimentazione-tmall-mescolata-in-maggiori-commercianti,-set-completo-di-stampi-originali-puri,-taglio-in-pelle-originale,-texture-invincibile",
+        "name": "New Balance MR530CB Casual Retro Running Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1iMYCmXdkWXYvicCx3eWpAt1vgR9vJUvk"
+      },
+      {
+        "id": "[2025-09-03]-chanel-n-°-5-acqua-dolce-nuova-n5-water-women's-eau-delicacy-eau-100ml-la-nuova-acqua-n.-5-è-più-semplice-della-versione-precedente-e-utilizza-l'aroma-fruttato-di-agrumi-come-note-principali-per-rilasciare-vitalità-vigorosa.-le-melodie-a-bottiglia-aperta-di-limone,-agrumi-e-danza-arancione-dolce-con-acetaldeide.-proprio-come-colpisce-una-brezza,-puoi-sentirlo",
+        "name": "Chanel N° 5 Eau Acqua Delicata",
+        "image": "https://drive.google.com/uc?export=view&id=1WsU7mHDYLCIHMCz3V7JjhEWazmwV6xTJ"
+      },
+      {
+        "id": "[2025-09-06]-dr.-martens-dr.-martens",
+        "name": "Dr. Martens Boot",
+        "image": "https://drive.google.com/uc?export=view&id=14W67s3HO1XjLeAAVHoJdu0NCtLpw9GH4"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Nike Air Zoom Pegasus 27",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      }
+    ]
   },
   {
-    "id": "miumiu-wander-hobo-fold-ascelle-118",
-    "name": "Miumiu Wander Hobo Fold ascelle 118 € €",
+    "id": "[2025-09-06]-miumiu-wander-hobo-fold-ascelle-118-€-€",
+    "name": "Miu Miu Wander Hobo",
     "brand": "Miu Miu",
     "images": [
       "https://drive.google.com/thumbnail?id=1HMvDij4_u4oaZrdOsMxx88PTcOyL7F5D&sz=w1000",
@@ -573,12 +2902,49 @@
       "https://drive.google.com/thumbnail?id=1sf2AHee7mc9_C1g2uXwwqOXvxdc3wZAn&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "applique-ricamata-con-cappuccio-con-cappuccio",
+        "name": "Miu Miu Applique Embellished Hooded Jacket",
+        "image": null
+      },
+      {
+        "id": "[2025-09-06]-miiusu-zaino-135-€",
+        "name": "Miu Miu Su Zaino",
+        "image": "https://drive.google.com/uc?export=view&id=1JdCtwFu0rVlZ-g4giWGpDMrBpdGYTGjG"
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-new-chanel-xiaoxiang-orecchini-semicircolari-rossi-di-capodanno,-il-contatore-viene-lanciato-contemporaneamente.-il-materiale-coerente-originale-è-abbinato-a-orecchini-a-ago-in-argento-sterling💗-l'ottimo-lavoro-è-fatto-con-il-massimo-efficacia-in-termini-di-costi-e-la-massima-qualità-sull'intera-rete,-l'effetto-dell'orecchio-è-particolarmente-buono!-è-così-bello!-adatto-a-tutti-i-tipi-di-occasioni-festive-♥-️",
+        "name": "Chanel Semicircular Red Earrings with Sterling Silver Piercing and Counters",
+        "image": "https://drive.google.com/uc?export=view&id=15HGdz1ZFiRzvmvxvnEYm7SPHS0Xgbb1x"
+      },
+      {
+        "id": "[2025-09-04]-bass-per-spalla_assillaria-118-€",
+        "name": "Yves Saint Laurent BASS Shoulder Bag",
+        "image": "https://drive.google.com/uc?export=view&id=1ribs7eqNLAfaYR_RadjwfznA3H-6M8Zg"
+      },
+      {
+        "id": "[2025-09-02]-original-gazelle-indoor-w",
+        "name": "Adidas Gazelle Indoor Shoe",
+        "image": "https://drive.google.com/uc?export=view&id=1QYqMmDFRz3-YKgTnWSzxKWAptutLcy1X"
+      },
+      {
+        "id": "[2025-09-03]-allenatore-dell'esercito-puma-bianco,-grigio,-nero",
+        "name": "Allenatore dell'esercito Puma \n\n(Note: Removed date, redundant color description)",
+        "image": "https://drive.google.com/uc?export=view&id=1abyoMXp5-jFMXP1M_rFIKdFqnZuylYH4"
+      },
+      {
+        "id": "[2025-09-02]-cenere-vulcanica",
+        "name": "Adidas Cenere Vulcanica Sneaker",
+        "image": "https://drive.google.com/uc?export=view&id=1muneB56ZFhmlQCzmsv7_CDf-3uE_qxjb"
+      }
+    ]
   },
   {
-    "id": "giacca-da-lavoro-da-lavoro-per-collare-peloso",
-    "name": "Giacca da lavoro da lavoro per collare peloso",
+    "id": "[2025-09-04]-giacca-da-lavoro-da-lavoro-per-collare-peloso",
+    "name": "MLB Fleece Work Jacket for Dogs",
     "brand": "MLB",
     "images": [
       "https://drive.google.com/thumbnail?id=1edAz2aN2YztaOv4iYrT3E1u_dRK66I88&sz=w1000",
@@ -592,12 +2958,64 @@
       "https://drive.google.com/thumbnail?id=1VR41icfad2MFr_880507fHl30T46Ep-K&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-06]-giacca-da-lavoro-da-lavoro-per-collare-peloso",
+        "name": "MLB 2025 Fleece Work Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=1iEnRHwV9QXOw5ZVFwlJ9hjBv7vLgd5Je"
+      },
+      {
+        "id": "[2025-09-03]-borsa-trasversale-per-telefono-cellulare-mlb",
+        "name": "MLB Transversal Phone Case",
+        "image": "https://drive.google.com/uc?export=view&id=1kNDxyrfxSBNgXpYy_-8PgxC_hZkvxoN3"
+      },
+      {
+        "id": "[2025-09-04]-mlb-capelli-collar-abbigliamento-da-lavoro-giù-blu-navy-blue",
+        "name": "MLB Workwear Navy Blue Collar Capelli",
+        "image": "https://drive.google.com/uc?export=view&id=1HO9YiyRz-Y0yiF22DNoLaUp1U4FtmXTH"
+      },
+      {
+        "id": "[2025-09-06]-mlb-small-backpack",
+        "name": "MLB Small Backpack",
+        "image": "https://drive.google.com/uc?export=view&id=1ReuU9CwrDL58Ho04ogJ5c-XlaH53Zxfb"
+      },
+      {
+        "id": "team-di-new-york-keyang",
+        "name": "MLB New York Yankees Keychain",
+        "image": null
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-08]-little-air-force-1-workwear-low-top-hook-and-loop-sneakers",
+        "name": "Nike Little Air Force 1 Workwear Low-Top Hook-and-Loop Sneakers",
+        "image": "https://drive.google.com/uc?export=view&id=1Vt9_wfocVYWrG6m9Fnnm8JElYxycyYwn"
+      },
+      {
+        "id": "[2025-09-06]-vans-knu-skool-vr3-lx-bread-scarpe-kanpur-julian-serie-\"fat-versione-big-logo\"-sea-cheese-blue-knuskool-styling-è-anche-un-progetto-congiunto-di-imranpotato-e-sono-stati-lanciati-quattro-nuovi-colori.-la-prima-selezione-di-colori",
+        "name": "Louis Vuitton Vans Knu-Skool VR3 LX Sneakers in Blue Colour.",
+        "image": "https://drive.google.com/uc?export=view&id=1xubUhM-W_HMRI8PFO7QRfY87wvUDDxDf"
+      },
+      {
+        "id": "[2025-09-03]-vans-knu-skool-vr3-lx-beige-fat-edition-big-logo-shoes-shoes-vulcanized-show-scarpe-le-scarpe-knuskool-sono-anche-un-progetto-congiunto-di-imranpotato-e-sono-stati-lanciati-quattro-nuovi-colori.-la-prima-combinazione-di-colori-è-scelta-come-un-bianco-e-nero-molto-classico",
+        "name": "Louis Vuitton Vans Knu-Skool Vr3 LX Beige Fat Edition Big Logo Shoes",
+        "image": "https://drive.google.com/uc?export=view&id=1gjPwLq0GoJamnPxEMJL7v3q76B5zY8ZT"
+      },
+      {
+        "id": "[2025-09-02]-tw-factory-patek-philippe-complex-multifunctional-series-5905r-010",
+        "name": "Patek Philippe 5905R-010",
+        "image": "https://drive.google.com/uc?export=view&id=15xCpc1Pljn1R1vyENbY8xhxr-eSPQsEJ"
+      },
+      {
+        "id": "[2025-09-06]-three-party-collaboration-reverse-swoosh",
+        "name": "Nike Three-party Collaboration Reverse Swoosh",
+        "image": "https://drive.google.com/uc?export=view&id=1SvKA1qS2rgmz5zXl_64TqDnz8OdFXhym"
+      }
+    ]
   },
   {
-    "id": "giacca-da-lavoro-da-lavoro-per-collare-peloso-1",
-    "name": "Giacca da lavoro da lavoro per collare peloso",
+    "id": "[2025-09-06]-giacca-da-lavoro-da-lavoro-per-collare-peloso",
+    "name": "MLB 2025 Fleece Work Jacket",
     "brand": "MLB",
     "images": [
       "https://drive.google.com/thumbnail?id=1iEnRHwV9QXOw5ZVFwlJ9hjBv7vLgd5Je&sz=w1000",
@@ -611,12 +3029,64 @@
       "https://drive.google.com/thumbnail?id=1lrDCG-GCTlVn6woJcu79nxGSBUBhGpTL&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-04]-giacca-da-lavoro-da-lavoro-per-collare-peloso",
+        "name": "MLB Fleece Work Jacket for Dogs",
+        "image": "https://drive.google.com/uc?export=view&id=1edAz2aN2YztaOv4iYrT3E1u_dRK66I88"
+      },
+      {
+        "id": "[2025-09-03]-borsa-trasversale-per-telefono-cellulare-mlb",
+        "name": "MLB Transversal Phone Case",
+        "image": "https://drive.google.com/uc?export=view&id=1kNDxyrfxSBNgXpYy_-8PgxC_hZkvxoN3"
+      },
+      {
+        "id": "[2025-09-04]-mlb-capelli-collar-abbigliamento-da-lavoro-giù-blu-navy-blue",
+        "name": "MLB Workwear Navy Blue Collar Capelli",
+        "image": "https://drive.google.com/uc?export=view&id=1HO9YiyRz-Y0yiF22DNoLaUp1U4FtmXTH"
+      },
+      {
+        "id": "[2025-09-06]-mlb-small-backpack",
+        "name": "MLB Small Backpack",
+        "image": "https://drive.google.com/uc?export=view&id=1ReuU9CwrDL58Ho04ogJ5c-XlaH53Zxfb"
+      },
+      {
+        "id": "team-di-new-york-keyang",
+        "name": "MLB New York Yankees Keychain",
+        "image": null
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-04]-mcqueen-&-zipper-silver-tail",
+        "name": "Alexander McQueen Silver Tail With Zipper",
+        "image": "https://drive.google.com/uc?export=view&id=1l5Rtx0O5WsmNXlvkDj4TPnpCM-6y1hxh"
+      },
+      {
+        "id": "[2025-09-02]-asics-onitsuka-tiger-tokuten-beige-asics-onitsuka-tigre-scarpe-sportive-retrò-neutrali-leggere-e-comode-moda-e-stile-retrò-e-integrato-adatto-per-estate-~-semplici-ambienti-con-linee-sottili-è-fatto-tutto-il-corpo-della-scarpa-è-fatto-in-pelle-cucita-ed-trasuda-il-giappone",
+        "name": "Onitsuka Tiger Tokuten Scarpe Sportive",
+        "image": "https://drive.google.com/uc?export=view&id=1YlfDF21QJ0SC4gYcL8qT6PNNpBejPb4n"
+      },
+      {
+        "id": "[2025-09-03]-balenciaga-nuovo-stile-borse-per-secchio-per-coregne-138-€",
+        "name": "Balenciaga Nuovo Stile Borse",
+        "image": "https://drive.google.com/uc?export=view&id=1VrXrOV8Wdm0itl2hk9Et_acFGmOufrJ5"
+      },
+      {
+        "id": "[2025-09-04]-ecco-125-€",
+        "name": "Ecco Sneaker",
+        "image": "https://drive.google.com/uc?export=view&id=1PTRA-e_W1AZ-aX86_9cz-S8xhj_Zu91s"
+      },
+      {
+        "id": "[2025-09-08]-adidas-adizero-4.0",
+        "name": "Adidas Adizero 4.0",
+        "image": "https://drive.google.com/uc?export=view&id=10-YyXIQWTorz2Z6IPlmt6WrVEWQ04C7Z"
+      }
+    ]
   },
   {
-    "id": "borsa-trasversale-per-telefono-cellulare-mlb",
-    "name": "borsa trasversale per telefono cellulare MLB",
+    "id": "[2025-09-03]-borsa-trasversale-per-telefono-cellulare-mlb",
+    "name": "MLB Transversal Phone Case",
     "brand": "MLB",
     "images": [
       "https://drive.google.com/thumbnail?id=1kNDxyrfxSBNgXpYy_-8PgxC_hZkvxoN3&sz=w1000",
@@ -625,338 +3095,104 @@
       "https://drive.google.com/thumbnail?id=1gjYb8uMiCQBDUACeSHAplK_imzRPE9ox&sz=w1000"
     ],
     "variants": [],
-    "similar": [],
-    "recommended": []
+    "similar": [
+      {
+        "id": "[2025-09-04]-giacca-da-lavoro-da-lavoro-per-collare-peloso",
+        "name": "MLB Fleece Work Jacket for Dogs",
+        "image": "https://drive.google.com/uc?export=view&id=1edAz2aN2YztaOv4iYrT3E1u_dRK66I88"
+      },
+      {
+        "id": "[2025-09-06]-giacca-da-lavoro-da-lavoro-per-collare-peloso",
+        "name": "MLB 2025 Fleece Work Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=1iEnRHwV9QXOw5ZVFwlJ9hjBv7vLgd5Je"
+      },
+      {
+        "id": "[2025-09-04]-mlb-capelli-collar-abbigliamento-da-lavoro-giù-blu-navy-blue",
+        "name": "MLB Workwear Navy Blue Collar Capelli",
+        "image": "https://drive.google.com/uc?export=view&id=1HO9YiyRz-Y0yiF22DNoLaUp1U4FtmXTH"
+      },
+      {
+        "id": "[2025-09-06]-mlb-small-backpack",
+        "name": "MLB Small Backpack",
+        "image": "https://drive.google.com/uc?export=view&id=1ReuU9CwrDL58Ho04ogJ5c-XlaH53Zxfb"
+      },
+      {
+        "id": "team-di-new-york-keyang",
+        "name": "MLB New York Yankees Keychain",
+        "image": null
+      }
+    ],
+    "recommended": [
+      {
+        "id": "[2025-09-03]-backpack-della-serie-hobo-gucci-padlock-185-€",
+        "name": "Adidas Hobo Gucci Padlock Backpack",
+        "image": "https://drive.google.com/uc?export=view&id=1_2e4aaqd3Eyq36K4G65ruMitWWgssmfP"
+      },
+      {
+        "id": "[2025-09-02]-serie-di-carri-armati-cartier-cartler🎉",
+        "name": "Cartier Serie di Carri Armati",
+        "image": "https://drive.google.com/uc?export=view&id=10Dv8vOb6YNw0oJHQWJtJGN1wLEfVfuyM"
+      },
+      {
+        "id": "[2025-09-2",
+        "name": "Patek Philippe 2025 Automatic Mens Watch",
+        "image": "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000"
+      },
+      {
+        "id": "[2025-09-06]-coach-tabby-20-chain-baccarat-pack-95-€-€",
+        "name": "Coach Tabby 20 Chain Baccarat",
+        "image": "https://drive.google.com/uc?export=view&id=1D9UHkGpY_HJj_M5-V5FQ5Oywecg9cVqp"
+      },
+      {
+        "id": "[2025-09-02]-serie-multifunzionale-complessa-di-patek-philippe-5969r-001",
+        "name": "Patek Philippe Serie Multifunzionale Complessa Ref. 5969R-001",
+        "image": "https://drive.google.com/uc?export=view&id=1E1JbBoRVL38ymmCGFSxqK5TF7WVmBrnM"
+      }
+    ]
   },
   {
-    "id": "2025-09-2-103",
-    "name": "2025-09-2",
-    "brand": "MLB",
+    "id": "[2025-09-2",
+    "name": "MLB [Date] Cap",
+    "brand": "Descente",
     "images": [
-      "https://drive.google.com/thumbnail?id=1DoVkwhe8LLOX5NWDYm8ewnV2RWjFZBy7&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1AdDxiW3LKzluHFaCo_C9bBpffVic8ywh&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1aZouvvM06MkpmEDOWo6UAwypdQZE9R6-&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1NqYJOhw-87EyQ4lLJvYy3M62Mtuiecpp&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1mMjRQlek0o5oLocrGLxfXeKNGB3vBYWp&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1ulCZMCliHNiB5l1gARruK1aSiijmgDlQ&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1G6byEoECLpcGLtFQ4iSzmfb9FqkbQXay&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1o6K-zogy8rkkeOtIZiyOsAaHgyGxlkgP&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1-Gf5UqaBNiIthl5GazPOOhrjO4ClNUQI&sz=w1000"
+      "https://drive.google.com/thumbnail?id=1-2n2vYjGtJeIC3MyIQwztD8_CCWxtaXA&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1wq0SR2ElwfFar-nU0W3nEldgU8Wwaa86&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1_yfba2TzlCFAjli-84hjQOdejJsbQ8DQ&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1WTTAPT2Cf1UFXaNm049-9GQTR5MUAyMK&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1rHNStPbiipZEA4e2f7LiwtGq3q1vqUFj&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1vzJtqSIT1I5zsddmlGjCX6zKs-nfAWPX&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1eJsUY_a_8nUwXnstQA8KCrtuSMQquY6Y&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1Eek6yLjtCOd_b1GKau-VOkODErN8klB1&sz=w1000",
+      "https://drive.google.com/thumbnail?id=1XIUGldwOG-C-mbhV6fU8IYpCt8hdrJZW&sz=w1000"
     ],
     "variants": [],
     "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "mlb-capelli-collar-abbigliamento-da-lavoro-giu-blu-navy-blue",
-    "name": "MLB Capelli Collar Abbigliamento da lavoro giù Blu Navy Blue",
-    "brand": "MLB",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1HO9YiyRz-Y0yiF22DNoLaUp1U4FtmXTH&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1-HKK14e-V91t1uUkc4-2fId0421keN6R&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1t_0WEUamDy7FcZS2wwwcmWhHN0yaVPoa&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1t4YPyw1InJpSuv4oZkMdz39wTkgG-qIp&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1xmpzCZ_bqn_1kESA_fpoHpcqVCSb3rNl&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1t_6H_TF-qpnDbzf-wFPGbo22IU7S7UFn&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1lZnMAEoY8vCH7Ja_q5wJeQzaWpTKHuqe&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1WXzOOutZnbz9H486lWZp_KAouGmPc_FZ&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1CuYlMPTbcer9gRoB6vET7CLBGiC9zv4f&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "mlb-small-backpack",
-    "name": "MLB Small Backpack",
-    "brand": "MLB",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1ReuU9CwrDL58Ho04ogJ5c-XlaH53Zxfb&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1YEMD5g3i0OHFWsKG5VOyq7tvs-kS_AKS&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1PFVFrDiOiP9RfpLTOGQRaNVcJQgtydvW&sz=w1000",
-      "https://drive.google.com/thumbnail?id=18u_dO8rjW9AP8A2324QD0xd-707BEkGD&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1CoTojW52k6AJixGVXFe1YD-Mc7rV0Aa6&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1fzJ2new3VCpEyg9y-BfFyc9eo0VaTXA8&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1noEYOkMVum5OY64Wm-VuUPSCOBvaQapG&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1bL6qhGKlFOTk5Le3PFt4dDRomLcs1-M5&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1GzFL9ABQe3daKNgeFkgWELZjGKxuY27O&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "mlb-capelli-da-lavoro-collar-giacca",
-    "name": "MLB Capelli da lavoro Collar Giacca",
-    "brand": "MLB",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1SX1ot8U-otD4vklxRAghoyTU2nK4poNq&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1ywZ4_9xTPdD7VY133naoCJPycKF3Qw2l&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1uNJfVlZkgD8wbkvpAQlhz06RQzK0wxoO&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1bYyOGB-V9xhdvFADb4zAok3TMv27XYfC&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1A1bh7PpOWfeY-3gHhhD7backR5ErfJVM&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1SUN18CrXnia00MG905YPd1cz8-4U7hab&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1C_k7eLMBA-TDYfqRf7d7HVqw5by8YNlH&sz=w1000",
-      "https://drive.google.com/thumbnail?id=17wLSu5NTpDt_aPhUHY1xuWcT3lvAOq7Y&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1knpemSW8RYC_UNgk_ZBTr5L9_JLycyJs&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "barb-a-tre-partite-1",
-    "name": "Barb a tre partite",
-    "brand": "Louis Vuitton",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1rNfFhnVIEIBXU2_AvJvnkHTxASPCzmR9&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1l-_x7jg2IyN1RngQ8uy80d9X28GxbuX9&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1sAifESb74LuDuR2MhtpSjsQbVNpZATD3&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1biG7jH8JtxRzGo1q0AeIoLBk5SILGoFM&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Q6wjeNTNk-YdEdI5_7aWSM_reTp33yPX&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Sll5v25bHhP7gsRiO4XS1cLDD_38exqB&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1EwC10_H0-MJClKE5b-InkWsO6Pt1ldcG&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1_7Xw60fshjxMl1uCPJyA_99YAoNWmrPE&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1q6Ti1MaqNU1PhVkVr916n0umF5cWqrPu&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "ls-classic-speedy",
-    "name": "LS Classic Speedy",
-    "brand": "Louis Vuitton",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1Kvm7U6jeqDBNeiy344vqkm2deezlMkLG&sz=w1000",
-      "https://drive.google.com/thumbnail?id=15ZZy0NyWe6CA836nggDYMWhPqGhNMX-N&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1qp6-uciReW80_osoBaI8BIgLruWJuzf7&sz=w1000",
-      "https://drive.google.com/thumbnail?id=13auuhRqaCXoBDgSOmpMH4AzFN7K3r6Ia&sz=w1000",
-      "https://drive.google.com/thumbnail?id=16e6m4h0niNrSRMgKx15eK0f8hZCza8rd&sz=w1000",
-      "https://drive.google.com/thumbnail?id=14u4GK7nuluHb7IWNM55-njdTeBZR_qPj&sz=w1000",
-      "https://drive.google.com/thumbnail?id=14Gcj5Enklm3M6NeF-Z2brk9o7BXF0OXn&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1jmgEt7NtrmAIqx6TWta2fV8SdLF1moyu&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1x4hH5dJV6SyYxk_mTjgKVZEhzUyhnfew&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Od0QNzbqoXq5D8RaGb4vJ4RoRHBvgCQh&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1yrI-nqRuUlxALVMkyRzG02-Guvw9t5HF&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1mdv26p73IHP7kOZQonC0P8yk5AYbAPci&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1EKRPzf_MuORfO7sllEIgOfYHkjAx0xND&sz=w1000",
-      "https://drive.google.com/thumbnail?id=11tQ8-vCU9H37kf7l8Lf0Iv7K3MYSSqN3&sz=w1000",
-      "https://drive.google.com/thumbnail?id=18AxCld9WPm87u7JrKoSDA4Vb3aVXnQQp&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1_u66zHe6rXyhVslAzktJsdOyCBWJ-KWz&sz=w1000",
-      "https://drive.google.com/thumbnail?id=12C-CXMdHmoJtL5tKPJwsUhbK1488UcB0&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1QW2SSvjeXaNOu9vShqyNFTwRtBODvt51&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "barb-a-tre-partite-2",
-    "name": "Barb a tre partite",
-    "brand": "Louis Vuitton",
-    "images": [
-      "https://drive.google.com/thumbnail?id=18KsBIO9NUGAS8C-D_Av1EC9kq_5_cAg7&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1NAhFl5y38aYVR74-i90aNszsXxuiSFBZ&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1q4SI5P9Nxq4tBxMMBx4qRXIHAtX5zX5e&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1PCpBanOv-2pcu8isnrAak8AWYouy1w_3&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1gWHt8goJsduB7ArVGBaFlmJZ6haQhtSi&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1LiX__ZdBZe3D_WlzSQskikdQLKS9tJ6r&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1lRr3xnUI9eEcgkc4LgUh7SwXmKI0mQpg&sz=w1000",
-      "https://drive.google.com/thumbnail?id=17NFQm4WowJKhXJuJWJwaTvS23-oHN36z&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1UDZrmvsq46l368cAfP3-8AF4bWYYQUpp&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "tote-bag-di-mezza-eta",
-    "name": "TOTE BAG di mezza età",
-    "brand": "Louis Vuitton",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1SNMwnlc5RgFkucKzih7PjpBUarWJGbP_&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1boCd9xMWkFZQNLLL1d61whrb8PjfWtry&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1jT5_SZOn1EGfDjyFR0YyFAwoYLnxJ5j7&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1dyk11zfmjwHw7h1-3EQJItLm_6Rec5X3&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1kA49xtw6EhZXSQ1nM96kAmANilKZ5bhB&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1gLWRusHzcelrMohdia9vK1lnm3sV4a6K&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1_3dqE-nvdnZNxwWNrBGpOapXJysqcZQR&sz=w1000",
-      "https://drive.google.com/thumbnail?id=10XgFfQNyuw84ny6Q43UOESV09QGpPbN_&sz=w1000",
-      "https://drive.google.com/thumbnail?id=11nnaJvanA-sMHj2eAZZRW32PUHn3Jp30&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "camille-pocket-125",
-    "name": "Camille Pocket € 125",
-    "brand": "Louis Vuitton",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1w_ig4q2M2V54X7lxnMYIWhdDAELpqqoA&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1SAIvPuQZDhNrJd26noBsirSMkj8z0M03&sz=w1000",
-      "https://drive.google.com/thumbnail?id=17GAm3Ol1HgTGpMSKiPnMCpa-aS2gNVzx&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1RsmBKNF0z91szUHHl_dtvGU3NS6CjcZa&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1ubJ45NdxP2Qwpm1Ye1Bbb0OputNJ4RLp&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1NmrNBVdV7nGKXeg0cnnxCLu_e-r2NE_o&sz=w1000",
-      "https://drive.google.com/thumbnail?id=18tOt2TboLaDirwx4gpeUowgfgeq_OvgS&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1KooKuq98NSVNbW1jL0oF6zhIe56dYNvl&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1GdNwwEVK4oXU2HHh9qC--yte3e4L2tuM&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "2025-09-2-104",
-    "name": "2025-09-2",
-    "brand": "Louis Vuitton",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1RbzDq9XCb3b7l7drLxmWhrkPqGjiFH-D&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1g75EIxBSvss5MXi-K5tJBH6kBOVoOy8V&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1MUZ-9HG3lIPaQyhNfa2i4tsvqV9PKZk7&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1IoVuEiL98CAe1qsZt0GyK5X-PvMZ1Crt&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Ef7Tw3wNm2lQ34O0WozH2CuJIicwygBg&sz=w1000",
-      "https://drive.google.com/thumbnail?id=18B0pgFFax1fvE_da-slMZVJts3ENCrhZ&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1GvuniPhVKQ1RuJEpcSCLClWf-13Baxhy&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Fns8NoI1PqAA97T6vsvLwgK5Oh04u3YK&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1nmWP5ic2e1pNJQdDbneYJ9kIgHYCtgGd&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "diane-magic-stick",
-    "name": "Diane Magic Stick",
-    "brand": "Louis Vuitton",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1Bsmb4ee4kaG85Q7VkFDGu0AKkyUZCQv5&sz=w1000",
-      "https://drive.google.com/thumbnail?id=18SJCOh3sYfzoRBdhUvGPXrhPOkaz9YlO&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1fmjI29KTkWnIRZDf1aMTjb1wmMjfThlh&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1N2Qazq5aGl81vcbW8uwUc8hy3w28r3e8&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1g_RJdIRIGuhAJlK2Gwgxjx9zGXcxWKXU&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1PQP6pyHoKeXC3pSziskEXdx8RgW4HsMX&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1_V-MgpmqTIP3KL_zJLF4nGk1qDEQ51KT&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1p1vB7Fz09iOuaTzjlH9qNx_Dg1ld3Egl&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1SwNqGy1piKbt284GtBAXQdhYfune-kec&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1wpi8g7L7bXhVN2gHEBemc44uMlMbdPlW&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Ju1G6Rh5q9bnJBCU-uzQ0WO368E9e7vN&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1-hJKo_bKtc76-iNNd88l2eVeiovOX_n0&sz=w1000",
-      "https://drive.google.com/thumbnail?id=17CzRmPqsoKm_L48N4mU3cyEbOcAWP3AC&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1S9kpk-GJyJ0p6SEGHiZlVpk-2nF--7Vy&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Lw_aDPne9y6s8pZ6XpQbKRVOlPTNXd8s&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1dssnJnNy9nepkABz3-UO5LpuzuhYOS85&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1aVXyLjCYYLh6wix0sihpujdFcvH3i9ST&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1EliBDn_oamS8o4izecT6VKmOgQwcp0R5&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "iv-louis-vuitton-presbyterian-watch",
-    "name": "IV Louis Vuitton Presbyterian Watch",
-    "brand": "Louis Vuitton",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1NGe9GHXUquci7CtywGsKmJJXCVIVh8ML&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1LkcY1sdm6eM7DXL8oPoo768DJ53eJo3D&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1te4sS1Fw5V6eqODrEBD6dNx2djU5wADJ&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1cFomfYE81Oh4nS6MCUKXcaDFEuQVQUgI&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Pg8U-u4Hg7xBhlqJKbsXspUxo6AjpsAH&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1dWL09ARPaLWUNMJxqR_Cgue5tW-I_QOR&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1rRe60wvFFyajVml_636gJ2FMZac-RT9M&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1jN5Yhv44t4JhYigDTUeEZWLKTRXqXmK1&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1n4RKxIhvL328XnZPfzwuzLWZjObR2hwl&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "louis-vuitton-19ss-new-pochette-presbyopia-borsa-igienica",
-    "name": "Louis Vuitton 19SS New Pochette Presbyopia Borsa igienica",
-    "brand": "Louis Vuitton",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1gjL-O7Ygr2L9LSwqYA4hN6MU-VW9Cx5b&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1YulRMjT4UHbGd4M2OxSqyiLciuDjPX4s&sz=w1000",
-      "https://drive.google.com/thumbnail?id=14iF9MkYNtF19TIXk6RLn0w6dZhOBLA9i&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Mt0TqbmyVNPlwYMC8Ae7dhFgRSmGINyp&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1XXBAwv2r6EmJ6PDEyvhcp-am19RoDM_J&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1gb4na3Ji0Tk48Z0tEcqAslbBeOV2epLD&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1bhuhgqH-kyXxoFRodUAkEV7QxKxNX1w6&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1LHzG89lIiBVocLaXQWwYjcR71szUKnfh&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1MjEi3ilA5jqA9J677lJ9Mk1xcMM6r5Qp&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "mini-cilindro-di-presbyopia",
-    "name": "Mini cilindro di Presbyopia",
-    "brand": "Louis Vuitton",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1-2wWfx8Qk3ssYgUBDWSm-riUhPb7i2VN&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1S98wpCVlGqLpw7KWAoqg_qlKnqTQVpPg&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Foy-bfAsxG6mVdQKs0K9DHnI4ppJKIXH&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1gmcDjwY_jbrqwdbrj8lIXkHD8A_1j9Fr&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1e0smsFF82fMMoVoteSmEw5icaCeOzCsD&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1vxRhQNFiNIeOTxtzC4jWHSG5mltr5g8V&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1fR74mv7WiNJ8d2Ss2or83tsRwI7pQNCl&sz=w1000",
-      "https://drive.google.com/thumbnail?id=19pIyWBbf61xntia5WB-oz4aF3KmBwNgO&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1GYgn5ik52XjjD4sCLvKmVjbSrr7ZH3aI&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "serie-di-allenatore-donkey-scarpe-in-denim-bianco-grigio",
-    "name": "Serie di allenatore Donkey Scarpe in denim bianco grigio",
-    "brand": "Louis Vuitton",
-    "images": [
-      "https://drive.google.com/thumbnail?id=118LW7gfKqqfDJl1zIySSsOKNY6xgiNAu&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1sTss4vs1AtUjdxoRSaLuaVHoHCtiBceD&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1-k3nOlmMIMedjtfw6AzGolZaxyv2cPEF&sz=w1000",
-      "https://drive.google.com/thumbnail?id=18Bw56vrDavLvD8v1NOqG6Vv7hSlRwPfR&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1McfaOC9IIL9x5VSs-oByGw_P1JMUKVGR&sz=w1000",
-      "https://drive.google.com/thumbnail?id=19rWa5b2de7N-5tonhJIVm92SSIKOlzvq&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1TxwJbKdQD11OnAuqtjMm3Bl_sDKtVqrJ&sz=w1000",
-      "https://drive.google.com/thumbnail?id=10RHj-uXVK4nBZKGI_03ZRVSYxzyX8ht3&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1vM0c6ik5zWiVOpB90QMUeGvJ4V1ohBkq&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
-  },
-  {
-    "id": "bag-di-abbraccio-coussin-lv-128",
-    "name": "BAG di abbraccio Coussin LV 128 €",
-    "brand": "Louis Vuitton",
-    "images": [
-      "https://drive.google.com/thumbnail?id=1sK-KEpIsD-JOdHkrJmfUpdij0Gpeoh6l&sz=w1000",
-      "https://drive.google.com/thumbnail?id=16YnnEZVYq7xcaHOGj46RUjMSD_xskquP&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1FljJ4pBrpiML0rGiXKup_pYvGbvfiXog&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1oH6Xyozs16TMEPx0ESf6BDPddCjtImWu&sz=w1000",
-      "https://drive.google.com/thumbnail?id=17Ppm2LDbVHbvT4779TfqBGPGpdlyJhvV&sz=w1000",
-      "https://drive.google.com/thumbnail?id=12mecGyA7xuo1qmWwrHe4jTbo9H4vEiOJ&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Y7BlEsv4YVnpn_4nbJKn_4-lYGXjgwqY&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1sYZG2ofKEoXex-cKpYHb2DpRTRHJTDas&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1W3zGa3C1SljNt6hniSlEtxS-iLb4xas9&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1pBvC781BoCf2KtQ8Y145FnxivyU-V4KH&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1nN5bDO25Pmu5rq2N3HuFMEZbh9LNOF0W&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1OFaevE-Z_jaSBmVlPxRk0Dbb3fvKBfzG&sz=w1000",
-      "https://drive.google.com/thumbnail?id=17Zl7iOqoOzjTOiIHMBmmW8Dib5BBilbw&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1L3y0FdR62qCyjSs3IQssXSWl9JQ6wYny&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1qDJQLDuWc78SYsYgKpYUOYeXB5m5BIMl&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1skQ_91Q2SgoDvk8d8Q0snru76T2Uwt9H&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1Yep2ZqF4L1UgdkzNxuBL2k8ef_6uGKva&sz=w1000",
-      "https://drive.google.com/thumbnail?id=1N27BVvva_cnqW08pTrQ9IeJS-vzLyEWH&sz=w1000"
-    ],
-    "variants": [],
-    "similar": [],
-    "recommended": []
+    "recommended": [
+      {
+        "id": "[2025-09-02]-l'emblema-bianco",
+        "name": "Adidas L'emblema White",
+        "image": "https://drive.google.com/uc?export=view&id=1aMxtHkzJMs8vXBGDkZcxlbeQaAj__P6f"
+      },
+      {
+        "id": "[2025-09-08]-nb920-mesh-velcro-sandali-per-bambini",
+        "name": "New Balance NB920 Mesh Velcro Sandali",
+        "image": "https://drive.google.com/uc?export=view&id=1dsORWR1Fx2xU0sO7MUiRRkJzLMpAuAg2"
+      },
+      {
+        "id": "[2025-09-04]-studri-d'oro-lv-louis-vuitton-la-personalità-porta-una-visione-alla-moda-e-interessante,-e-il-brillante-processo-di-taglio-rende-la-lucidatura-della-superficie-molto-bella-a-360-gradi-e-abbagliante.-tutti-gli-aspetti-sono-perfetti.-il-design-generale-è-semplice-e-altamente-riconoscibile-ed-elegante.-studi-atmosferici",
+        "name": "Louis Vuitton Studri d'Oro",
+        "image": "https://drive.google.com/uc?export=view&id=15bISmxr-uvKCAVv044K8BHnZLPCKjeqK"
+      },
+      {
+        "id": "[2025-09-06]-giacca-da-lavoro-da-lavoro-per-collare-peloso",
+        "name": "MLB 2025 Fleece Work Jacket",
+        "image": "https://drive.google.com/uc?export=view&id=1iEnRHwV9QXOw5ZVFwlJ9hjBv7vLgd5Je"
+      },
+      {
+        "id": "[2025-09-04]-creazione-di-fascia-di-fascia-alta-della-collana-gucci-gucci-gucci-così-bella,-perché-è-un'edizione-limitata,-non-puoi-vedere-i-punti-nel-negozio.-una-volta-arrivati-​​i-punti,-questo-set-è-davvero-scioccante.-non-essere-troppo-perfetto.-sono-così-felice.",
+        "name": "Gucci Limited Edition High-End Chain Necklace",
+        "image": "https://drive.google.com/uc?export=view&id=1Y5fp4sfqCCGC-fJEczYecbvbDMo0ZHeS"
+      }
+    ]
   }
 ]
