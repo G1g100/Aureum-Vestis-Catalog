@@ -58,6 +58,21 @@ const BackButton = () => {
   );
 };
 
+const PaginationControls = ({ currentPage, totalPages, onPageChange }) => {
+  if (totalPages <= 1) return null;
+  return (
+    <div className="pagination-controls">
+      <button onClick={() => onPageChange(currentPage - 1)} disabled={currentPage === 1}>
+        Previous
+      </button>
+      <span>Page {currentPage} of {totalPages}</span>
+      <button onClick={() => onPageChange(currentPage + 1)} disabled={currentPage === totalPages}>
+        Next
+      </button>
+    </div>
+  );
+};
+
 // --- Pages ---
 
 const HomePage = ({ meta }) => {
@@ -169,7 +184,7 @@ const ProductPage = ({ meta }) => {
     window.scrollTo(0, 0);
   }, [meta, productId]);
 
-  if (!product) {
+  if (!product || !product.images) {
     return <div className="loading-message">Loading product...</div>;
   }
 
